@@ -1,0 +1,9 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v,1521013564,verilog,,,,Test,,,,,,,,
+C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v,1520461286,verilog,,C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v,,gen,,,,,,,,
+C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v,1520460243,verilog,,C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v,,delay_block,,,,,,,,
+C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v,1521013423,verilog,,C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v,,register,,,,,,,,

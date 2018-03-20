@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module l_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test

@@ -1,0 +1,16 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-2534] module gen1 does not have a parameter named WIDTH [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:32]
+WARNING: [VRFC 10-278] actual bit length 7 differs from formal bit length 8 for port x [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:34]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen1
+Compiling module xil_defaultlib.l_mod(N=6)
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav

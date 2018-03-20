@@ -1,0 +1,10 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+,,,,C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/or_gate.v,,gen1,,,,,,,,
+C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+,,,,,,Test,,,,,,,,
+C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/and_gate.v,1520447856,verilog,,C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/gate.v,,and_gate,,,,,,,,
+C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/gate.v,1520452726,verilog,,C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v,,gate_lad,,,,,,,,
+,,,,C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sim_1/new/Test.v,,or_gate,,,,,,,,

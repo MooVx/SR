@@ -1,0 +1,114 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Mar  7 16:50:28 2018
+# Process ID: 6552
+# Current directory: C:/Drive/S6/SR/RomanMichal/lab2/p_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8448 C:\Drive\S6\SR\RomanMichal\lab2\p_1\p_1.xpr
+# Log file: C:/Drive/S6/SR/RomanMichal/lab2/p_1/vivado.log
+# Journal file: C:/Drive/S6/SR/RomanMichal/lab2/p_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.xpr
+INFO: [Project 1-313] Project file moved from '/home/lsriw/sr/RomanMichal/lab2/p_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 771.379 ; gain = 38.621
+update_compile_order -fileset sources_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+0 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-1293] The path 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.cache/wt' already exists, is a directory, but is not writable.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Wed Mar  7 17:54:38 2018] Launched synth_1...
+Run output will be captured here: C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Wed Mar  7 17:57:57 2018] Launched synth_1...
+Run output will be captured here: C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Wed Mar  7 17:59:14 2018] Launched synth_1...
+Run output will be captured here: C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-1
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+WARNING: [Runs 36-115] Could not delete directory 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/.Xil/Vivado-6552-DESKTOP-JI7G1LN/dcp0'.
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:15 . Memory (MB): peak = 1204.633 ; gain = 384.172
+launch_simulation
+ERROR: [Common 17-1293] The path 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.cache/wt' already exists, is a directory, but is not writable.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/longand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module longand
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module l_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <l_module> not found while processing module instance <licznik> [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:43]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  7 18:34:58 2018...

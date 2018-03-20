@@ -1,0 +1,2313 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Mar  7 18:36:26 2018
+# Process ID: 5692
+# Current directory: C:/Drive/S6/SR/RomanMichal/lab2/p_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10708 C:\Drive\S6\SR\RomanMichal\lab2\p_1\p_1.xpr
+# Log file: C:/Drive/S6/SR/RomanMichal/lab2/p_1/vivado.log
+# Journal file: C:/Drive/S6/SR/RomanMichal/lab2/p_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/longand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module longand
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module l_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 7 for port x [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:34]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen1(WIDTH=3)
+Compiling module xil_defaultlib.l_mod(N=6)
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Mar  7 18:37:32 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar  7 18:37:32 2018...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 782.480 ; gain = 2.824
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 803.590 ; gain = 23.934
+run 1 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 814.793 ; gain = 0.027
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 7 for port x [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:34]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 300 ns
+run 300 ns
+run 300 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/longand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module longand
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module l_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 7 for port x [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:34]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen1(WIDTH=3)
+Compiling module xil_defaultlib.l_mod(N=6)
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 822.102 ; gain = 0.324
+run 300 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/longand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module longand
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module l_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 4 for port x [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:34]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:48]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen1(WIDTH=3)
+Compiling module xil_defaultlib.l_mod(N=6)
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 834.715 ; gain = 4.535
+run 300 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/longand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module longand
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module l_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 4 for port x [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:34]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:48]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen1(WIDTH=3)
+Compiling module xil_defaultlib.l_mod(N=6)
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 837.785 ; gain = 2.496
+run 300 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/longand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module longand
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module l_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 4 for port x [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:34]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen1(WIDTH=3)
+Compiling module xil_defaultlib.l_mod(N=6)
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 841.387 ; gain = 3.602
+run 300 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/longand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module longand
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module l_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 7 differs from formal bit length 4 for port x [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:34]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen1(WIDTH=3)
+Compiling module xil_defaultlib.l_mod(N=6)
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 842.855 ; gain = 0.984
+run 300 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/longand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module longand
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module l_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen1
+Compiling module xil_defaultlib.l_mod(N=6)
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 843.141 ; gain = 0.000
+run 300 ns
+run 300 ns
+run 300 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/longand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module longand
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module l_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen1
+Compiling module xil_defaultlib.l_mod(N=6)
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 843.141 ; gain = 0.000
+set_property loop_count 300 [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v:]
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 853.625 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/longand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module longand
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sources_1/new/l_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module l_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto de3f22f7e9774123b24c9f20aba53815 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen1(WIDTH=8)
+Compiling module xil_defaultlib.l_mod(N=8)
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 854.633 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+create_project p_3 C:/Drive/S6/SR/RomanMichal/lab2/p_3 -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
+file mkdir C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new
+close [ open C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/gate.v w ]
+add_files C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/gate.v
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'gate' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj gate_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 2cd2ca0f142b4484bc7c5a433eb4ab71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot gate_behav xil_defaultlib.gate xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gate
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot gate_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim/xsim.dir/gate_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 857.531 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 857.531 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+close [ open C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/and_gate.v w ]
+add_files C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/and_gate.v
+close [ open C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/or_gate.v w ]
+add_files C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/or_gate.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sim_1/new/Test.v w ]
+add_files -fileset sim_1 C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sim_1/new/Test.v
+update_compile_order -fileset sim_1
+set_property top Test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/and_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gate_lad
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_1/p_1.srcs/sim_1/new/gen1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/or_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 2cd2ca0f142b4484bc7c5a433eb4ab71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen1
+Compiling module xil_defaultlib.and_gate
+Compiling module xil_defaultlib.or_gate
+Compiling module xil_defaultlib.gate_lad_default
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim/xsim.dir/Test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim/xsim.dir/Test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Mar  7 21:07:05 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar  7 21:07:05 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 881.910 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_behav -key {Behavioral:sim_1:Functional:Test} -tclbatch {Test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 881.910 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 904.246 ; gain = 0.000
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: gate_lad
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 947.320 ; gain = 43.074
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'gate_lad' [C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/gate.v:23]
+INFO: [Synth 8-638] synthesizing module 'and_gate' [C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/and_gate.v:23]
+INFO: [Synth 8-256] done synthesizing module 'and_gate' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/and_gate.v:23]
+INFO: [Synth 8-638] synthesizing module 'or_gate' [C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/or_gate.v:23]
+INFO: [Synth 8-256] done synthesizing module 'or_gate' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/or_gate.v:23]
+INFO: [Synth 8-256] done synthesizing module 'gate_lad' (3#1) [C:/Drive/S6/SR/RomanMichal/lab2/p_3/p_3.srcs/sources_1/new/gate.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1000.387 ; gain = 96.141
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1000.387 ; gain = 96.141
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:33 ; elapsed = 00:00:23 . Memory (MB): peak = 1340.262 ; gain = 436.016
+10 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:23 . Memory (MB): peak = 1340.262 ; gain = 436.016
+close_design
+create_project domowe1 C:/Drive/S6/SR/RomanMichal/lab2/domowe1 -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
+file mkdir C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new
+close [ open C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v w ]
+add_files C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v
+update_compile_order -fileset sources_1
+close [ open C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v w ]
+add_files C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v w ]
+add_files -fileset sim_1 C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v
+update_compile_order -fileset sim_1
+set_property top Test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v w ]
+add_files -fileset sim_1 C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+ERROR: [Common 17-1293] The path 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.cache/wt' already exists, is a directory, but is not writable.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a9e72281b09d4128b74074a2e3f9f969 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port d [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:45]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port q [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [VRFC 10-597] element index 2 into genblk1.L is out of bounds [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+ERROR: [XSIM 43-3233] Enable to write composite net value for q.
+ERROR: [XSIM 43-3234] Enable to write composite net value for element net genblk1.L.
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen
+Compiling module xil_defaultlib.delay_block(N=2)
+Compiling module xil_defaultlib.register(N=2)
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim/xsim.dir/Test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim/xsim.dir/Test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Mar  7 21:56:39 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar  7 21:56:39 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1361.496 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1361.496 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a9e72281b09d4128b74074a2e3f9f969 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port d [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:45]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port q [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [VRFC 10-597] element index 2 into genblk1.L is out of bounds [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen
+Compiling module xil_defaultlib.delay_block(N=2)
+Compiling module xil_defaultlib.register(N=2)
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_behav -key {Behavioral:sim_1:Functional:Test} -tclbatch {Test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1365.445 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a9e72281b09d4128b74074a2e3f9f969 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port d [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:45]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port q [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [VRFC 10-597] element index 2 into genblk1.L is out of bounds [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen
+Compiling module xil_defaultlib.delay_block(N=2)
+Compiling module xil_defaultlib.register(N=2)
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_behav -key {Behavioral:sim_1:Functional:Test} -tclbatch {Test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a9e72281b09d4128b74074a2e3f9f969 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port d [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:45]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port q [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [VRFC 10-597] element index 2 into genblk1.L is out of bounds [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen
+Compiling module xil_defaultlib.delay_block(N=2)
+Compiling module xil_defaultlib.register(N=2)
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_behav -key {Behavioral:sim_1:Functional:Test} -tclbatch {Test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+0 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Designutils 20-411] The directory 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/.Xil/Vivado-5692-DESKTOP-JI7G1LN/realtime' could not be deleted and may be locked. This directory may need to be manually deleted to continue.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+0 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Designutils 20-411] The directory 'C:/Drive/S6/SR/RomanMichal/lab2/p_1/.Xil/Vivado-5692-DESKTOP-JI7G1LN/realtime' could not be deleted and may be locked. This directory may need to be manually deleted to continue.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1390.531 ; gain = 22.543
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 1 - type: integer 
+	Parameter DELAY bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+WARNING: [Synth 8-689] width (1) of port connection 'd' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:45]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-689] width (1) of port connection 'd' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:45]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-324] index 2 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-3848] Net odata in module/entity register does not have driver. [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:30]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3331] design delay_block has unconnected port d[1]
+WARNING: [Synth 8-3331] design register has unconnected port odata[1]
+WARNING: [Synth 8-3331] design register has unconnected port odata[0]
+WARNING: [Synth 8-3331] design register has unconnected port idata[1]
+WARNING: [Synth 8-3331] design register has unconnected port idata[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1420.270 ; gain = 52.281
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin (null)[0].step_i:d[0] to constant 0 [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:43]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1420.270 ; gain = 52.281
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 1516.230 ; gain = 148.242
+7 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 1516.230 ; gain = 148.242
+close_design
+current_project p_3
+close_project
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1518.465 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 1 - type: integer 
+	Parameter DELAY bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+WARNING: [Synth 8-689] width (1) of port connection 'd' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+WARNING: [Synth 8-689] width (1) of port connection 'd' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+WARNING: [Synth 8-324] index 2 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+WARNING: [Synth 8-3848] Net odata in module/entity register does not have driver. [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:30]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3331] design delay_block has unconnected port d[1]
+WARNING: [Synth 8-3331] design register has unconnected port odata[1]
+WARNING: [Synth 8-3331] design register has unconnected port odata[0]
+WARNING: [Synth 8-3331] design register has unconnected port idata[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1518.465 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1518.465 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 1519.781 ; gain = 1.316
+7 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 1519.781 ; gain = 1.316
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1520.109 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 1 - type: integer 
+	Parameter DELAY bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+WARNING: [Synth 8-689] width (1) of port connection 'd' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3917] design register has port odata[1] driven by constant 0
+WARNING: [Synth 8-3331] design delay_block has unconnected port d[1]
+WARNING: [Synth 8-3331] design register has unconnected port idata[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1520.109 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1520.109 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1529.211 ; gain = 9.102
+8 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1529.211 ; gain = 9.102
+close_design
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a9e72281b09d4128b74074a2e3f9f969 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port d [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port q [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen
+Compiling module xil_defaultlib.delay_block(N=2)
+Compiling module xil_defaultlib.register(N=2)
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_behav -key {Behavioral:sim_1:Functional:Test} -tclbatch {Test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1529.211 ; gain = 0.000
+run 10 ns
+run 10 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a9e72281b09d4128b74074a2e3f9f969 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port d [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port q [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen
+Compiling module xil_defaultlib.delay_block(N=2)
+Compiling module xil_defaultlib.register(N=2)
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_behav -key {Behavioral:sim_1:Functional:Test} -tclbatch {Test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 50 ns
+run 500 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1529.211 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 1 - type: integer 
+	Parameter DELAY bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+WARNING: [Synth 8-689] width (1) of port connection 'd' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (2) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3917] design register has port odata[1] driven by constant 0
+WARNING: [Synth 8-3331] design delay_block has unconnected port d[1]
+WARNING: [Synth 8-3331] design register has unconnected port idata[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1529.211 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1529.211 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1539.141 ; gain = 9.930
+8 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1539.141 ; gain = 9.930
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+ERROR: [Synth 8-2369] multiple packed dimensions are not allowed in this mode of verilog [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:38]
+Failed to read verilog 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v'
+0 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1539.141 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 1 - type: integer 
+	Parameter DELAY bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3331] design register has unconnected port odata[1]
+WARNING: [Synth 8-3331] design register has unconnected port idata[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1539.141 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1539.141 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 1541.523 ; gain = 2.383
+7 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1541.523 ; gain = 2.383
+close_design
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a9e72281b09d4128b74074a2e3f9f969 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-597] element index 3 into genblk1.L is out of bounds [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+WARNING: [VRFC 10-1783] select index 3 into genblk1.L is out of bounds [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:51]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen
+Compiling module xil_defaultlib.delay_block
+Compiling module xil_defaultlib.register(N=2,DELAY=3)
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_behav -key {Behavioral:sim_1:Functional:Test} -tclbatch {Test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1541.594 ; gain = 0.000
+run 500 ns
+step
+Stopped at time : 1501 ns : File "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" Line 36
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1541.594 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 1 - type: integer 
+	Parameter DELAY bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3331] design register has unconnected port odata[1]
+WARNING: [Synth 8-3331] design register has unconnected port idata[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1541.594 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1541.594 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 1554.770 ; gain = 13.176
+7 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 1554.770 ; gain = 13.176
+close_design
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1554.770 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 1 - type: integer 
+	Parameter DELAY bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3331] design register has unconnected port odata[1]
+WARNING: [Synth 8-3331] design register has unconnected port idata[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1554.770 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1554.770 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 1555.215 ; gain = 0.445
+7 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 1555.215 ; gain = 0.445
+close_design
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+ERROR: [VRFC 10-1063] multiple packed dimensions are not allowed in this mode of verilog [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:38]
+ERROR: [VRFC 10-1040] module register ignored due to previous errors [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+ERROR: [Synth 8-2369] multiple packed dimensions are not allowed in this mode of verilog [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:38]
+Failed to read verilog 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v'
+0 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a9e72281b09d4128b74074a2e3f9f969 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 5 for port d [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 5 for port q [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen(N=4)
+Compiling module xil_defaultlib.delay_block(N=4)
+Compiling module xil_defaultlib.register(N=4,DELAY=3)
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_behav -key {Behavioral:sim_1:Functional:Test} -tclbatch {Test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1555.215 ; gain = 0.000
+run 500 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 50 ns
+run 50 ns
+run 50 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 50 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: register
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1555.215 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 1 - type: integer 
+	Parameter DELAY bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3331] design delay_block has unconnected port d[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1555.215 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1555.215 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1565.383 ; gain = 10.168
+8 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1565.383 ; gain = 10.168
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1565.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 4 - type: integer 
+	Parameter DELAY bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+WARNING: [Synth 8-689] width (3) of port connection 'd' does not match port width (5) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-689] width (3) of port connection 'q' does not match port width (5) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+WARNING: [Synth 8-689] width (3) of port connection 'd' does not match port width (5) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-689] width (3) of port connection 'q' does not match port width (5) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3917] design register has port odata[4] driven by constant 0
+WARNING: [Synth 8-3917] design register has port odata[3] driven by constant 0
+WARNING: [Synth 8-3331] design delay_block has unconnected port d[4]
+WARNING: [Synth 8-3331] design delay_block has unconnected port d[3]
+WARNING: [Synth 8-3331] design delay_block has unconnected port d[2]
+WARNING: [Synth 8-3331] design delay_block has unconnected port d[1]
+WARNING: [Synth 8-3331] design register has unconnected port idata[4]
+WARNING: [Synth 8-3331] design register has unconnected port idata[3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1591.609 ; gain = 26.227
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1591.609 ; gain = 26.227
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 1631.059 ; gain = 65.676
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1631.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 4 - type: integer 
+	Parameter DELAY bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+WARNING: [Synth 8-689] width (3) of port connection 'd' does not match port width (1) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:44]
+WARNING: [Synth 8-689] width (3) of port connection 'q' does not match port width (1) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:45]
+WARNING: [Synth 8-689] width (3) of port connection 'd' does not match port width (1) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:44]
+WARNING: [Synth 8-689] width (3) of port connection 'q' does not match port width (1) of module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:45]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3917] design register has port odata[4] driven by constant 0
+WARNING: [Synth 8-3917] design register has port odata[3] driven by constant 0
+WARNING: [Synth 8-3917] design register has port odata[2] driven by constant 0
+WARNING: [Synth 8-3917] design register has port odata[1] driven by constant 0
+WARNING: [Synth 8-3331] design register has unconnected port idata[4]
+WARNING: [Synth 8-3331] design register has unconnected port idata[3]
+WARNING: [Synth 8-3331] design register has unconnected port idata[2]
+WARNING: [Synth 8-3331] design register has unconnected port idata[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1631.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1631.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 1638.141 ; gain = 7.082
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1638.141 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 4 - type: integer 
+	Parameter DELAY bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+WARNING: [Synth 8-324] index 3 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-324] index 3 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+WARNING: [Synth 8-324] index 3 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-324] index 3 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3917] design register has port odata[4] driven by constant 0
+WARNING: [Synth 8-3917] design register has port odata[3] driven by constant 0
+WARNING: [Synth 8-3331] design register has unconnected port idata[4]
+WARNING: [Synth 8-3331] design register has unconnected port idata[3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1638.141 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1638.141 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 2 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 1657.895 ; gain = 19.754
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1657.895 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 4 - type: integer 
+	Parameter DELAY bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+WARNING: [Synth 8-324] index 3 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-324] index 3 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+WARNING: [Synth 8-324] index 4 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-324] index 4 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+WARNING: [Synth 8-324] index 3 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-324] index 3 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+WARNING: [Synth 8-324] index 4 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-324] index 4 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3917] design register has port odata[4] driven by constant 0
+WARNING: [Synth 8-3917] design register has port odata[3] driven by constant 0
+WARNING: [Synth 8-3331] design register has unconnected port idata[4]
+WARNING: [Synth 8-3331] design register has unconnected port idata[3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1657.895 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1657.895 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 2 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 1676.656 ; gain = 18.762
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 4 - type: integer 
+	Parameter DELAY bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+WARNING: [Synth 8-324] index 2 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-324] index 2 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+WARNING: [Synth 8-324] index 3 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-324] index 3 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+WARNING: [Synth 8-324] index 4 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:46]
+WARNING: [Synth 8-324] index 4 out of range [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:47]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+WARNING: [Synth 8-3917] design register has port odata[4] driven by constant 0
+WARNING: [Synth 8-3917] design register has port odata[3] driven by constant 0
+WARNING: [Synth 8-3917] design register has port odata[2] driven by constant 0
+WARNING: [Synth 8-3331] design register has unconnected port idata[4]
+WARNING: [Synth 8-3331] design register has unconnected port idata[3]
+WARNING: [Synth 8-3331] design register has unconnected port idata[2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 3 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 1676.656 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 4 - type: integer 
+	Parameter DELAY bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 1676.656 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 4 - type: integer 
+	Parameter DELAY bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 1676.656 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a9e72281b09d4128b74074a2e3f9f969 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen(N=4)
+Compiling module xil_defaultlib.delay_block
+Compiling module xil_defaultlib.register(DELAY=3)
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_behav -key {Behavioral:sim_1:Functional:Test} -tclbatch {Test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 50 ns
+run 50 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'register' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+	Parameter N bound to: 2 - type: integer 
+	Parameter DELAY bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v:22]
+INFO: [Synth 8-256] done synthesizing module 'register' (2#1) [C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1676.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 1693.090 ; gain = 16.434
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a9e72281b09d4128b74074a2e3f9f969 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen(N=4)
+Compiling module xil_defaultlib.delay_block
+Compiling module xil_defaultlib.register(N=4,DELAY=3)
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_behav -key {Behavioral:sim_1:Functional:Test} -tclbatch {Test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1693.090 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.srcs/sim_1/new/Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a9e72281b09d4128b74074a2e3f9f969 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_behav xil_defaultlib.Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen(N=4)
+Compiling module xil_defaultlib.delay_block
+Compiling module xil_defaultlib.register(N=4,DELAY=3)
+Compiling module xil_defaultlib.Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_behav -key {Behavioral:sim_1:Functional:Test} -tclbatch {Test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1693.090 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 50 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 200 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  7 23:23:05 2018...

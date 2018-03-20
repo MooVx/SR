@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Mar 14 08:24:40 2018
+# Process ID: 9164
+# Current directory: C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.runs/synth_1
+# Command line: vivado.exe -log register.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source register.tcl
+# Log file: C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.runs/synth_1/register.vds
+# Journal file: C:/Drive/S6/SR/RomanMichal/lab2/domowe1/domowe1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source register.tcl -notrace
