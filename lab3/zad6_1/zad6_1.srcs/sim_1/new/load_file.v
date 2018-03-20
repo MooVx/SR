@@ -26,7 +26,7 @@ module load_file(
     );
     
     integer file;
-    reg [7:0]r_data;
+    reg [7:0]r_data=0;
     reg [7:0]i;
     reg r_send=1'b0;
     
@@ -35,12 +35,12 @@ module load_file(
     file=$fopen("in.txt","rb");
     for(i=0;i<16;i=i+1)
     begin
-    #12;
-    r_data=$fgetc(file);
-    #1;
+    #10;
+    r_data=($fgetc(file) & 8'b11111111);
     r_send=1'b1;
     #1;
     r_send=1'b0;
+    #1;
     end
     $fclose(file);
     end

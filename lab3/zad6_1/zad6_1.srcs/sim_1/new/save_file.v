@@ -29,7 +29,7 @@ module save_file(
     wire data=tx;
     initial
     begin
-        file=$fopen("out.txt","wb");
+        file=$fopen("out.txt","a+");
         $fwrite(file,"To jest wynik:\n");
         for(i=0;i<193;i=i+1)
         begin

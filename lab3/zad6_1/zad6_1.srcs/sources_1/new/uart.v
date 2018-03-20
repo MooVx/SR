@@ -37,7 +37,7 @@ module uart(
     reg [7:0] bufor;
     reg prev_send=1'b0;
     reg temp_tx=1'b0;
-    reg [3:0]i=3'b000;
+    integer i=0;
     
     always @(posedge clk) 
     begin
@@ -48,7 +48,7 @@ module uart(
             case(state)
             S_WAIT:
             begin
-                if(prev_send==1'b0 && send==1'b1)
+                if(prev_send==0 && send==1)
                 begin
                     bufor = data;
                     state=S_START;

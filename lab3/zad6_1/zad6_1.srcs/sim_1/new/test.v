@@ -24,7 +24,7 @@ module test(    );
 
 wire clk;
 wire [7:0]data;
-wire reset=1'b1;
+wire reset=1'b0;
 wire tx;
 wire send;
 
