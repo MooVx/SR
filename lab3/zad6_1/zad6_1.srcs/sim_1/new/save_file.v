@@ -33,7 +33,7 @@ module save_file(
         for(i=0;i<250;i=i+1)
         begin
             #2;
-            $fwrite(file,"%d\n",data);
+            $fwrite(file,"%d",data);
         end
         $fclose(file);
     end
