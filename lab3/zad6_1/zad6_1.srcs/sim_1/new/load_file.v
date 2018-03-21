@@ -35,12 +35,12 @@ module load_file(
     file=$fopen("in.txt","rb");
     for(i=0;i<16;i=i+1)
     begin
-    #10;
+    #22;
     r_data=($fgetc(file) & 8'b11111111);
     r_send=1'b1;
-    #1;
+    #2;
     r_send=1'b0;
-    #1;
+    
     end
     $fclose(file);
     end
