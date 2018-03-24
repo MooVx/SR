@@ -1,0 +1,8 @@
+Wejscie:   16 ERROR!!! 
+Wejscie:   32 ERROR!!! 
+Wejscie:  128 ERROR!!! 
+Wejscie:  144 ERROR!!! 
+Wejscie:  160 ERROR!!! 
+Wejscie:  256 ERROR!!! 
+Wejscie:  272 ERROR!!! 
+Wejscie:  288 ERROR!!! 
