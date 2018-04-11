@@ -1,9 +1,9 @@
 0.6
 2017.4
 Dec 15 2017
-21:07:18
-C:/git/SR/lab4/zas73/zas73.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
-C:/git/SR/lab4/zas73/zas73.srcs/sim_1/new/feed.v,1523373576,verilog,,C:/git/SR/lab4/zas73/zas73.srcs/sim_1/new/gen.v,,feed,,,,,,,,
-C:/git/SR/lab4/zas73/zas73.srcs/sim_1/new/gen.v,1523368680,verilog,,C:/git/SR/lab4/zas73/zas73.srcs/sim_1/new/test.v,,gen,,,,,,,,
-C:/git/SR/lab4/zas73/zas73.srcs/sim_1/new/test.v,1523372735,verilog,,,,test,,,,,,,,
-C:/git/SR/lab4/zas73/zas73.srcs/sources_1/ip/c_accum_0_2/sim/c_accum_0.vhd,1523371905,vhdl,,,,c_accum_0,,,,,,,,
+20:57:24
+/home/lsriw/sr/RomanMichal/SR/lab4/zas73/zas73.sim/sim_1/behav/xsim/glbl.v,1523431101,verilog,,,,glbl,,,,,,,,
+/home/lsriw/sr/RomanMichal/SR/lab4/zas73/zas73.srcs/sim_1/new/feed.v,1523431101,verilog,,/home/lsriw/sr/RomanMichal/SR/lab4/zas73/zas73.srcs/sim_1/new/gen.v,,feed,,,,,,,,
+/home/lsriw/sr/RomanMichal/SR/lab4/zas73/zas73.srcs/sim_1/new/gen.v,1523431101,verilog,,/home/lsriw/sr/RomanMichal/SR/lab4/zas73/zas73.srcs/sim_1/new/test.v,,gen,,,,,,,,
+/home/lsriw/sr/RomanMichal/SR/lab4/zas73/zas73.srcs/sim_1/new/test.v,1523431101,verilog,,,,test,,,,,,,,
+/home/lsriw/sr/RomanMichal/SR/lab4/zas73/zas73.srcs/sources_1/ip/c_accum_0_2/sim/c_accum_0.vhd,1523431101,vhdl,,,,c_accum_0,,,,,,,,
