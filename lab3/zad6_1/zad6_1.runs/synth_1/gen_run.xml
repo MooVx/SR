@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1521563699">
-  <File Type="RDS-DCP" Name="uart.dcp"/>
   <File Type="PA-TCL" Name="uart.tcl"/>
+  <File Type="RDS-DCP" Name="uart.dcp"/>
   <File Type="REPORTS-TCL" Name="uart_reports.tcl"/>
   <File Type="RDS-RDS" Name="uart.vds"/>
   <File Type="RDS-UTIL" Name="uart_utilization_synth.rpt"/>

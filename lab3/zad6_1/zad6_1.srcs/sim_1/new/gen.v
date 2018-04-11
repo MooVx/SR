@@ -28,8 +28,8 @@ module gen(
     begin
         while(1)
         begin
-            #1; r_clk=1'b0;
-            #1; r_clk=1'b1;
+            #1; r_clk <=1'b0;
+            #1; r_clk <=1'b1;
         end
     end
     

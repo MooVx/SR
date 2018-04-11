@@ -1,9 +1,9 @@
 0.6
 2017.4
 Dec 15 2017
-21:07:18
-C:/git/SR/lab3/zad6_2/zad6_2.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
-C:/git/SR/lab3/zad6_2/zad6_2.srcs/sim_1/new/gen.v,1521903859,verilog,,C:/git/SR/lab3/zad6_2/zad6_2.srcs/sources_1/new/or_gate.v,,gen,,,,,,,,
-C:/git/SR/lab3/zad6_2/zad6_2.srcs/sim_1/new/test.v,1521904907,verilog,,C:/git/SR/lab3/zad6_2/zad6_2.srcs/sim_1/new/test_bench.v,,test,,,,,,,,
-C:/git/SR/lab3/zad6_2/zad6_2.srcs/sim_1/new/test_bench.v,1521904005,verilog,,,,test_bench,,,,,,,,
-C:/git/SR/lab3/zad6_2/zad6_2.srcs/sources_1/new/or_gate.v,1521903973,verilog,,C:/git/SR/lab3/zad6_2/zad6_2.srcs/sim_1/new/test.v,,or_gate,,,,,,,,
+20:57:24
+/home/lsriw/sr/RomanMichal/SR/lab3/zad6_2/zad6_2.sim/sim_1/behav/xsim/glbl.v,1522217109,verilog,,,,glbl,,,,,,,,
+/home/lsriw/sr/RomanMichal/SR/lab3/zad6_2/zad6_2.srcs/sim_1/new/gen.v,1522217109,verilog,,/home/lsriw/sr/RomanMichal/SR/lab3/zad6_2/zad6_2.srcs/sources_1/new/or_gate.v,,gen,,,,,,,,
+/home/lsriw/sr/RomanMichal/SR/lab3/zad6_2/zad6_2.srcs/sim_1/new/test.v,1522217109,verilog,,/home/lsriw/sr/RomanMichal/SR/lab3/zad6_2/zad6_2.srcs/sim_1/new/test_bench.v,,test,,,,,,,,
+/home/lsriw/sr/RomanMichal/SR/lab3/zad6_2/zad6_2.srcs/sim_1/new/test_bench.v,1522217109,verilog,,,,test_bench,,,,,,,,
+/home/lsriw/sr/RomanMichal/SR/lab3/zad6_2/zad6_2.srcs/sources_1/new/or_gate.v,1522217109,verilog,,/home/lsriw/sr/RomanMichal/SR/lab3/zad6_2/zad6_2.srcs/sim_1/new/test.v,,or_gate,,,,,,,,
