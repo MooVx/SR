@@ -1,0 +1,12 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/git/SR/lab4/zad71/zad71.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/git/SR/lab4/zad71/zad71.srcs/sim_1/new/arytm.v,1523359181,verilog,,,,arytm,,,,,,,,
+C:/git/SR/lab4/zad71/zad71.srcs/sim_1/new/gen.v,1522608553,verilog,,C:/git/SR/lab4/zad71/zad71.srcs/sources_1/imports/new/register.v,,gen,,,,,,,,
+C:/git/SR/lab4/zad71/zad71.srcs/sources_1/imports/new/delay_block.v,1520460243,verilog,,C:/git/SR/lab4/zad71/zad71.srcs/sim_1/new/gen.v,,delay_block,,,,,,,,
+C:/git/SR/lab4/zad71/zad71.srcs/sources_1/imports/new/register.v,1522602898,verilog,,C:/git/SR/lab4/zad71/zad71.srcs/sim_1/new/arytm.v,,register,,,,,,,,
+C:/git/SR/lab4/zad71/zad71.srcs/sources_1/ip/c_addsub_0/sim/c_addsub_0.vhd,1522601588,vhdl,,,,c_addsub_0,,,,,,,,
+C:/git/SR/lab4/zad71/zad71.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd,1522603144,vhdl,,,,mult_gen_0,,,,,,,,
+C:/git/SR/lab4/zad71/zad71.srcs/sources_1/new/algorytm.v,1523356589,verilog,,C:/git/SR/lab4/zad71/zad71.srcs/sources_1/imports/new/delay_block.v,,algorytm,,,,,,,,

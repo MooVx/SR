@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab4/zad71/zad71.srcs/sources_1/new/algorytm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module algorytm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab4/zad71/zad71.srcs/sources_1/imports/new/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab4/zad71/zad71.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab4/zad71/zad71.srcs/sources_1/imports/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab4/zad71/zad71.srcs/sim_1/new/arytm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arytm
