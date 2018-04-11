@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab4/zas73/zas73.srcs/sim_1/new/feed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module feed
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab4/zas73/zas73.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab4/zas73/zas73.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
