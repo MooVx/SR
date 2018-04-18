@@ -2,8 +2,8 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Wed Apr 11 09:11:55 2018
-# Process ID: 6935
+# Start of session at: Wed Apr 18 09:25:00 2018
+# Process ID: 13076
 # Current directory: /home/lsriw/sr/RomanMichal/SR/lab5/zad83/zad83.runs/synth_1
 # Command line: vivado -log hdmi_vga_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_vga_wrapper.tcl
 # Log file: /home/lsriw/sr/RomanMichal/SR/lab5/zad83/zad83.runs/synth_1/hdmi_vga_wrapper.vds

@@ -1,7 +1,7 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
--- Date        : Wed Apr 11 09:04:09 2018
+-- Date        : Wed Apr 18 08:17:59 2018
 -- Host        : debian running 64-bit Debian GNU/Linux 9.3 (stretch)
 -- Command     : write_vhdl -force -mode synth_stub
 --               /home/lsriw/sr/RomanMichal/SR/lab5/zad83/zad83.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/hdmi_vga_dvi2rgb_0_0_stub.vhdl

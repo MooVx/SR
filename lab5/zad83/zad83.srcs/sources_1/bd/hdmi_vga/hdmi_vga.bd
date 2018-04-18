@@ -89,7 +89,7 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>hdmi_hpd</spirit:name>
+          <spirit:name>hdmi_out_en</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
             <spirit:vector>
@@ -99,7 +99,7 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>hdmi_out_en</spirit:name>
+          <spirit:name>hdmi_hpd</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
             <spirit:vector>
@@ -165,6 +165,7 @@
         <spirit:componentRef spirit:library="ip" spirit:name="dvi2rgb" spirit:vendor="digilentinc.com" spirit:version="1.8"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">hdmi_vga_dvi2rgb_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="kClkRange">2</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
@@ -219,14 +220,15 @@
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">hdmi_vga_xlconstant_1_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>vp_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="vp" spirit:vendor="user.org" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">hdmi_vga_vp_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
     </spirit:componentInstances>
-    <spirit:interconnections>
-      <spirit:interconnection>
-        <spirit:name>dvi2rgb_0_RGB</spirit:name>
-        <spirit:activeInterface spirit:busRef="RGB" spirit:componentRef="dvi2rgb_0"/>
-        <spirit:activeInterface spirit:busRef="vid_in" spirit:componentRef="rgb2vga_0"/>
-      </spirit:interconnection>
-    </spirit:interconnections>
+    <spirit:interconnections/>
     <spirit:adHocConnections>
       <spirit:adHocConnection>
         <spirit:name>sys_clock_1</spirit:name>
@@ -236,18 +238,13 @@
       <spirit:adHocConnection>
         <spirit:name>xlconstant_0_dout</spirit:name>
         <spirit:internalPortReference spirit:componentRef="GND" spirit:portRef="dout"/>
-        <spirit:internalPortReference spirit:componentRef="clk_wiz_0" spirit:portRef="reset"/>
         <spirit:externalPortReference spirit:portRef="hdmi_out_en"/>
+        <spirit:internalPortReference spirit:componentRef="clk_wiz_0" spirit:portRef="reset"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>clk_wiz_0_clk_out1</spirit:name>
         <spirit:internalPortReference spirit:componentRef="clk_wiz_0" spirit:portRef="clk_out1"/>
         <spirit:internalPortReference spirit:componentRef="dvi2rgb_0" spirit:portRef="RefClk"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>dvi2rgb_0_PixelClk</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="dvi2rgb_0" spirit:portRef="PixelClk"/>
-        <spirit:internalPortReference spirit:componentRef="rgb2vga_0" spirit:portRef="PixelClk"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>xlconstant_1_dout</spirit:name>
@@ -278,6 +275,52 @@
         <spirit:name>rgb2vga_0_vga_pVSync</spirit:name>
         <spirit:internalPortReference spirit:componentRef="rgb2vga_0" spirit:portRef="vga_pVSync"/>
         <spirit:externalPortReference spirit:portRef="vga_pVSync"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dvi2rgb_0_vid_pData</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dvi2rgb_0" spirit:portRef="vid_pData"/>
+        <spirit:internalPortReference spirit:componentRef="vp_0" spirit:portRef="pixel_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dvi2rgb_0_vid_pVSync</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dvi2rgb_0" spirit:portRef="vid_pVSync"/>
+        <spirit:internalPortReference spirit:componentRef="vp_0" spirit:portRef="v_sync_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dvi2rgb_0_vid_pHSync</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dvi2rgb_0" spirit:portRef="vid_pHSync"/>
+        <spirit:internalPortReference spirit:componentRef="vp_0" spirit:portRef="h_sync_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dvi2rgb_0_vid_pVDE</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dvi2rgb_0" spirit:portRef="vid_pVDE"/>
+        <spirit:internalPortReference spirit:componentRef="vp_0" spirit:portRef="de_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dvi2rgb_0_PixelClk</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dvi2rgb_0" spirit:portRef="PixelClk"/>
+        <spirit:internalPortReference spirit:componentRef="vp_0" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="rgb2vga_0" spirit:portRef="PixelClk"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>vp_0_pixel_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="vp_0" spirit:portRef="pixel_out"/>
+        <spirit:internalPortReference spirit:componentRef="rgb2vga_0" spirit:portRef="rgb_pData"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>vp_0_v_sync_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="vp_0" spirit:portRef="v_sync_out"/>
+        <spirit:internalPortReference spirit:componentRef="rgb2vga_0" spirit:portRef="rgb_pVSync"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>vp_0_h_sync_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="vp_0" spirit:portRef="h_sync_out"/>
+        <spirit:internalPortReference spirit:componentRef="rgb2vga_0" spirit:portRef="rgb_pHSync"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>vp_0_de_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="vp_0" spirit:portRef="de_out"/>
+        <spirit:internalPortReference spirit:componentRef="rgb2vga_0" spirit:portRef="rgb_pVDE"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>
     <spirit:hierConnections>

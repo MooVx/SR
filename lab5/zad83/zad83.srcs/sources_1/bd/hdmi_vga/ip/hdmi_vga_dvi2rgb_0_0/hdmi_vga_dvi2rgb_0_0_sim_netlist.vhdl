@@ -1,7 +1,7 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
--- Date        : Wed Apr 11 09:04:09 2018
+-- Date        : Wed Apr 18 08:17:59 2018
 -- Host        : debian running 64-bit Debian GNU/Linux 9.3 (stretch)
 -- Command     : write_vhdl -force -mode funcsim
 --               /home/lsriw/sr/RomanMichal/SR/lab5/zad83/zad83.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/hdmi_vga_dvi2rgb_0_0_sim_netlist.vhdl
@@ -11054,12 +11054,12 @@ begin
 DVI_ClkGenerator: unisim.vcomponents.MMCME2_ADV
     generic map(
       BANDWIDTH => "OPTIMIZED",
-      CLKFBOUT_MULT_F => 15.000000,
+      CLKFBOUT_MULT_F => 10.000000,
       CLKFBOUT_PHASE => 0.000000,
       CLKFBOUT_USE_FINE_PS => false,
-      CLKIN1_PERIOD => 18.000000,
+      CLKIN1_PERIOD => 12.000000,
       CLKIN2_PERIOD => 0.000000,
-      CLKOUT0_DIVIDE_F => 3.000000,
+      CLKOUT0_DIVIDE_F => 2.000000,
       CLKOUT0_DUTY_CYCLE => 0.500000,
       CLKOUT0_PHASE => 0.000000,
       CLKOUT0_USE_FINE_PS => false,
@@ -13354,7 +13354,7 @@ entity hdmi_vga_dvi2rgb_0_0_dvi2rgb is
   attribute kAddBUFG : string;
   attribute kAddBUFG of hdmi_vga_dvi2rgb_0_0_dvi2rgb : entity is "TRUE";
   attribute kClkRange : integer;
-  attribute kClkRange of hdmi_vga_dvi2rgb_0_0_dvi2rgb : entity is 3;
+  attribute kClkRange of hdmi_vga_dvi2rgb_0_0_dvi2rgb : entity is 2;
   attribute kEdidFileName : string;
   attribute kEdidFileName of hdmi_vga_dvi2rgb_0_0_dvi2rgb : entity is "dgl_720p_cea.data";
   attribute kEmulateDDC : string;
@@ -13566,7 +13566,7 @@ architecture STRUCTURE of hdmi_vga_dvi2rgb_0_0 is
   attribute kAddBUFG : string;
   attribute kAddBUFG of U0 : label is "TRUE";
   attribute kClkRange : integer;
-  attribute kClkRange of U0 : label is 3;
+  attribute kClkRange of U0 : label is 2;
   attribute kEdidFileName : string;
   attribute kEdidFileName of U0 : label is "dgl_720p_cea.data";
   attribute kEmulateDDC : string;

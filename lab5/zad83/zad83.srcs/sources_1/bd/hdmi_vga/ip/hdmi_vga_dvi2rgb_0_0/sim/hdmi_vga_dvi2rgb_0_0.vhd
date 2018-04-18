@@ -143,7 +143,7 @@ BEGIN
     GENERIC MAP (
       kEmulateDDC => true,
       kRstActiveHigh => true,
-      kClkRange => 3,
+      kClkRange => 2,
       kIDLY_TapValuePs => 78,
       kIDLY_TapWidth => 5,
       kAddBUFG => true,
