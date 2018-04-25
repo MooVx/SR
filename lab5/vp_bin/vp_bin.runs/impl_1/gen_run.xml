@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1524641013">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="vp_bin.drc"/>
+  <File Type="BG-BGN" Name="vp_bin.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="vp_bin.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="vp_bin.ltx"/>
+  <File Type="BITSTR-MMI" Name="vp_bin.mmi"/>
+  <File Type="BITSTR-BMM" Name="vp_bin_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="vp_bin.nky"/>
+  <File Type="BITSTR-RBT" Name="vp_bin.rbt"/>
+  <File Type="BITSTR-MSK" Name="vp_bin.msk"/>
+  <File Type="BG-BIN" Name="vp_bin.bin"/>
+  <File Type="BG-BIT" Name="vp_bin.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="vp_bin_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="vp_bin_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="vp_bin_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="vp_bin_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="vp_bin_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="vp_bin_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="vp_bin_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="vp_bin_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="vp_bin_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="vp_bin_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="vp_bin_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="vp_bin_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="vp_bin_power_routed.rpx"/>
+  <File Type="INIT-TIMING" Name="vp_bin_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="vp_bin_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="vp_bin_opt.dcp"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="vp_bin_methodology_drc_opted.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="vp_bin_incremental_reuse_pre_placed.rpt"/>
+  <File Type="OPT-HWDEF" Name="vp_bin.hwdef"/>
+  <File Type="OPT-TIMING" Name="vp_bin_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="vp_bin_reports.tcl"/>
+  <File Type="PWROPT-DCP" Name="vp_bin_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="vp_bin_drc_pwropted.rpt"/>
+  <File Type="RDI-RDI" Name="vp_bin.vdi"/>
+  <File Type="PWROPT-TIMING" Name="vp_bin_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-IO" Name="vp_bin_io_placed.rpt"/>
+  <File Type="PA-TCL" Name="vp_bin.tcl"/>
+  <File Type="PLACE-DCP" Name="vp_bin_placed.dcp"/>
+  <File Type="PLACE-CLK" Name="vp_bin_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="vp_bin_timing_summary_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="vp_bin_utilization_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="vp_bin_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="vp_bin_utilization_placed.pb"/>
+  <File Type="PHYSOPT-TIMING" Name="vp_bin_timing_summary_physopted.rpt"/>
+  <File Type="PLACE-CTRL" Name="vp_bin_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="vp_bin_incremental_reuse_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="vp_bin_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="vp_bin_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="vp_bin_drc_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="vp_bin_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="vp_bin_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="vp_bin_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="vp_bin_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="vp_bin_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="vp_bin_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="vp_bin_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="vp_bin_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR" Name="vp_bin_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="vp_bin_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="vp_bin_power_summary_routed.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/vp_bin.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vp_bin/lut_R.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/lut_R.coe"/>
+        <Attr Name="ImportTime" Val="1524571499"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vp_bin/lut_B.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/lut_B.coe"/>
+        <Attr Name="ImportTime" Val="1524571409"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vp_bin/lut_G.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/lut_G.coe"/>
+        <Attr Name="ImportTime" Val="1524571464"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../vp_b/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="vp_bin"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="b_lut"/>
+  <BlockFileSet Type="BlockSrcs" Name="r_lut"/>
+  <BlockFileSet Type="BlockSrcs" Name="g_lut"/>
+</GenRun>

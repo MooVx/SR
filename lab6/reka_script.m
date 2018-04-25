@@ -23,7 +23,7 @@ end
 reka_YCbCr = uint8(reka_YCbCr);
 reka_RGB = uint8(reka_RGB);
 
-% Wyznaczenie progowych wartoœci binaryzacji
+% Wyznaczenie progowych wartoï¿½ci binaryzacji
 figure(1)
 subplot(1,2,1);
 imshow(reka_YCbCr(:,:,2))
@@ -64,9 +64,9 @@ imshow(bin_image);
 title('Binary Image')
 
 % Filtracja
-bin_image_filtered = medfilt2(bin_image, [2 2]);
+bin_image_filtered = medfilt2(bin_image, [3 3]);
 
-% Œrodek ciê¿koœci
+% ï¿½rodek ciï¿½koï¿½ci
 m_00 = 0;
 m_10 = 0;
 m_01 = 0;

@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
 -- Date        : Tue Apr 24 14:26:10 2018
 -- Host        : DESKTOP-JI7G1LN running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/ip/b_lut/b_lut_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top b_lut -prefix
+--               b_lut_ b_lut_sim_netlist.vhdl
 -- Design      : b_lut
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -22,8 +22,6 @@ entity b_lut_spram is
     we : in STD_LOGIC;
     a : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of b_lut_spram : entity is "spram";
 end b_lut_spram;
 
 architecture STRUCTURE of b_lut_spram is
@@ -240,8 +238,6 @@ entity b_lut_dist_mem_gen_v8_0_12_synth is
     we : in STD_LOGIC;
     a : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of b_lut_dist_mem_gen_v8_0_12_synth : entity is "dist_mem_gen_v8_0_12_synth";
 end b_lut_dist_mem_gen_v8_0_12_synth;
 
 architecture STRUCTURE of b_lut_dist_mem_gen_v8_0_12_synth is
@@ -343,8 +339,6 @@ entity b_lut_dist_mem_gen_v8_0_12 is
   attribute C_SYNC_ENABLE of b_lut_dist_mem_gen_v8_0_12 : entity is 1;
   attribute C_WIDTH : integer;
   attribute C_WIDTH of b_lut_dist_mem_gen_v8_0_12 : entity is 8;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of b_lut_dist_mem_gen_v8_0_12 : entity is "dist_mem_gen_v8_0_12";
 end b_lut_dist_mem_gen_v8_0_12;
 
 architecture STRUCTURE of b_lut_dist_mem_gen_v8_0_12 is

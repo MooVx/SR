@@ -1,13 +1,13 @@
 #-----------------------------------------------------------
 # Vivado v2017.4 (64-bit)
-# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Tue Apr 24 14:56:12 2018
-# Process ID: 13848
-# Current directory: C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1
-# Command line: vivado.exe -log vp_bin.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vp_bin.tcl
-# Log file: C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/vp_bin.vds
-# Journal file: C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1\vivado.jou
+# Start of session at: Wed Apr 25 08:39:38 2018
+# Process ID: 5824
+# Current directory: /home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1
+# Command line: vivado -log vp_bin.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vp_bin.tcl
+# Log file: /home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/vp_bin.vds
+# Journal file: /home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
 source vp_bin.tcl -notrace
 Command: synth_design -top vp_bin -part xc7z010clg400-1
@@ -15,27 +15,23 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 14428 
+INFO: Helper process launched with PID 6041 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 356.133 ; gain = 98.840
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1316.531 ; gain = 85.996 ; free physical = 10323 ; free virtual = 28866
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'vp_bin' [C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:23]
-INFO: [Synth 8-638] synthesizing module 'r_lut' [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/realtime/r_lut_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'r_lut' (1#1) [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/realtime/r_lut_stub.v:6]
-WARNING: [Synth 8-689] width (9) of port connection 'qspo' does not match port width (8) of module 'r_lut' [C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:57]
-WARNING: [Synth 8-350] instance 'r_lut' of module 'r_lut' requires 5 connections, but only 3 given [C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:54]
-INFO: [Synth 8-638] synthesizing module 'g_lut' [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/realtime/g_lut_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'g_lut' (2#1) [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/realtime/g_lut_stub.v:6]
-WARNING: [Synth 8-689] width (9) of port connection 'qspo' does not match port width (8) of module 'g_lut' [C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:63]
-WARNING: [Synth 8-350] instance 'g_lut' of module 'g_lut' requires 5 connections, but only 3 given [C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:60]
-INFO: [Synth 8-638] synthesizing module 'b_lut' [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/realtime/b_lut_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'b_lut' (3#1) [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/realtime/b_lut_stub.v:6]
-WARNING: [Synth 8-689] width (9) of port connection 'qspo' does not match port width (8) of module 'b_lut' [C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:69]
-WARNING: [Synth 8-350] instance 'b_lut' of module 'b_lut' requires 5 connections, but only 3 given [C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:66]
-INFO: [Synth 8-256] done synthesizing module 'vp_bin' (4#1) [C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:23]
-WARNING: [Synth 8-3331] design vp_bin has unconnected port pixel_out[0]
+INFO: [Synth 8-638] synthesizing module 'vp_bin' [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:23]
+INFO: [Synth 8-638] synthesizing module 'r_lut' [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/realtime/r_lut_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'r_lut' (1#1) [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/realtime/r_lut_stub.v:6]
+WARNING: [Synth 8-350] instance 'r_lut' of module 'r_lut' requires 5 connections, but only 3 given [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:54]
+INFO: [Synth 8-638] synthesizing module 'g_lut' [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/realtime/g_lut_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'g_lut' (2#1) [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/realtime/g_lut_stub.v:6]
+WARNING: [Synth 8-350] instance 'g_lut' of module 'g_lut' requires 5 connections, but only 3 given [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:60]
+INFO: [Synth 8-638] synthesizing module 'b_lut' [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/realtime/b_lut_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'b_lut' (3#1) [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/realtime/b_lut_stub.v:6]
+WARNING: [Synth 8-350] instance 'b_lut' of module 'b_lut' requires 5 connections, but only 3 given [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:66]
+INFO: [Synth 8-256] done synthesizing module 'vp_bin' (4#1) [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 407.547 ; gain = 150.254
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1357.062 ; gain = 126.527 ; free physical = 10337 ; free virtual = 28879
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -45,34 +41,34 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 407.547 ; gain = 150.254
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1357.062 ; gain = 126.527 ; free physical = 10336 ; free virtual = 28879
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/dcp3/b_lut_in_context.xdc] for cell 'b_lut'
-Finished Parsing XDC File [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/dcp3/b_lut_in_context.xdc] for cell 'b_lut'
-Parsing XDC File [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/dcp4/g_lut_in_context.xdc] for cell 'g_lut'
-Finished Parsing XDC File [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/dcp4/g_lut_in_context.xdc] for cell 'g_lut'
-Parsing XDC File [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/dcp5/r_lut_in_context.xdc] for cell 'r_lut'
-Finished Parsing XDC File [C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-13848-DESKTOP-JI7G1LN/dcp5/r_lut_in_context.xdc] for cell 'r_lut'
+Parsing XDC File [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/dcp3/b_lut_in_context.xdc] for cell 'b_lut'
+Finished Parsing XDC File [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/dcp3/b_lut_in_context.xdc] for cell 'b_lut'
+Parsing XDC File [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/dcp4/g_lut_in_context.xdc] for cell 'g_lut'
+Finished Parsing XDC File [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/dcp4/g_lut_in_context.xdc] for cell 'g_lut'
+Parsing XDC File [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/dcp5/r_lut_in_context.xdc] for cell 'r_lut'
+Finished Parsing XDC File [/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/.Xil/Vivado-5824-debian/dcp5/r_lut_in_context.xdc] for cell 'r_lut'
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 691.184 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1671.836 ; gain = 0.000 ; free physical = 10085 ; free virtual = 28627
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 691.199 ; gain = 433.906
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:43 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10155 ; free virtual = 28698
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 691.199 ; gain = 433.906
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:43 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10155 ; free virtual = 28698
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -81,10 +77,10 @@ Applied set_property DONT_TOUCH = true for b_lut. (constraint file  auto generat
 Applied set_property DONT_TOUCH = true for g_lut. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for r_lut. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 691.199 ; gain = 433.906
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:43 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10157 ; free virtual = 28700
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 691.199 ; gain = 433.906
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:43 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10147 ; free virtual = 28690
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -124,9 +120,8 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3331] design vp_bin has unconnected port pixel_out[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 691.199 ; gain = 433.906
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:43 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10138 ; free virtual = 28681
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -138,13 +133,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 735.590 ; gain = 478.297
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:53 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10012 ; free virtual = 28555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 735.590 ; gain = 478.297
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:53 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10012 ; free virtual = 28555
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -156,7 +151,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 745.121 ; gain = 487.828
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:53 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10011 ; free virtual = 28554
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -207,22 +202,20 @@ CRITICAL WARNING: [Synth 8-4442] BlackBox module b_lut has unconnected pin d[1]
 CRITICAL WARNING: [Synth 8-4442] BlackBox module b_lut has unconnected pin d[0]
 CRITICAL WARNING: [Synth 8-4442] BlackBox module b_lut has unconnected pin we
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 745.121 ; gain = 487.828
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10011 ; free virtual = 28554
 ---------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-3352] multi-driven net pixel_out_OBUF[1] with 1st driver pin 'i_7/O' [C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:72]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net pixel_out_OBUF[1] with 2nd driver pin 'i_6/O' [C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/new/vp_bin.v:72]
 
 Report Check Netlist: 
 +------+------------------+-------+---------+-------+------------------+
 |      |Item              |Errors |Warnings |Status |Description       |
 +------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|        1|Failed |Multi driven nets |
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 745.121 ; gain = 487.828
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10011 ; free virtual = 28554
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -234,25 +227,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 745.121 ; gain = 487.828
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10011 ; free virtual = 28554
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 745.121 ; gain = 487.828
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10011 ; free virtual = 28554
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 745.121 ; gain = 487.828
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10011 ; free virtual = 28554
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 745.121 ; gain = 487.828
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10011 ; free virtual = 28554
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -278,8 +271,7 @@ Report Cell Usage:
 |5     |LUT3  |     8|
 |6     |FDRE  |     3|
 |7     |IBUF  |    28|
-|8     |OBUF  |    26|
-|9     |OBUFT |     1|
+|8     |OBUF  |    27|
 +------+------+------+
 
 Report Instance Areas: 
@@ -289,11 +281,11 @@ Report Instance Areas:
 |1     |top      |       |    91|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 745.121 ; gain = 487.828
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10011 ; free virtual = 28554
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 29 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 745.121 ; gain = 204.176
-Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 745.121 ; gain = 487.828
+Synthesis finished with 0 errors, 27 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 1671.836 ; gain = 126.527 ; free physical = 10068 ; free virtual = 28611
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:54 . Memory (MB): peak = 1671.836 ; gain = 441.301 ; free physical = 10068 ; free virtual = 28611
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -303,10 +295,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-19 Infos, 8 Warnings, 29 Critical Warnings and 0 Errors encountered.
+19 Infos, 3 Warnings, 27 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 752.859 ; gain = 507.035
-INFO: [Common 17-1381] The checkpoint 'C:/git/SR/lab5/vp_bin/vp_bin.runs/synth_1/vp_bin.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:55 . Memory (MB): peak = 1674.836 ; gain = 469.129 ; free physical = 10060 ; free virtual = 28602
+INFO: [Common 17-1381] The checkpoint '/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1/vp_bin.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file vp_bin_utilization_synth.rpt -pb vp_bin_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 752.859 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Apr 24 14:57:02 2018...
+report_utilization: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.06 . Memory (MB): peak = 1674.836 ; gain = 0.000 ; free physical = 10060 ; free virtual = 28603
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 25 08:40:45 2018...

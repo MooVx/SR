@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Apr 24 15:00:19 2018" VIVADOVERSION="2017.4">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Apr 25 09:28:31 2018" VIVADOVERSION="2017.4">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo:part0:1.0" DEVICE="7z010" NAME="hdmi_vga" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -704,7 +704,7 @@
     </MODULE>
     <MODULE FULLNAME="/dvi2rgb_0" HWVERSION="1.8" INSTANCE="dvi2rgb_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dvi2rgb" VLNV="digilentinc.com:ip:dvi2rgb:1.8">
       <DOCUMENTS>
-        <DOCUMENT SOURCE="c:/git/SR/lab5/hdmi_vga_ip_repo/dvi2rgb_v1_8/docs/dvi2rgb.pdf"/>
+        <DOCUMENT SOURCE="/home/lsriw/sr/RomanMichal/SR/lab5/hdmi_vga_ip_repo/dvi2rgb_v1_8/docs/dvi2rgb.pdf"/>
       </DOCUMENTS>
       <PARAMETERS>
         <PARAMETER NAME="kEmulateDDC" VALUE="true"/>
@@ -734,6 +734,7 @@
         <PORT DIR="O" LEFT="23" NAME="vid_pData" RIGHT="0" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pData">
           <CONNECTIONS>
             <CONNECTION INSTANCE="vp_bin_0" PORT="pixel_in"/>
+            <CONNECTION INSTANCE="rgb2vga_0" PORT="PixelClk"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="vid_pVDE" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pVDE">
@@ -753,7 +754,6 @@
         </PORT>
         <PORT CLKFREQUENCY="100000000" DIR="O" NAME="PixelClk" SIGIS="clk" SIGNAME="dvi2rgb_0_PixelClk">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="rgb2vga_0" PORT="PixelClk"/>
             <CONNECTION INSTANCE="vp_bin_0" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
@@ -797,14 +797,14 @@
     </MODULE>
     <MODULE FULLNAME="/rgb2vga_0" HWVERSION="1.0" INSTANCE="rgb2vga_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="rgb2vga" VLNV="digilentinc.com:ip:rgb2vga:1.0">
       <DOCUMENTS>
-        <DOCUMENT SOURCE="c:/git/SR/lab5/hdmi_vga_ip_repo/rgb2vga_v1_0/docs/rgb2vga_v1_0.pdf"/>
+        <DOCUMENT SOURCE="/home/lsriw/sr/RomanMichal/SR/lab5/hdmi_vga_ip_repo/rgb2vga_v1_0/docs/rgb2vga_v1_0.pdf"/>
       </DOCUMENTS>
       <PARAMETERS>
         <PARAMETER NAME="VID_IN_DATA_WIDTH" VALUE="24"/>
         <PARAMETER NAME="kRedDepth" VALUE="5"/>
         <PARAMETER NAME="kGreenDepth" VALUE="6"/>
         <PARAMETER NAME="kBlueDepth" VALUE="5"/>
-        <PARAMETER NAME="Component_Name" VALUE="hdmi_vga_rgb2vga_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="hdmi_vga_rgb2vga_0_1"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
@@ -828,9 +828,9 @@
             <CONNECTION INSTANCE="vp_bin_0" PORT="v_sync_out"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="PixelClk" SIGIS="clk" SIGNAME="dvi2rgb_0_PixelClk">
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="PixelClk" SIGIS="clk" SIGNAME="dvi2rgb_0_vid_pData">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="dvi2rgb_0" PORT="PixelClk"/>
+            <CONNECTION INSTANCE="dvi2rgb_0" PORT="vid_pData"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="4" NAME="vga_pRed" RIGHT="0" SIGIS="undef" SIGNAME="rgb2vga_0_vga_pRed">
@@ -870,10 +870,10 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE FULLNAME="/vp_bin_0" HWVERSION="1.0" INSTANCE="vp_bin_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="vp_bin" VLNV="xilinx.com:user:vp_bin:1.0">
+    <MODULE FULLNAME="/vp_bin_0" HWVERSION="1.0" INSTANCE="vp_bin_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="vp_bin" VLNV="user.org:user:vp_bin:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="hdmi_vga_vp_bin_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="hdmi_vga_vp_bin_0_1"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>

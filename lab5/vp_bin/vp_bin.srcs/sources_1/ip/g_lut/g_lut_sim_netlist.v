@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
 // Date        : Tue Apr 24 14:27:33 2018
 // Host        : DESKTOP-JI7G1LN running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               c:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/ip/g_lut/g_lut_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top g_lut -prefix
+//               g_lut_ g_lut_sim_netlist.v
 // Design      : g_lut
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -97,7 +97,7 @@ endmodule
 (* C_MEM_INIT_FILE = "g_lut.mif" *) (* C_MEM_TYPE = "1" *) (* C_PARSER_TYPE = "1" *) 
 (* C_PIPELINE_STAGES = "0" *) (* C_QCE_JOINED = "0" *) (* C_QUALIFY_WE = "0" *) 
 (* C_READ_MIF = "1" *) (* C_REG_A_D_INPUTS = "0" *) (* C_REG_DPRA_INPUT = "0" *) 
-(* C_SYNC_ENABLE = "1" *) (* C_WIDTH = "8" *) (* ORIG_REF_NAME = "dist_mem_gen_v8_0_12" *) 
+(* C_SYNC_ENABLE = "1" *) (* C_WIDTH = "8" *) 
 module g_lut_dist_mem_gen_v8_0_12
    (a,
     d,
@@ -175,7 +175,6 @@ module g_lut_dist_mem_gen_v8_0_12
         .we(we));
 endmodule
 
-(* ORIG_REF_NAME = "dist_mem_gen_v8_0_12_synth" *) 
 module g_lut_dist_mem_gen_v8_0_12_synth
    (qspo,
     clk,
@@ -202,7 +201,6 @@ module g_lut_dist_mem_gen_v8_0_12_synth
         .we(we));
 endmodule
 
-(* ORIG_REF_NAME = "spram" *) 
 module g_lut_spram
    (qspo,
     clk,

@@ -1,15 +1,15 @@
 //Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
-//Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-//Date        : Tue Apr 24 15:00:16 2018
-//Host        : DESKTOP-JI7G1LN running 64-bit major release  (build 9200)
+//Tool Version: Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
+//Date        : Wed Apr 25 09:28:31 2018
+//Host        : debian running 64-bit Debian GNU/Linux 9.3 (stretch)
 //Command     : generate_target hdmi_vga.bd
 //Design      : hdmi_vga
 //Purpose     : IP block netlist
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "hdmi_vga,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=hdmi_vga,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=6,numReposBlks=6,numNonXlnxBlks=2,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "hdmi_vga.hwdef" *) 
+(* CORE_GENERATION_INFO = "hdmi_vga,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=hdmi_vga,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=6,numReposBlks=6,numNonXlnxBlks=3,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "hdmi_vga.hwdef" *) 
 module hdmi_vga
    (hdmi_hpd,
     hdmi_in_clk_n,
@@ -122,8 +122,8 @@ module hdmi_vga
         .vid_pHSync(dvi2rgb_0_vid_pHSync),
         .vid_pVDE(dvi2rgb_0_vid_pVDE),
         .vid_pVSync(dvi2rgb_0_vid_pVSync));
-  hdmi_vga_rgb2vga_0_0 rgb2vga_0
-       (.PixelClk(dvi2rgb_0_PixelClk),
+  hdmi_vga_rgb2vga_0_1 rgb2vga_0
+       (.PixelClk(dvi2rgb_0_vid_pData[0]),
         .rgb_pData(vp_bin_0_pixel_out),
         .rgb_pHSync(vp_bin_0_h_sync_out),
         .rgb_pVDE(vp_bin_0_de_out),
@@ -133,7 +133,7 @@ module hdmi_vga
         .vga_pHSync(rgb2vga_0_vga_pHSync),
         .vga_pRed(rgb2vga_0_vga_pRed),
         .vga_pVSync(rgb2vga_0_vga_pVSync));
-  hdmi_vga_vp_bin_0_0 vp_bin_0
+  hdmi_vga_vp_bin_0_1 vp_bin_0
        (.clk(dvi2rgb_0_PixelClk),
         .de_in(dvi2rgb_0_vid_pVDE),
         .de_out(vp_bin_0_de_out),

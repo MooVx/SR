@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="b_lut_synth_1" LaunchDir="/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/b_lut_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="g_lut_synth_1" LaunchDir="/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/g_lut_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="r_lut_synth_1" LaunchDir="/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/r_lut_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/lsriw/sr/RomanMichal/SR/lab5/vp_bin/vp_bin.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="b_lut_synth_1"/>
+		<Parent Id="g_lut_synth_1"/>
+		<Parent Id="r_lut_synth_1"/>
+	</Run>
+</Runs>
+

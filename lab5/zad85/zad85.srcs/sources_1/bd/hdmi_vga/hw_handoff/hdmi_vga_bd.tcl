@@ -219,7 +219,7 @@ proc create_root_design { parentCell } {
   set rgb2vga_0 [ create_bd_cell -type ip -vlnv digilentinc.com:ip:rgb2vga:1.0 rgb2vga_0 ]
 
   # Create instance: vp_bin_0, and set properties
-  set vp_bin_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:vp_bin:1.0 vp_bin_0 ]
+  set vp_bin_0 [ create_bd_cell -type ip -vlnv user.org:user:vp_bin:1.0 vp_bin_0 ]
 
   # Create interface connections
   connect_bd_intf_net -intf_net dvi2rgb_0_DDC [get_bd_intf_ports hdmi_in_ddc] [get_bd_intf_pins dvi2rgb_0/DDC]
@@ -227,8 +227,8 @@ proc create_root_design { parentCell } {
 
   # Create port connections
   connect_bd_net -net clk_wiz_0_clk_out1 [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins dvi2rgb_0/RefClk]
-  connect_bd_net -net dvi2rgb_0_PixelClk [get_bd_pins dvi2rgb_0/PixelClk] [get_bd_pins rgb2vga_0/PixelClk] [get_bd_pins vp_bin_0/clk]
-  connect_bd_net -net dvi2rgb_0_vid_pData [get_bd_pins dvi2rgb_0/vid_pData] [get_bd_pins vp_bin_0/pixel_in]
+  connect_bd_net -net dvi2rgb_0_PixelClk [get_bd_pins dvi2rgb_0/PixelClk] [get_bd_pins vp_bin_0/clk]
+  connect_bd_net -net dvi2rgb_0_vid_pData [get_bd_pins dvi2rgb_0/vid_pData] [get_bd_pins rgb2vga_0/PixelClk] [get_bd_pins vp_bin_0/pixel_in]
   connect_bd_net -net dvi2rgb_0_vid_pHSync [get_bd_pins dvi2rgb_0/vid_pHSync] [get_bd_pins vp_bin_0/h_sync_in]
   connect_bd_net -net dvi2rgb_0_vid_pVDE [get_bd_pins dvi2rgb_0/vid_pVDE] [get_bd_pins vp_bin_0/de_in]
   connect_bd_net -net dvi2rgb_0_vid_pVSync [get_bd_pins dvi2rgb_0/vid_pVSync] [get_bd_pins vp_bin_0/v_sync_in]

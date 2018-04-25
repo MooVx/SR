@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="35" Path="C:/git/SR/lab5/zad85/zad85.xpr">
+<Project Version="7" Minor="35" Path="/home/lsriw/sr/RomanMichal/SR/lab5/zad85/zad85.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="e6ef3da3e96d46e48d145ea8309443d7"/>
@@ -22,7 +22,7 @@
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../hdmi_vga_ip_repo"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../vp_bin"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../vp_b"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPCachePermission" Val="read"/>
     <Option Name="IPCachePermission" Val="write"/>
@@ -66,23 +66,8 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="hdmi_vga.bd" FileRelPathName="ip/hdmi_vga_clk_wiz_0_0/hdmi_vga_clk_wiz_0_0.xci">
-          <Proxy FileSetName="hdmi_vga_clk_wiz_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="hdmi_vga.bd" FileRelPathName="ip/hdmi_vga_dvi2rgb_0_0/hdmi_vga_dvi2rgb_0_0.xci">
-          <Proxy FileSetName="hdmi_vga_dvi2rgb_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="hdmi_vga.bd" FileRelPathName="ip/hdmi_vga_xlconstant_0_0/hdmi_vga_xlconstant_0_0.xci">
-          <Proxy FileSetName="hdmi_vga_xlconstant_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="hdmi_vga.bd" FileRelPathName="ip/hdmi_vga_rgb2vga_0_0/hdmi_vga_rgb2vga_0_0.xci">
-          <Proxy FileSetName="hdmi_vga_rgb2vga_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="hdmi_vga.bd" FileRelPathName="ip/hdmi_vga_xlconstant_1_0/hdmi_vga_xlconstant_1_0.xci">
-          <Proxy FileSetName="hdmi_vga_xlconstant_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="hdmi_vga.bd" FileRelPathName="ip/hdmi_vga_vp_bin_0_0/hdmi_vga_vp_bin_0_0.xci">
-          <Proxy FileSetName="hdmi_vga_vp_bin_0_0"/>
+        <CompFileExtendedInfo CompFileName="hdmi_vga.bd" FileRelPathName="ip/hdmi_vga_rgb2vga_0_1/hdmi_vga_rgb2vga_0_1.xci">
+          <Proxy FileSetName="hdmi_vga_rgb2vga_0_1"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/hdmi_vga/hdl/hdmi_vga_wrapper.v">
@@ -94,43 +79,19 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/zad85/lut_R.coe">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/lut_R.coe"/>
-          <Attr Name="ImportTime" Val="1524571499"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/zad85/lut_G.coe">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/lut_G.coe"/>
-          <Attr Name="ImportTime" Val="1524571464"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/zad85/lut_B.coe">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/lut_B.coe"/>
-          <Attr Name="ImportTime" Val="1524571409"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_bin_0_0/imports/vp_bin/lut_B.coe">
+      <File Path="$PSRCDIR/sources_1/bd/hdmi_vga/ip/vp_bin/vp_bin.srcs/sources_1/imports/vp_bin/lut_B.coe">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_bin_0_0/imports/vp_bin/lut_G.coe">
+      <File Path="$PSRCDIR/sources_1/bd/hdmi_vga/ip/vp_bin/vp_bin.srcs/sources_1/imports/vp_bin/lut_G.coe">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_bin_0_0/imports/vp_bin/lut_R.coe">
+      <File Path="$PSRCDIR/sources_1/bd/hdmi_vga/ip/vp_bin/vp_bin.srcs/sources_1/imports/vp_bin/lut_R.coe">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -152,6 +113,30 @@
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/constrs_1/imports/lab5/lut_B.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../lut_B.coe"/>
+          <Attr Name="ImportTime" Val="1524636374"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/lab5/lut_G.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../lut_G.coe"/>
+          <Attr Name="ImportTime" Val="1524636374"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/lab5/lut_R.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../lut_R.coe"/>
+          <Attr Name="ImportTime" Val="1524636374"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="ConstrsType" Val="XDC"/>
       </Config>
@@ -168,39 +153,9 @@
         <Option Name="SrcSet" Val="sources_1"/>
       </Config>
     </FileSet>
-    <FileSet Name="hdmi_vga_dvi2rgb_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/hdmi_vga_dvi2rgb_0_0">
+    <FileSet Name="hdmi_vga_rgb2vga_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/hdmi_vga_rgb2vga_0_1">
       <Config>
-        <Option Name="TopModule" Val="hdmi_vga_dvi2rgb_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="hdmi_vga_clk_wiz_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/hdmi_vga_clk_wiz_0_0">
-      <Config>
-        <Option Name="TopModule" Val="hdmi_vga_clk_wiz_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="hdmi_vga_xlconstant_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/hdmi_vga_xlconstant_0_0">
-      <Config>
-        <Option Name="TopModule" Val="hdmi_vga_xlconstant_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="hdmi_vga_rgb2vga_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/hdmi_vga_rgb2vga_0_0">
-      <Config>
-        <Option Name="TopModule" Val="hdmi_vga_rgb2vga_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="hdmi_vga_xlconstant_1_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/hdmi_vga_xlconstant_1_0">
-      <Config>
-        <Option Name="TopModule" Val="hdmi_vga_xlconstant_1_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="hdmi_vga_vp_bin_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/hdmi_vga_vp_bin_0_0">
-      <Config>
-        <Option Name="TopModule" Val="hdmi_vga_vp_bin_0_0"/>
+        <Option Name="TopModule" Val="hdmi_vga_rgb2vga_0_1"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -216,69 +171,26 @@
     <Simulator Name="Questa">
       <Option Name="Description" Val="Questa Advanced Simulator"/>
     </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
     <Simulator Name="Riviera">
       <Option Name="Description" Val="Riviera-PRO Simulator"/>
     </Simulator>
-    <Simulator Name="ActiveHDL">
-      <Option Name="Description" Val="Active-HDL Simulator"/>
-    </Simulator>
   </Simulators>
   <Runs Version="1" Minor="10">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="hdmi_vga_dvi2rgb_0_0_synth_1" Type="Ft3:Synth" SrcSet="hdmi_vga_dvi2rgb_0_0" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_dvi2rgb_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/hdmi_vga_dvi2rgb_0_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="hdmi_vga_clk_wiz_0_0_synth_1" Type="Ft3:Synth" SrcSet="hdmi_vga_clk_wiz_0_0" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_clk_wiz_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/hdmi_vga_clk_wiz_0_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="hdmi_vga_xlconstant_0_0_synth_1" Type="Ft3:Synth" SrcSet="hdmi_vga_xlconstant_0_0" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_xlconstant_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/hdmi_vga_xlconstant_0_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="hdmi_vga_rgb2vga_0_0_synth_1" Type="Ft3:Synth" SrcSet="hdmi_vga_rgb2vga_0_0" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_rgb2vga_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/hdmi_vga_rgb2vga_0_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="hdmi_vga_xlconstant_1_0_synth_1" Type="Ft3:Synth" SrcSet="hdmi_vga_xlconstant_1_0" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_xlconstant_1_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/hdmi_vga_xlconstant_1_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="hdmi_vga_vp_bin_0_0_synth_1" Type="Ft3:Synth" SrcSet="hdmi_vga_vp_bin_0_0" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_vp_bin_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/hdmi_vga_vp_bin_0_0_synth_1" IncludeInArchive="true">
+    <Run Id="hdmi_vga_rgb2vga_0_1_synth_1" Type="Ft3:Synth" SrcSet="hdmi_vga_rgb2vga_0_1" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_rgb2vga_0_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/hdmi_vga_rgb2vga_0_1_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
           <Desc>Vivado Synthesis Defaults</Desc>
@@ -289,24 +201,7 @@
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2017"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="hdmi_vga_dvi2rgb_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_dvi2rgb_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="hdmi_vga_dvi2rgb_0_0_synth_1" IncludeInArchive="false">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
         <Step Id="init_design"/>
@@ -322,71 +217,7 @@
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2017"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="hdmi_vga_clk_wiz_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_clk_wiz_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="hdmi_vga_clk_wiz_0_0_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2017"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="hdmi_vga_xlconstant_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_xlconstant_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="hdmi_vga_xlconstant_0_0_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2017"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="hdmi_vga_rgb2vga_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_rgb2vga_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="hdmi_vga_rgb2vga_0_0_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2017"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="hdmi_vga_xlconstant_1_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_xlconstant_1_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="hdmi_vga_xlconstant_1_0_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2017"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="hdmi_vga_vp_bin_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_vp_bin_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="hdmi_vga_vp_bin_0_0_synth_1" IncludeInArchive="false">
+    <Run Id="hdmi_vga_rgb2vga_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="hdmi_vga_rgb2vga_0_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="hdmi_vga_rgb2vga_0_1_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
           <Desc>Default settings for Implementation.</Desc>
