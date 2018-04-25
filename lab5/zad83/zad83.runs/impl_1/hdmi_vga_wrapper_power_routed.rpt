@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
-| Date             : Wed Apr 18 09:27:36 2018
-| Host             : debian running 64-bit Debian GNU/Linux 9.3 (stretch)
+| Tool Version     : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date             : Tue Apr 24 13:33:58 2018
+| Host             : DESKTOP-JI7G1LN running 64-bit major release  (build 9200)
 | Command          : report_power -file hdmi_vga_wrapper_power_routed.rpt -pb hdmi_vga_wrapper_power_summary_routed.pb -rpx hdmi_vga_wrapper_power_routed.rpx
 | Design           : hdmi_vga_wrapper
 | Device           : xc7z010clg400-1
@@ -52,15 +52,15 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.009 |       12 |       --- |             --- |
+| Clocks                   |     0.008 |       12 |       --- |             --- |
 | Slice Logic              |     0.001 |     1246 |       --- |             --- |
-|   LUT as Logic           |    <0.001 |      434 |     17600 |            2.47 |
+|   LUT as Logic           |    <0.001 |      435 |     17600 |            2.47 |
 |   CARRY4                 |    <0.001 |       18 |      4400 |            0.41 |
 |   Register               |    <0.001 |      542 |     35200 |            1.54 |
 |   LUT as Distributed RAM |    <0.001 |       24 |      6000 |            0.40 |
 |   Others                 |    <0.001 |       80 |       --- |             --- |
 |   F7/F8 Muxes            |    <0.001 |       24 |     17600 |            0.14 |
-| Signals                  |    <0.001 |      858 |       --- |             --- |
+| Signals                  |    <0.001 |      887 |       --- |             --- |
 | MMCM                     |     0.112 |        1 |         2 |           50.00 |
 | PLL                      |     0.110 |        1 |         2 |           50.00 |
 | I/O                      |     0.033 |       31 |       100 |           31.00 |
