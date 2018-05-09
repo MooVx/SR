@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May  8 18:24:13 2018
+# Process ID: 13348
+# Current directory: C:/git/SR/lab5/zad85
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12632 C:\git\SR\lab5\zad85\zad85.xpr
+# Log file: C:/git/SR/lab5/zad85/vivado.log
+# Journal file: C:/git/SR/lab5/zad85\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/git/SR/lab5/zad85/zad85.xpr
+update_compile_order -fileset sources_1

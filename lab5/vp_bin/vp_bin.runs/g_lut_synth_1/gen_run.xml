@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="g_lut_synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1524638364">
+<GenRun Id="g_lut_synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1525796856">
   <File Type="PA-TCL" Name="g_lut.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="g_lut_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="g_lut_reports.tcl"/>
   <File Type="RDS-RDS" Name="g_lut.vds"/>
+  <File Type="RDS-UTIL" Name="g_lut_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="g_lut_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="g_lut.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="g_lut_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="g_lut_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/g_lut">
     <File Path="$PSRCDIR/sources_1/ip/g_lut/g_lut.xci">
       <FileInfo>

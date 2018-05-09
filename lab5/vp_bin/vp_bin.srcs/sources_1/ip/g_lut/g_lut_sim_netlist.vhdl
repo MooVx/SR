@@ -1,10 +1,10 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
--- Date        : Tue Apr 24 14:27:33 2018
+-- Date        : Tue May  8 18:28:49 2018
 -- Host        : DESKTOP-JI7G1LN running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim -rename_top g_lut -prefix
---               g_lut_ g_lut_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim
+--               C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/ip/g_lut/g_lut_sim_netlist.vhdl
 -- Design      : g_lut
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -22,6 +22,8 @@ entity g_lut_spram is
     we : in STD_LOGIC;
     a : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of g_lut_spram : entity is "spram";
 end g_lut_spram;
 
 architecture STRUCTURE of g_lut_spram is
@@ -139,7 +141,7 @@ begin
     );
 ram_reg_0_255_0_0: unisim.vcomponents.RAM256X1S
     generic map(
-      INIT => X"0000001FFFFFFFFFFFFFFC000000000000000000000000000000000000000000"
+      INIT => X"00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
     )
         port map (
       A(7 downto 0) => a(7 downto 0),
@@ -150,7 +152,7 @@ ram_reg_0_255_0_0: unisim.vcomponents.RAM256X1S
     );
 ram_reg_0_255_1_1: unisim.vcomponents.RAM256X1S
     generic map(
-      INIT => X"0000001FFFFFFFFFFFFFFC000000000000000000000000000000000000000000"
+      INIT => X"00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
     )
         port map (
       A(7 downto 0) => a(7 downto 0),
@@ -161,7 +163,7 @@ ram_reg_0_255_1_1: unisim.vcomponents.RAM256X1S
     );
 ram_reg_0_255_2_2: unisim.vcomponents.RAM256X1S
     generic map(
-      INIT => X"0000001FFFFFFFFFFFFFFC000000000000000000000000000000000000000000"
+      INIT => X"00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
     )
         port map (
       A(7 downto 0) => a(7 downto 0),
@@ -172,7 +174,7 @@ ram_reg_0_255_2_2: unisim.vcomponents.RAM256X1S
     );
 ram_reg_0_255_3_3: unisim.vcomponents.RAM256X1S
     generic map(
-      INIT => X"0000001FFFFFFFFFFFFFFC000000000000000000000000000000000000000000"
+      INIT => X"00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
     )
         port map (
       A(7 downto 0) => a(7 downto 0),
@@ -183,7 +185,7 @@ ram_reg_0_255_3_3: unisim.vcomponents.RAM256X1S
     );
 ram_reg_0_255_4_4: unisim.vcomponents.RAM256X1S
     generic map(
-      INIT => X"0000001FFFFFFFFFFFFFFC000000000000000000000000000000000000000000"
+      INIT => X"00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
     )
         port map (
       A(7 downto 0) => a(7 downto 0),
@@ -194,7 +196,7 @@ ram_reg_0_255_4_4: unisim.vcomponents.RAM256X1S
     );
 ram_reg_0_255_5_5: unisim.vcomponents.RAM256X1S
     generic map(
-      INIT => X"0000001FFFFFFFFFFFFFFC000000000000000000000000000000000000000000"
+      INIT => X"00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
     )
         port map (
       A(7 downto 0) => a(7 downto 0),
@@ -205,7 +207,7 @@ ram_reg_0_255_5_5: unisim.vcomponents.RAM256X1S
     );
 ram_reg_0_255_6_6: unisim.vcomponents.RAM256X1S
     generic map(
-      INIT => X"0000001FFFFFFFFFFFFFFC000000000000000000000000000000000000000000"
+      INIT => X"00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
     )
         port map (
       A(7 downto 0) => a(7 downto 0),
@@ -216,7 +218,7 @@ ram_reg_0_255_6_6: unisim.vcomponents.RAM256X1S
     );
 ram_reg_0_255_7_7: unisim.vcomponents.RAM256X1S
     generic map(
-      INIT => X"0000001FFFFFFFFFFFFFFC000000000000000000000000000000000000000000"
+      INIT => X"00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
     )
         port map (
       A(7 downto 0) => a(7 downto 0),
@@ -238,6 +240,8 @@ entity g_lut_dist_mem_gen_v8_0_12_synth is
     we : in STD_LOGIC;
     a : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of g_lut_dist_mem_gen_v8_0_12_synth : entity is "dist_mem_gen_v8_0_12_synth";
 end g_lut_dist_mem_gen_v8_0_12_synth;
 
 architecture STRUCTURE of g_lut_dist_mem_gen_v8_0_12_synth is
@@ -339,6 +343,8 @@ entity g_lut_dist_mem_gen_v8_0_12 is
   attribute C_SYNC_ENABLE of g_lut_dist_mem_gen_v8_0_12 : entity is 1;
   attribute C_WIDTH : integer;
   attribute C_WIDTH of g_lut_dist_mem_gen_v8_0_12 : entity is 8;
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of g_lut_dist_mem_gen_v8_0_12 : entity is "dist_mem_gen_v8_0_12";
 end g_lut_dist_mem_gen_v8_0_12;
 
 architecture STRUCTURE of g_lut_dist_mem_gen_v8_0_12 is

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed May  9 07:29:42 2018
+# Process ID: 11732
+# Current directory: C:/git/SR/lab5/zad81
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6484 C:\git\SR\lab5\zad81\zad81.xpr
+# Log file: C:/git/SR/lab5/zad81/vivado.log
+# Journal file: C:/git/SR/lab5/zad81\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/git/SR/lab5/zad81/zad81.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_hdmi.tcl
+close_sim
+launch_simulation
+source tb_hdmi.tcl
+close_sim
+launch_simulation
+source tb_hdmi.tcl
+close_sim
+launch_simulation
+source tb_hdmi.tcl
+close_sim

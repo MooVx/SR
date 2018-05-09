@@ -1,10 +1,10 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-// Date        : Tue Apr 24 14:26:10 2018
+// Date        : Tue May  8 18:29:25 2018
 // Host        : DESKTOP-JI7G1LN running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim -rename_top b_lut -prefix
-//               b_lut_ b_lut_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               C:/git/SR/lab5/vp_bin/vp_bin.srcs/sources_1/ip/b_lut/b_lut_sim_netlist.v
 // Design      : b_lut
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -97,7 +97,7 @@ endmodule
 (* C_MEM_INIT_FILE = "b_lut.mif" *) (* C_MEM_TYPE = "1" *) (* C_PARSER_TYPE = "1" *) 
 (* C_PIPELINE_STAGES = "0" *) (* C_QCE_JOINED = "0" *) (* C_QUALIFY_WE = "0" *) 
 (* C_READ_MIF = "1" *) (* C_REG_A_D_INPUTS = "0" *) (* C_REG_DPRA_INPUT = "0" *) 
-(* C_SYNC_ENABLE = "1" *) (* C_WIDTH = "8" *) 
+(* C_SYNC_ENABLE = "1" *) (* C_WIDTH = "8" *) (* ORIG_REF_NAME = "dist_mem_gen_v8_0_12" *) 
 module b_lut_dist_mem_gen_v8_0_12
    (a,
     d,
@@ -175,6 +175,7 @@ module b_lut_dist_mem_gen_v8_0_12
         .we(we));
 endmodule
 
+(* ORIG_REF_NAME = "dist_mem_gen_v8_0_12_synth" *) 
 module b_lut_dist_mem_gen_v8_0_12_synth
    (qspo,
     clk,
@@ -201,6 +202,7 @@ module b_lut_dist_mem_gen_v8_0_12_synth
         .we(we));
 endmodule
 
+(* ORIG_REF_NAME = "spram" *) 
 module b_lut_spram
    (qspo,
     clk,
@@ -302,7 +304,7 @@ module b_lut_spram
         .Q(qspo_int[7]),
         .R(1'b0));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000000000000000000000000000000001FFFFFFFFFFFF)) 
+    .INIT(256'h00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)) 
     ram_reg_0_255_0_0
        (.A(a),
         .D(d[0]),
@@ -310,7 +312,7 @@ module b_lut_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000000000000000000000000000000001FFFFFFFFFFFF)) 
+    .INIT(256'h00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)) 
     ram_reg_0_255_1_1
        (.A(a),
         .D(d[1]),
@@ -318,7 +320,7 @@ module b_lut_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000000000000000000000000000000001FFFFFFFFFFFF)) 
+    .INIT(256'h00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)) 
     ram_reg_0_255_2_2
        (.A(a),
         .D(d[2]),
@@ -326,7 +328,7 @@ module b_lut_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000000000000000000000000000000001FFFFFFFFFFFF)) 
+    .INIT(256'h00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)) 
     ram_reg_0_255_3_3
        (.A(a),
         .D(d[3]),
@@ -334,7 +336,7 @@ module b_lut_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000000000000000000000000000000001FFFFFFFFFFFF)) 
+    .INIT(256'h00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)) 
     ram_reg_0_255_4_4
        (.A(a),
         .D(d[4]),
@@ -342,7 +344,7 @@ module b_lut_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000000000000000000000000000000001FFFFFFFFFFFF)) 
+    .INIT(256'h00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)) 
     ram_reg_0_255_5_5
        (.A(a),
         .D(d[5]),
@@ -350,7 +352,7 @@ module b_lut_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000000000000000000000000000000001FFFFFFFFFFFF)) 
+    .INIT(256'h00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)) 
     ram_reg_0_255_6_6
        (.A(a),
         .D(d[6]),
@@ -358,7 +360,7 @@ module b_lut_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000000000000000000000000000000001FFFFFFFFFFFF)) 
+    .INIT(256'h00000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)) 
     ram_reg_0_255_7_7
        (.A(a),
         .D(d[7]),

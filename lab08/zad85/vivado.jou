@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May  8 20:50:10 2018
+# Process ID: 14024
+# Current directory: C:/git/SR/lab08/zad85
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13108 C:\git\SR\lab08\zad85\zad85.xpr
+# Log file: C:/git/SR/lab08/zad85/vivado.log
+# Journal file: C:/git/SR/lab08/zad85\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/git/SR/lab08/zad85/zad85.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_bd_design {C:/git/SR/lab08/zad85/zad85.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd}
+validate_bd_design -force
+create_bd_port -dir I hdmi_in
+delete_bd_objs [get_bd_ports hdmi_in]
+create_bd_intf_port -mode Master -vlnv digilentinc.com:interface:tmds_rtl:1.0 hdmi_in
+set_property location {71 178} [get_bd_intf_ports hdmi_in]
+set_property USER_COMMENTS.comment_0 {Enter Comments here}  [get_bd_intf_ports hdmi_in]
+set_property USER_COMMENTS.comment_0 {}  [get_bd_intf_ports hdmi_in]
+delete_bd_objs [get_bd_intf_ports hdmi_in]
+create_bd_intf_port -mode Slave -vlnv digilentinc.com:interface:tmds_rtl:1.0 hdmi_in
+connect_bd_intf_net [get_bd_intf_ports hdmi_in] [get_bd_intf_pins dvi2rgb_1/TMDS]
+save_bd_design
+validate_bd_design
+reset_run synth_1
+save_bd_design
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+startgroup
+set_property -dict [list CONFIG.kClkRange {2}] [get_bd_cells dvi2rgb_1]
+endgroup
+startgroup
+endgroup
+reset_run hdmi_vga_dvi2rgb_1_0_synth_1
+reset_run synth_1
+save_bd_design
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file mkdir C:/git/SR/lab08/zad85/zad85.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/git/SR/lab08/zad85/zad85.srcs/sim_1/new/tb_hdmi.v w ]
+add_files -fileset sim_1 C:/git/SR/lab08/zad85/zad85.srcs/sim_1/new/tb_hdmi.v
+update_compile_order -fileset sim_1
+open_bd_design {C:/git/SR/lab08/zad85/zad85.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_hdmi [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+export_ip_user_files -of_objects  [get_files C:/git/SR/lab08/zad85/zad85.srcs/sim_1/new/tb_hdmi.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/git/SR/lab08/zad85/zad85.srcs/sim_1/new/tb_hdmi.v
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
