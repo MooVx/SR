@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May  8 23:29:56 2018
+# Process ID: 17708
+# Current directory: C:/git/SR/lab10/zad10_3/rgb2ycbcr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18848 C:\git\SR\lab10\zad10_3\rgb2ycbcr\rgb2ycbcr.xpr
+# Log file: C:/git/SR/lab10/zad10_3/rgb2ycbcr/vivado.log
+# Journal file: C:/git/SR/lab10/zad10_3/rgb2ycbcr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/git/SR/lab10/zad10_3/rgb2ycbcr/rgb2ycbcr.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Bartek/Reconfigurable-Systems-Laboratory-Class/10/3/rgb2ycbcr' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/git/SR/My_IPs/rgb2ycbcr', nor could it be found using path 'C:/Users/Bartek/Reconfigurable-Systems-Laboratory-Class/My_IPs/rgb2ycbcr'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/git/SR/lab10/zad10_3/IPs', nor could it be found using path 'C:/Users/Bartek/Reconfigurable-Systems-Laboratory-Class/10/3/IPs'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/git/SR/My_IPs/rgb2ycbcr'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/git/SR/lab10/zad10_3/IPs'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 812.914 ; gain = 106.480
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Tue May  8 23:32:05 2018] Launched synth_1...
+Run output will be captured here: C:/git/SR/lab10/zad10_3/rgb2ycbcr/rgb2ycbcr.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue May  8 23:33:08 2018] Launched impl_1...
+Run output will be captured here: C:/git/SR/lab10/zad10_3/rgb2ycbcr/rgb2ycbcr.runs/impl_1/runme.log
+ipx::package_project -root_dir C:/git/SR/lab10/Resources/rgb2y -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] mult_gen_1 has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab10/Resources/rgb2y/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab10/Resources/rgb2y c:/git/SR/lab10/Resources/rgb2y/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/git/SR/My_IPs/rgb2ycbcr'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/git/SR/lab10/zad10_3/IPs'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 852.551 ; gain = 22.715
+update_compile_order -fileset sources_1
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+set_property  ip_repo_paths  {c:/git/SR/lab10/Resources/rgb2y c:/git/SR/My_IPs/rgb2ycbcr c:/git/SR/lab10/zad10_3/IPs} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab10/Resources/rgb2y'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/git/SR/My_IPs/rgb2ycbcr'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/git/SR/lab10/zad10_3/IPs'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  8 23:35:26 2018...

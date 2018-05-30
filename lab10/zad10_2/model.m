@@ -17,6 +17,8 @@ sign=1; % 0-unsignedvalue, 1-signedvalue
 word = 1 + prec_i + prec_f;
 RGB_fix = fi(RGB, sign, word, prec_f);
 
+
+
 % Fixed-point offset
 prec_i=8; % number of integer part bits (Nc)
 prec_f=0; % number of fractional part bits (Nu)                    
@@ -30,6 +32,8 @@ prec_f=17; % number of fractional part bits (Nu)
 sign=1; % 0-unsignedvalue, 1-signedvalue
 word = 1 + prec_i + prec_f;
 conversion_matrix_fix = fi(conversion_matrix, sign, word, prec_f);
+
+
 
 % Fixed-point settings for Y, Cb, Cr
 prec_i=8; % number of integer part bits (Nc)

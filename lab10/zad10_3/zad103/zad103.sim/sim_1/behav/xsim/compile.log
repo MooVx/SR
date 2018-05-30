@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab08/zad85/zad85.srcs/sim_1/new/tb_hdmi.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_hdmi
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab08/zad85/zad85.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

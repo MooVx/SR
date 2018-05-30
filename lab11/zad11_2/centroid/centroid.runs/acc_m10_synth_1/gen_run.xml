@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="acc_m10_synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1526834150">
+  <File Type="PA-TCL" Name="acc_m10.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="acc_m10_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="acc_m10_reports.tcl"/>
+  <File Type="RDS-RDS" Name="acc_m10.vds"/>
+  <File Type="RDS-UTIL" Name="acc_m10_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="acc_m10_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="acc_m10.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="acc_m10_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="acc_m10_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/acc_m10">
+    <File Path="$PSRCDIR/sources_1/ip/acc_m10/acc_m10.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="acc_m10"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/acc_m10">
+    <File Path="$PSRCDIR/sources_1/ip/acc_m10/acc_m10.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="acc_m10"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab10/zad10_6/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/rgb2hsv_0/src/vp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab10/zad10_6/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/rgb2hsv_0/sim/rgb2hsv_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2hsv_0

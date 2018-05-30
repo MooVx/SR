@@ -1,0 +1,1313 @@
+-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-- --------------------------------------------------------------------------------
+-- Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+-- Date        : Sun May 20 17:13:09 2018
+-- Host        : DESKTOP-JI7G1LN running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode funcsim C:/git/SR/lab11/Resources/vp/src/centroid_0/centroid_0_sim_netlist.vhdl
+-- Design      : centroid_0
+-- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
+--               synthesized. This netlist cannot be used for SDF annotated simulation.
+-- Device      : xc7z010clg400-1
+-- --------------------------------------------------------------------------------
+`protect begin_protected
+`protect version = 1
+`protect encrypt_agent = "XILINX"
+`protect encrypt_agent_info = "Xilinx Encryption Tool 2015"
+`protect key_keyowner="Cadence Design Systems.", key_keyname="cds_rsa_key", key_method="rsa"
+`protect encoding = (enctype="BASE64", line_length=76, bytes=64)
+`protect key_block
+hZClrjQL2xcvpkOw5/Rk0YfU4cLpkzqVyCWW+vyfGfIwRXry56MPNeJiKWSo2kvUzFNpnQa+st5p
+3la0itKKWw==
+
+`protect key_keyowner="Synopsys", key_keyname="SNPS-VCS-RSA-1", key_method="rsa"
+`protect encoding = (enctype="BASE64", line_length=76, bytes=128)
+`protect key_block
+cJPY46dnrBJ9tXvtxt0uojXUpj8Xad3TGOGCLvqfcn4WvGhwrOJZFUe/HwihZ6YPBs7rBkt5Uhyh
+Xkm+k6ryH9Zyr/Cf0z3ghL5tiNSKvqVnr07tvQetVbBj1mTMYyrz9PaJbZ2GSQ3ef7FulEtNjb5d
+Ef3ip+c6Tj3HkCyyiY8=
+
+`protect key_keyowner="Aldec", key_keyname="ALDEC15_001", key_method="rsa"
+`protect encoding = (enctype="BASE64", line_length=76, bytes=256)
+`protect key_block
+TFQ0extCZz/E4dn7YXorUbY21QuuDSbveq26pUf3opJgYPyzCKX0OQxTJaKwiG/DkXlSQ4470vtG
+F64mjUEEXYREg0yfX2fIKjT3/pF8aLzpCfQ1udOc8Cqg/Nloo+JsSd2tPEDJWk2su97x6eFnk78x
+PW3TR2MiO42VBivqermCpO29mieSZnNoskYUOHLuzvhIR/J/cMXMmiRcjbEh7EJOVeq/jItPudpb
+5A7hITRte89rFpkFg/VWLnuc5MEctO7uT/RZTQKLJOglWXp7f+uSlAE8dDm9YI/IS/OO6o9HzTnl
+ZjoPWmmJNO5eEka7WEI14Wnl+k/UI8CLPr7knw==
+
+`protect key_keyowner="ATRENTA", key_keyname="ATR-SG-2015-RSA-3", key_method="rsa"
+`protect encoding = (enctype="BASE64", line_length=76, bytes=256)
+`protect key_block
+vcA6tVBzywmJsvOGZta29NRAU5c4+e//Nq67cIVRUCEbQtu/TBzGuVvmTJqBcU2b72sDpgdn6TWW
+HdNlgPm1q0gl2L3X27zzFiw+iTqSprZuK9pz0e0O+7oFIGbnzvM76Betk1rhRGfCV3NKsrQsUZ4u
+rDVDPXN7BJIa08/V/boRGCX5871PZGtOEHw8dBNIr2CfDxytdwsQYl6TPm+s32UscdK1DyJij6yT
+56KtqClpqYfV67ZmyPtdLKDbmf+XaEr/i5QPah1raC09d1fb7MNxnT1kH7oV8klk6QbDqAwl7To9
+5v+jCauuNWvCyX1my3fzbWm8CuK5jAU2vXrvKQ==
+
+`protect key_keyowner="Xilinx", key_keyname="xilinxt_2017_05", key_method="rsa"
+`protect encoding = (enctype="BASE64", line_length=76, bytes=256)
+`protect key_block
+X0GXe4413l+ZBbytkXE7IOL3xzGFtpeplzzSs/s0NIrsuzQG59hJqM3d6liI4/SHNkEwiUHF5fcA
+qPHT1aga/AfSC2fylyJNGOz0sQfh2IYqtvq5E9GT0jShxRibVeFndZ+Y3JIt0LKOKaJRH6y2b8xy
+6wfF/6pZIu/XRu0+C7TwIViyLBIOEVkhGghVsgslnz5RcdCiMXcPgHGucu1btmub7Xd0v11aqvjw
+nRQYV1gduDrGtNJFU50Dx44Rm8IdndMJI86N8vZpVgUQ/OMe8SMOXjkeT2h3y/ijSSOtaOGLwc4J
+4FjK+n1vUWs8aoq0C7jQl8iaVQ0ALnmzBmX20w==
+
+`protect key_keyowner="Mentor Graphics Corporation", key_keyname="MGC-VELOCE-RSA", key_method="rsa"
+`protect encoding = (enctype="BASE64", line_length=76, bytes=128)
+`protect key_block
+em7m0sQoFdMSKYlp8fNnnGHtha7+YDLScVsLXUfGGlxdfLt8ouCJKEWVOgI2bd9p+aNlNqsE2wgE
+0TfwWzF8YzQRyG5k4D71zPHOQYn/Jz0UmLVWoRmjot05b2PQFE7C+HkI08wo5c05ZZCxl6GDqV5l
+4gtb5/kTvmII6wfHYVw=
+
+`protect key_keyowner="Mentor Graphics Corporation", key_keyname="MGC-VERIF-SIM-RSA-2", key_method="rsa"
+`protect encoding = (enctype="BASE64", line_length=76, bytes=256)
+`protect key_block
+jnQk15tdONqg9/ukBwbkokOqw7S046x6VLYIf5awLeVUFwP97gQPSyGyxab08piQmf8PTrUAKX72
+uf2gl+T9YzH+MSUDS3lz9X2ZIxf9dJ952dR2W7jJmggGx1ffSB14bOmNaMusHDQuFAc7oIVIlV0N
+BQamQACENzbxrEWdKe45iLSoK6YHZ3irufuSJGd0q0JgQk5V5ZCDAo3EeTV45HBV6fY/7cH8XdgX
+13Oz8nv27TkWrLmJhkJ7DFi9uNOrMz165v4vI6iRZqSkOSjRpL7Kc10mXKFv7RY+K1N27WQyNX0l
+GYRoGLAwwvJfLg9SAlAh9XgCAb9ZxD1SGt9wJw==
+
+`protect key_keyowner="Mentor Graphics Corporation", key_keyname="MGC-PREC-RSA", key_method="rsa"
+`protect encoding = (enctype="BASE64", line_length=76, bytes=256)
+`protect key_block
+CS8nVw19zJSKJWgU3s/SbFkGugpx1tIlqbjO8G0a+sDaY/mhUdeO0mj3VUQe0YA7OvE2vK3DkC4S
+WtgcqmzgeSzOwey18uRhy7brgTWO9kLqvPx9jcb8xNBMXi4DydNfdMukmpgQB97X4ZlJOsnjWAPC
+7Dd/xDrr12j5ZTK7a8TUf0X688VKxtd4aQnjHg4HY8laEHhhG68n7KhYrdT9Jj54xbtPgclWPtSP
+xbVnsL5yZcrsRG4PWmdgazC9bsQWrSQQWcJEd6J1vf67lBFh3JiVrY4w8JLF/qGsYcwsKTo0ErHQ
+QKl4x3v4gv8CLsQBCq+nsr+0H6jGnhCQXEtMGQ==
+
+`protect key_keyowner="Synplicity", key_keyname="SYNP15_1", key_method="rsa"
+`protect encoding = (enctype="BASE64", line_length=76, bytes=256)
+`protect key_block
+nMxeCi/RztDrAeQ9xBFMGj1jQYZWLuw6dWkrxzSeNVrAcKwHxSEHvzhm5H21qsce2M7bguErex0O
+Z+Hog0bk35C6wdtmGvIVC2OGHuc96cA8B+M01AOFEebByiLAERa1Cf/aUrp8AONlQwD1UA3sfjpU
+PEHd6d0SnOT+NU7UCZTBwEiqqCRv0tyJRodbMtJvhY89MgfrzHNGDTHfB1Mpwo/eY6Ris55syyXt
+ZROIWgwCqY+NLpb7yi3lI3tYef+XXCt+EYF4+zIjH2ddQHnsYI0Zqek3TQQZyZdlhnlrq5d8Mmg1
+ujGd1wMNlbmXBVHw8vOpuyPzC/buIzjXUmj2ZQ==
+
+`protect data_method = "AES128-CBC"
+`protect encoding = (enctype = "BASE64", line_length = 76, bytes = 21072)
+`protect data_block
+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
+`protect end_protected
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity \centroid_0_c_accum_v12_0_11__parameterized1\ is
+  port (
+    B : in STD_LOGIC_VECTOR ( 10 downto 0 );
+    CLK : in STD_LOGIC;
+    ADD : in STD_LOGIC;
+    C_IN : in STD_LOGIC;
+    CE : in STD_LOGIC;
+    BYPASS : in STD_LOGIC;
+    SCLR : in STD_LOGIC;
+    SSET : in STD_LOGIC;
+    SINIT : in STD_LOGIC;
+    Q : out STD_LOGIC_VECTOR ( 19 downto 0 )
+  );
+  attribute C_ADD_MODE : integer;
+  attribute C_ADD_MODE of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 0;
+  attribute C_AINIT_VAL : string;
+  attribute C_AINIT_VAL of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is "0";
+  attribute C_BYPASS_LOW : integer;
+  attribute C_BYPASS_LOW of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 0;
+  attribute C_B_TYPE : integer;
+  attribute C_B_TYPE of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 1;
+  attribute C_B_WIDTH : integer;
+  attribute C_B_WIDTH of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 11;
+  attribute C_CE_OVERRIDES_SCLR : integer;
+  attribute C_CE_OVERRIDES_SCLR of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 0;
+  attribute C_HAS_BYPASS : integer;
+  attribute C_HAS_BYPASS of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 0;
+  attribute C_HAS_CE : integer;
+  attribute C_HAS_CE of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 1;
+  attribute C_HAS_C_IN : integer;
+  attribute C_HAS_C_IN of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 0;
+  attribute C_HAS_SCLR : integer;
+  attribute C_HAS_SCLR of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 1;
+  attribute C_HAS_SINIT : integer;
+  attribute C_HAS_SINIT of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 0;
+  attribute C_HAS_SSET : integer;
+  attribute C_HAS_SSET of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 0;
+  attribute C_IMPLEMENTATION : integer;
+  attribute C_IMPLEMENTATION of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 1;
+  attribute C_LATENCY : integer;
+  attribute C_LATENCY of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 1;
+  attribute C_OUT_WIDTH : integer;
+  attribute C_OUT_WIDTH of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 20;
+  attribute C_SCALE : integer;
+  attribute C_SCALE of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 0;
+  attribute C_SCLR_OVERRIDES_SSET : integer;
+  attribute C_SCLR_OVERRIDES_SSET of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 1;
+  attribute C_SINIT_VAL : string;
+  attribute C_SINIT_VAL of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is "0";
+  attribute C_VERBOSITY : integer;
+  attribute C_VERBOSITY of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is 0;
+  attribute C_XDEVICEFAMILY : string;
+  attribute C_XDEVICEFAMILY of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is "zynq";
+  attribute DowngradeIPIdentifiedWarnings : string;
+  attribute DowngradeIPIdentifiedWarnings of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is "yes";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of \centroid_0_c_accum_v12_0_11__parameterized1\ : entity is "c_accum_v12_0_11";
+end \centroid_0_c_accum_v12_0_11__parameterized1\;
+
+architecture STRUCTURE of \centroid_0_c_accum_v12_0_11__parameterized1\ is
+  signal \<const0>\ : STD_LOGIC;
+  signal NLW_i_synth_Q_UNCONNECTED : STD_LOGIC_VECTOR ( 19 downto 0 );
+  attribute C_AINIT_VAL of i_synth : label is "0";
+  attribute C_CE_OVERRIDES_SCLR of i_synth : label is 0;
+  attribute C_HAS_CE of i_synth : label is 1;
+  attribute C_HAS_SCLR of i_synth : label is 1;
+  attribute C_HAS_SINIT of i_synth : label is 0;
+  attribute C_HAS_SSET of i_synth : label is 0;
+  attribute C_IMPLEMENTATION of i_synth : label is 1;
+  attribute C_SCLR_OVERRIDES_SSET of i_synth : label is 1;
+  attribute C_SINIT_VAL of i_synth : label is "0";
+  attribute C_XDEVICEFAMILY of i_synth : label is "zynq";
+  attribute c_add_mode of i_synth : label is 0;
+  attribute c_b_type of i_synth : label is 1;
+  attribute c_b_width of i_synth : label is 11;
+  attribute c_bypass_low of i_synth : label is 0;
+  attribute c_has_bypass of i_synth : label is 0;
+  attribute c_has_c_in of i_synth : label is 0;
+  attribute c_latency of i_synth : label is 1;
+  attribute c_out_width of i_synth : label is 20;
+  attribute c_scale of i_synth : label is 0;
+  attribute c_verbosity of i_synth : label is 0;
+  attribute downgradeipidentifiedwarnings of i_synth : label is "yes";
+begin
+  Q(19) <= \<const0>\;
+  Q(18) <= \<const0>\;
+  Q(17) <= \<const0>\;
+  Q(16) <= \<const0>\;
+  Q(15) <= \<const0>\;
+  Q(14) <= \<const0>\;
+  Q(13) <= \<const0>\;
+  Q(12) <= \<const0>\;
+  Q(11) <= \<const0>\;
+  Q(10) <= \<const0>\;
+  Q(9) <= \<const0>\;
+  Q(8) <= \<const0>\;
+  Q(7) <= \<const0>\;
+  Q(6) <= \<const0>\;
+  Q(5) <= \<const0>\;
+  Q(4) <= \<const0>\;
+  Q(3) <= \<const0>\;
+  Q(2) <= \<const0>\;
+  Q(1) <= \<const0>\;
+  Q(0) <= \<const0>\;
+GND: unisim.vcomponents.GND
+     port map (
+      G => \<const0>\
+    );
+i_synth: entity work.\centroid_0_c_accum_v12_0_11_viv__parameterized1\
+     port map (
+      ADD => '0',
+      B(10 downto 0) => B(10 downto 0),
+      BYPASS => '0',
+      CE => CE,
+      CLK => CLK,
+      C_IN => '0',
+      Q(19 downto 0) => NLW_i_synth_Q_UNCONNECTED(19 downto 0),
+      SCLR => SCLR,
+      SINIT => '0',
+      SSET => '0'
+    );
+end STRUCTURE;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity centroid_0_acc_m01 is
+  port (
+    Q : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    clk : in STD_LOGIC;
+    mask : in STD_LOGIC;
+    vsync : in STD_LOGIC;
+    prev_vsync : in STD_LOGIC
+  );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of centroid_0_acc_m01 : entity is "acc_m01";
+end centroid_0_acc_m01;
+
+architecture STRUCTURE of centroid_0_acc_m01 is
+  signal eof : STD_LOGIC;
+  signal NLW_U0_Q_UNCONNECTED : STD_LOGIC_VECTOR ( 19 downto 0 );
+  attribute C_AINIT_VAL : string;
+  attribute C_AINIT_VAL of U0 : label is "0";
+  attribute C_CE_OVERRIDES_SCLR : integer;
+  attribute C_CE_OVERRIDES_SCLR of U0 : label is 0;
+  attribute C_HAS_CE : integer;
+  attribute C_HAS_CE of U0 : label is 1;
+  attribute C_HAS_SCLR : integer;
+  attribute C_HAS_SCLR of U0 : label is 1;
+  attribute C_HAS_SINIT : integer;
+  attribute C_HAS_SINIT of U0 : label is 0;
+  attribute C_HAS_SSET : integer;
+  attribute C_HAS_SSET of U0 : label is 0;
+  attribute C_IMPLEMENTATION : integer;
+  attribute C_IMPLEMENTATION of U0 : label is 1;
+  attribute C_SCLR_OVERRIDES_SSET : integer;
+  attribute C_SCLR_OVERRIDES_SSET of U0 : label is 1;
+  attribute C_SINIT_VAL : string;
+  attribute C_SINIT_VAL of U0 : label is "0";
+  attribute C_XDEVICEFAMILY : string;
+  attribute C_XDEVICEFAMILY of U0 : label is "zynq";
+  attribute c_add_mode : integer;
+  attribute c_add_mode of U0 : label is 0;
+  attribute c_b_type : integer;
+  attribute c_b_type of U0 : label is 1;
+  attribute c_b_width : integer;
+  attribute c_b_width of U0 : label is 11;
+  attribute c_bypass_low : integer;
+  attribute c_bypass_low of U0 : label is 0;
+  attribute c_has_bypass : integer;
+  attribute c_has_bypass of U0 : label is 0;
+  attribute c_has_c_in : integer;
+  attribute c_has_c_in of U0 : label is 0;
+  attribute c_latency : integer;
+  attribute c_latency of U0 : label is 1;
+  attribute c_out_width : integer;
+  attribute c_out_width of U0 : label is 20;
+  attribute c_scale : integer;
+  attribute c_scale of U0 : label is 0;
+  attribute c_verbosity : integer;
+  attribute c_verbosity of U0 : label is 0;
+  attribute downgradeipidentifiedwarnings : string;
+  attribute downgradeipidentifiedwarnings of U0 : label is "yes";
+begin
+U0: entity work.\centroid_0_c_accum_v12_0_11__parameterized1\
+     port map (
+      ADD => '1',
+      B(10 downto 6) => B"00000",
+      B(5 downto 0) => Q(5 downto 0),
+      BYPASS => '0',
+      CE => mask,
+      CLK => clk,
+      C_IN => '0',
+      Q(19 downto 0) => NLW_U0_Q_UNCONNECTED(19 downto 0),
+      SCLR => eof,
+      SINIT => '0',
+      SSET => '0'
+    );
+U0_i_1: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => vsync,
+      I1 => prev_vsync,
+      O => eof
+    );
+end STRUCTURE;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity centroid_0_centroid is
+  port (
+    clk : in STD_LOGIC;
+    ce : in STD_LOGIC;
+    rst : in STD_LOGIC;
+    de : in STD_LOGIC;
+    hsync : in STD_LOGIC;
+    vsync : in STD_LOGIC;
+    mask : in STD_LOGIC;
+    x : out STD_LOGIC_VECTOR ( 0 to 10 );
+    y : out STD_LOGIC_VECTOR ( 0 to 10 )
+  );
+  attribute IMG_H : integer;
+  attribute IMG_H of centroid_0_centroid : entity is 64;
+  attribute IMG_W : integer;
+  attribute IMG_W of centroid_0_centroid : entity is 64;
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of centroid_0_centroid : entity is "centroid";
+end centroid_0_centroid;
+
+architecture STRUCTURE of centroid_0_centroid is
+  signal \<const0>\ : STD_LOGIC;
+  signal prev_vsync : STD_LOGIC;
+  signal x_pos : STD_LOGIC_VECTOR ( 0 to 10 );
+  signal \x_pos[0]_i_1_n_0\ : STD_LOGIC;
+  signal \x_pos[0]_i_3_n_0\ : STD_LOGIC;
+  signal \x_pos[0]_i_4_n_0\ : STD_LOGIC;
+  signal \x_pos[3]_i_1_n_0\ : STD_LOGIC;
+  signal \x_pos[4]_i_2_n_0\ : STD_LOGIC;
+  signal \x_pos[4]_i_3_n_0\ : STD_LOGIC;
+  signal \x_pos[5]_i_1_n_0\ : STD_LOGIC;
+  signal \x_pos[6]_i_1_n_0\ : STD_LOGIC;
+  signal \x_pos_reg_n_0_[0]\ : STD_LOGIC;
+  signal \x_pos_reg_n_0_[10]\ : STD_LOGIC;
+  signal \x_pos_reg_n_0_[1]\ : STD_LOGIC;
+  signal \x_pos_reg_n_0_[2]\ : STD_LOGIC;
+  signal \x_pos_reg_n_0_[3]\ : STD_LOGIC;
+  signal \x_pos_reg_n_0_[4]\ : STD_LOGIC;
+  signal \x_pos_reg_n_0_[5]\ : STD_LOGIC;
+  signal \x_pos_reg_n_0_[6]\ : STD_LOGIC;
+  signal \x_pos_reg_n_0_[7]\ : STD_LOGIC;
+  signal \x_pos_reg_n_0_[8]\ : STD_LOGIC;
+  signal \x_pos_reg_n_0_[9]\ : STD_LOGIC;
+  signal \y_pos[10]_i_1_n_0\ : STD_LOGIC;
+  signal \y_pos[5]_i_1_n_0\ : STD_LOGIC;
+  signal \y_pos[5]_i_2_n_0\ : STD_LOGIC;
+  signal \y_pos[5]_i_3_n_0\ : STD_LOGIC;
+  signal \y_pos[6]_i_1_n_0\ : STD_LOGIC;
+  signal \y_pos[7]_i_1_n_0\ : STD_LOGIC;
+  signal \y_pos[8]_i_1_n_0\ : STD_LOGIC;
+  signal \y_pos[9]_i_1_n_0\ : STD_LOGIC;
+  signal \y_pos_reg_n_0_[10]\ : STD_LOGIC;
+  signal \y_pos_reg_n_0_[5]\ : STD_LOGIC;
+  signal \y_pos_reg_n_0_[6]\ : STD_LOGIC;
+  signal \y_pos_reg_n_0_[7]\ : STD_LOGIC;
+  signal \y_pos_reg_n_0_[8]\ : STD_LOGIC;
+  signal \y_pos_reg_n_0_[9]\ : STD_LOGIC;
+  attribute SOFT_HLUTNM : string;
+  attribute SOFT_HLUTNM of \x_pos[10]_i_1\ : label is "soft_lutpair6";
+  attribute SOFT_HLUTNM of \x_pos[1]_i_1\ : label is "soft_lutpair0";
+  attribute SOFT_HLUTNM of \x_pos[2]_i_1\ : label is "soft_lutpair0";
+  attribute SOFT_HLUTNM of \x_pos[3]_i_1\ : label is "soft_lutpair5";
+  attribute SOFT_HLUTNM of \x_pos[4]_i_2\ : label is "soft_lutpair3";
+  attribute SOFT_HLUTNM of \x_pos[6]_i_1\ : label is "soft_lutpair2";
+  attribute SOFT_HLUTNM of \x_pos[7]_i_1\ : label is "soft_lutpair2";
+  attribute SOFT_HLUTNM of \x_pos[8]_i_1\ : label is "soft_lutpair3";
+  attribute SOFT_HLUTNM of \x_pos[9]_i_1\ : label is "soft_lutpair6";
+  attribute SOFT_HLUTNM of \y_pos[5]_i_3\ : label is "soft_lutpair5";
+  attribute SOFT_HLUTNM of \y_pos[6]_i_1\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \y_pos[7]_i_1\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \y_pos[8]_i_1\ : label is "soft_lutpair4";
+  attribute SOFT_HLUTNM of \y_pos[9]_i_1\ : label is "soft_lutpair4";
+  attribute X_INTERFACE_INFO : string;
+  attribute X_INTERFACE_INFO of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
+  attribute X_INTERFACE_PARAMETER : string;
+  attribute X_INTERFACE_PARAMETER of clk : signal is "XIL_INTERFACENAME clk, FREQ_HZ 100000000, PHASE 0.000";
+  attribute X_INTERFACE_INFO of mask : signal is "xilinx.com:signal:clockenable:1.0 ce_intf CE";
+  attribute X_INTERFACE_PARAMETER of mask : signal is "XIL_INTERFACENAME ce_intf, POLARITY ACTIVE_LOW";
+begin
+  x(0) <= \<const0>\;
+  x(1) <= \<const0>\;
+  x(2) <= \<const0>\;
+  x(3) <= \<const0>\;
+  x(4) <= \<const0>\;
+  x(5) <= \<const0>\;
+  x(6) <= \<const0>\;
+  x(7) <= \<const0>\;
+  x(8) <= \<const0>\;
+  x(9) <= \<const0>\;
+  x(10) <= \<const0>\;
+  y(0) <= \<const0>\;
+  y(1) <= \<const0>\;
+  y(2) <= \<const0>\;
+  y(3) <= \<const0>\;
+  y(4) <= \<const0>\;
+  y(5) <= \<const0>\;
+  y(6) <= \<const0>\;
+  y(7) <= \<const0>\;
+  y(8) <= \<const0>\;
+  y(9) <= \<const0>\;
+  y(10) <= \<const0>\;
+GND: unisim.vcomponents.GND
+     port map (
+      G => \<const0>\
+    );
+prev_vsync_reg: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => '1',
+      D => vsync,
+      Q => prev_vsync,
+      R => '0'
+    );
+\x_pos[0]_i_1\: unisim.vcomponents.LUT3
+    generic map(
+      INIT => X"EA"
+    )
+        port map (
+      I0 => vsync,
+      I1 => de,
+      I2 => \x_pos[0]_i_3_n_0\,
+      O => \x_pos[0]_i_1_n_0\
+    );
+\x_pos[0]_i_2\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"A6AAAAAAAAAAAAAA"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[0]\,
+      I1 => \x_pos_reg_n_0_[2]\,
+      I2 => \x_pos[0]_i_4_n_0\,
+      I3 => \x_pos_reg_n_0_[4]\,
+      I4 => \x_pos_reg_n_0_[3]\,
+      I5 => \x_pos_reg_n_0_[1]\,
+      O => x_pos(0)
+    );
+\x_pos[0]_i_3\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"8000000000000000"
+    )
+        port map (
+      I0 => \y_pos_reg_n_0_[9]\,
+      I1 => \y_pos_reg_n_0_[10]\,
+      I2 => \y_pos_reg_n_0_[7]\,
+      I3 => \y_pos_reg_n_0_[6]\,
+      I4 => \y_pos_reg_n_0_[8]\,
+      I5 => \y_pos_reg_n_0_[5]\,
+      O => \x_pos[0]_i_3_n_0\
+    );
+\x_pos[0]_i_4\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"7FFFFFFFFFFFFFFF"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[6]\,
+      I1 => \x_pos_reg_n_0_[9]\,
+      I2 => \x_pos_reg_n_0_[10]\,
+      I3 => \x_pos_reg_n_0_[7]\,
+      I4 => \x_pos_reg_n_0_[8]\,
+      I5 => \x_pos_reg_n_0_[5]\,
+      O => \x_pos[0]_i_4_n_0\
+    );
+\x_pos[10]_i_1\: unisim.vcomponents.LUT1
+    generic map(
+      INIT => X"1"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[10]\,
+      O => x_pos(10)
+    );
+\x_pos[1]_i_1\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"AA6AAAAA"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[1]\,
+      I1 => \x_pos_reg_n_0_[3]\,
+      I2 => \x_pos_reg_n_0_[4]\,
+      I3 => \x_pos[0]_i_4_n_0\,
+      I4 => \x_pos_reg_n_0_[2]\,
+      O => x_pos(1)
+    );
+\x_pos[2]_i_1\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"9AAA"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[2]\,
+      I1 => \x_pos[0]_i_4_n_0\,
+      I2 => \x_pos_reg_n_0_[4]\,
+      I3 => \x_pos_reg_n_0_[3]\,
+      O => x_pos(2)
+    );
+\x_pos[3]_i_1\: unisim.vcomponents.LUT3
+    generic map(
+      INIT => X"A6"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[3]\,
+      I1 => \x_pos_reg_n_0_[4]\,
+      I2 => \x_pos[0]_i_4_n_0\,
+      O => \x_pos[3]_i_1_n_0\
+    );
+\x_pos[4]_i_1\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AAAAAAAA55555554"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[4]\,
+      I1 => \x_pos_reg_n_0_[1]\,
+      I2 => \x_pos_reg_n_0_[3]\,
+      I3 => \x_pos[4]_i_2_n_0\,
+      I4 => \x_pos[4]_i_3_n_0\,
+      I5 => \x_pos[0]_i_4_n_0\,
+      O => x_pos(4)
+    );
+\x_pos[4]_i_2\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"FFF7"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[9]\,
+      I1 => \x_pos_reg_n_0_[10]\,
+      I2 => \x_pos_reg_n_0_[0]\,
+      I3 => \x_pos_reg_n_0_[2]\,
+      O => \x_pos[4]_i_2_n_0\
+    );
+\x_pos[4]_i_3\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"7FFF"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[6]\,
+      I1 => \x_pos_reg_n_0_[7]\,
+      I2 => \x_pos_reg_n_0_[5]\,
+      I3 => \x_pos_reg_n_0_[8]\,
+      O => \x_pos[4]_i_3_n_0\
+    );
+\x_pos[5]_i_1\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"6AAAAAAAAAAAAAAA"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[5]\,
+      I1 => \x_pos_reg_n_0_[6]\,
+      I2 => \x_pos_reg_n_0_[9]\,
+      I3 => \x_pos_reg_n_0_[10]\,
+      I4 => \x_pos_reg_n_0_[7]\,
+      I5 => \x_pos_reg_n_0_[8]\,
+      O => \x_pos[5]_i_1_n_0\
+    );
+\x_pos[6]_i_1\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"6AAAAAAA"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[6]\,
+      I1 => \x_pos_reg_n_0_[8]\,
+      I2 => \x_pos_reg_n_0_[7]\,
+      I3 => \x_pos_reg_n_0_[10]\,
+      I4 => \x_pos_reg_n_0_[9]\,
+      O => \x_pos[6]_i_1_n_0\
+    );
+\x_pos[7]_i_1\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"6AAA"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[7]\,
+      I1 => \x_pos_reg_n_0_[9]\,
+      I2 => \x_pos_reg_n_0_[10]\,
+      I3 => \x_pos_reg_n_0_[8]\,
+      O => x_pos(7)
+    );
+\x_pos[8]_i_1\: unisim.vcomponents.LUT3
+    generic map(
+      INIT => X"6A"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[8]\,
+      I1 => \x_pos_reg_n_0_[10]\,
+      I2 => \x_pos_reg_n_0_[9]\,
+      O => x_pos(8)
+    );
+\x_pos[9]_i_1\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"6"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[10]\,
+      I1 => \x_pos_reg_n_0_[9]\,
+      O => x_pos(9)
+    );
+\x_pos_reg[0]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => de,
+      D => x_pos(0),
+      Q => \x_pos_reg_n_0_[0]\,
+      R => \x_pos[0]_i_1_n_0\
+    );
+\x_pos_reg[10]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => de,
+      D => x_pos(10),
+      Q => \x_pos_reg_n_0_[10]\,
+      R => \x_pos[0]_i_1_n_0\
+    );
+\x_pos_reg[1]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => de,
+      D => x_pos(1),
+      Q => \x_pos_reg_n_0_[1]\,
+      R => \x_pos[0]_i_1_n_0\
+    );
+\x_pos_reg[2]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => de,
+      D => x_pos(2),
+      Q => \x_pos_reg_n_0_[2]\,
+      R => \x_pos[0]_i_1_n_0\
+    );
+\x_pos_reg[3]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => de,
+      D => \x_pos[3]_i_1_n_0\,
+      Q => \x_pos_reg_n_0_[3]\,
+      R => \x_pos[0]_i_1_n_0\
+    );
+\x_pos_reg[4]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => de,
+      D => x_pos(4),
+      Q => \x_pos_reg_n_0_[4]\,
+      R => \x_pos[0]_i_1_n_0\
+    );
+\x_pos_reg[5]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => de,
+      D => \x_pos[5]_i_1_n_0\,
+      Q => \x_pos_reg_n_0_[5]\,
+      R => \x_pos[0]_i_1_n_0\
+    );
+\x_pos_reg[6]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => de,
+      D => \x_pos[6]_i_1_n_0\,
+      Q => \x_pos_reg_n_0_[6]\,
+      R => \x_pos[0]_i_1_n_0\
+    );
+\x_pos_reg[7]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => de,
+      D => x_pos(7),
+      Q => \x_pos_reg_n_0_[7]\,
+      R => \x_pos[0]_i_1_n_0\
+    );
+\x_pos_reg[8]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => de,
+      D => x_pos(8),
+      Q => \x_pos_reg_n_0_[8]\,
+      R => \x_pos[0]_i_1_n_0\
+    );
+\x_pos_reg[9]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => de,
+      D => x_pos(9),
+      Q => \x_pos_reg_n_0_[9]\,
+      R => \x_pos[0]_i_1_n_0\
+    );
+y_add: entity work.centroid_0_acc_m01
+     port map (
+      Q(5) => \y_pos_reg_n_0_[5]\,
+      Q(4) => \y_pos_reg_n_0_[6]\,
+      Q(3) => \y_pos_reg_n_0_[7]\,
+      Q(2) => \y_pos_reg_n_0_[8]\,
+      Q(1) => \y_pos_reg_n_0_[9]\,
+      Q(0) => \y_pos_reg_n_0_[10]\,
+      clk => clk,
+      mask => mask,
+      prev_vsync => prev_vsync,
+      vsync => vsync
+    );
+\y_pos[10]_i_1\: unisim.vcomponents.LUT1
+    generic map(
+      INIT => X"1"
+    )
+        port map (
+      I0 => \y_pos_reg_n_0_[10]\,
+      O => \y_pos[10]_i_1_n_0\
+    );
+\y_pos[5]_i_1\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AAAAAABA00000000"
+    )
+        port map (
+      I0 => \x_pos[0]_i_3_n_0\,
+      I1 => \x_pos[0]_i_4_n_0\,
+      I2 => \y_pos[5]_i_3_n_0\,
+      I3 => \x_pos_reg_n_0_[2]\,
+      I4 => \x_pos_reg_n_0_[0]\,
+      I5 => de,
+      O => \y_pos[5]_i_1_n_0\
+    );
+\y_pos[5]_i_2\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"6AAAAAAAAAAAAAAA"
+    )
+        port map (
+      I0 => \y_pos_reg_n_0_[5]\,
+      I1 => \y_pos_reg_n_0_[8]\,
+      I2 => \y_pos_reg_n_0_[10]\,
+      I3 => \y_pos_reg_n_0_[9]\,
+      I4 => \y_pos_reg_n_0_[7]\,
+      I5 => \y_pos_reg_n_0_[6]\,
+      O => \y_pos[5]_i_2_n_0\
+    );
+\y_pos[5]_i_3\: unisim.vcomponents.LUT3
+    generic map(
+      INIT => X"01"
+    )
+        port map (
+      I0 => \x_pos_reg_n_0_[3]\,
+      I1 => \x_pos_reg_n_0_[1]\,
+      I2 => \x_pos_reg_n_0_[4]\,
+      O => \y_pos[5]_i_3_n_0\
+    );
+\y_pos[6]_i_1\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"7FFF8000"
+    )
+        port map (
+      I0 => \y_pos_reg_n_0_[8]\,
+      I1 => \y_pos_reg_n_0_[10]\,
+      I2 => \y_pos_reg_n_0_[9]\,
+      I3 => \y_pos_reg_n_0_[7]\,
+      I4 => \y_pos_reg_n_0_[6]\,
+      O => \y_pos[6]_i_1_n_0\
+    );
+\y_pos[7]_i_1\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"6AAA"
+    )
+        port map (
+      I0 => \y_pos_reg_n_0_[7]\,
+      I1 => \y_pos_reg_n_0_[9]\,
+      I2 => \y_pos_reg_n_0_[10]\,
+      I3 => \y_pos_reg_n_0_[8]\,
+      O => \y_pos[7]_i_1_n_0\
+    );
+\y_pos[8]_i_1\: unisim.vcomponents.LUT3
+    generic map(
+      INIT => X"6A"
+    )
+        port map (
+      I0 => \y_pos_reg_n_0_[8]\,
+      I1 => \y_pos_reg_n_0_[9]\,
+      I2 => \y_pos_reg_n_0_[10]\,
+      O => \y_pos[8]_i_1_n_0\
+    );
+\y_pos[9]_i_1\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"6"
+    )
+        port map (
+      I0 => \y_pos_reg_n_0_[10]\,
+      I1 => \y_pos_reg_n_0_[9]\,
+      O => \y_pos[9]_i_1_n_0\
+    );
+\y_pos_reg[10]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => \y_pos[5]_i_1_n_0\,
+      D => \y_pos[10]_i_1_n_0\,
+      Q => \y_pos_reg_n_0_[10]\,
+      R => vsync
+    );
+\y_pos_reg[5]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => \y_pos[5]_i_1_n_0\,
+      D => \y_pos[5]_i_2_n_0\,
+      Q => \y_pos_reg_n_0_[5]\,
+      R => vsync
+    );
+\y_pos_reg[6]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => \y_pos[5]_i_1_n_0\,
+      D => \y_pos[6]_i_1_n_0\,
+      Q => \y_pos_reg_n_0_[6]\,
+      R => vsync
+    );
+\y_pos_reg[7]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => \y_pos[5]_i_1_n_0\,
+      D => \y_pos[7]_i_1_n_0\,
+      Q => \y_pos_reg_n_0_[7]\,
+      R => vsync
+    );
+\y_pos_reg[8]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => \y_pos[5]_i_1_n_0\,
+      D => \y_pos[8]_i_1_n_0\,
+      Q => \y_pos_reg_n_0_[8]\,
+      R => vsync
+    );
+\y_pos_reg[9]\: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => \y_pos[5]_i_1_n_0\,
+      D => \y_pos[9]_i_1_n_0\,
+      Q => \y_pos_reg_n_0_[9]\,
+      R => vsync
+    );
+end STRUCTURE;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity centroid_0 is
+  port (
+    clk : in STD_LOGIC;
+    ce : in STD_LOGIC;
+    rst : in STD_LOGIC;
+    de : in STD_LOGIC;
+    hsync : in STD_LOGIC;
+    vsync : in STD_LOGIC;
+    mask : in STD_LOGIC;
+    x : out STD_LOGIC_VECTOR ( 0 to 10 );
+    y : out STD_LOGIC_VECTOR ( 0 to 10 )
+  );
+  attribute NotValidForBitStream : boolean;
+  attribute NotValidForBitStream of centroid_0 : entity is true;
+  attribute CHECK_LICENSE_TYPE : string;
+  attribute CHECK_LICENSE_TYPE of centroid_0 : entity is "centroid_0,centroid,{}";
+  attribute DowngradeIPIdentifiedWarnings : string;
+  attribute DowngradeIPIdentifiedWarnings of centroid_0 : entity is "yes";
+  attribute X_CORE_INFO : string;
+  attribute X_CORE_INFO of centroid_0 : entity is "centroid,Vivado 2017.4";
+end centroid_0;
+
+architecture STRUCTURE of centroid_0 is
+  attribute IMG_H : integer;
+  attribute IMG_H of inst : label is 64;
+  attribute IMG_W : integer;
+  attribute IMG_W of inst : label is 64;
+  attribute X_INTERFACE_INFO : string;
+  attribute X_INTERFACE_INFO of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
+  attribute X_INTERFACE_PARAMETER : string;
+  attribute X_INTERFACE_PARAMETER of clk : signal is "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, PHASE 0.000";
+  attribute X_INTERFACE_INFO of rst : signal is "xilinx.com:signal:reset:1.0 rst RST";
+  attribute X_INTERFACE_PARAMETER of rst : signal is "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW";
+begin
+inst: entity work.centroid_0_centroid
+     port map (
+      ce => ce,
+      clk => clk,
+      de => de,
+      hsync => hsync,
+      mask => mask,
+      rst => rst,
+      vsync => vsync,
+      x(0 to 10) => x(0 to 10),
+      y(0 to 10) => y(0 to 10)
+    );
+end STRUCTURE;

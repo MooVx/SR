@@ -1,0 +1,13 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 0640050eddcc43a1a79886f597c9e583 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port vsync_out on this module [C:/git/SR/lab10/zad10_6/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v:69]
+ERROR: [VRFC 10-426] cannot find port hsync_out on this module [C:/git/SR/lab10/zad10_6/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v:68]
+ERROR: [VRFC 10-426] cannot find port vsync on this module [C:/git/SR/lab10/zad10_6/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v:64]
+ERROR: [VRFC 10-426] cannot find port hsync on this module [C:/git/SR/lab10/zad10_6/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v:63]
+ERROR: [VRFC 10-426] cannot find port de on this module [C:/git/SR/lab10/zad10_6/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v:62]
+ERROR: [VRFC 10-2063] Module <vp> not found while processing module instance <inst> [C:/git/SR/lab10/zad10_6/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/rgb2hsv_0/sim/rgb2hsv_0.v:80]
+ERROR: [VRFC 10-2063] Module <hdmi_out> not found while processing module instance <file_output> [C:/git/SR/lab10/zad10_6/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v:89]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

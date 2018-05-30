@@ -1,9 +1,0 @@
-Vivado Simulator 2017.4
-Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto e6ef3da3e96d46e48d145ea8309443d7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-ERROR: [VRFC 10-2063] Module <hdmi_in> not found while processing module instance <file_input> [C:/git/SR/lab08/zad85/zad85.srcs/sim_1/new/tb_hdmi.v:49]
-ERROR: [VRFC 10-2063] Module <vp_bin_0> not found while processing module instance <video_processing> [C:/git/SR/lab08/zad85/zad85.srcs/sim_1/new/tb_hdmi.v:66]
-ERROR: [VRFC 10-2063] Module <hdmi_out> not found while processing module instance <file_output> [C:/git/SR/lab08/zad85/zad85.srcs/sim_1/new/tb_hdmi.v:106]
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

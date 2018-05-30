@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../../../../../../Resources/vp/src/rgb2ycbcr_0_1/src/mult_gen_1/sim/mult_gen_1.vhd" \
+"../../../../../../../../Resources/vp/src/rgb2ycbcr_0_1/src/c_addsub_1/sim/c_addsub_1.vhd" \
+
+nosort

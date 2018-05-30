@@ -1,0 +1,13 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Warning: OPMODE Input Warning : The OPMODE 0U01100 with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 100010 ps  Iteration: 0  Process: /tb_hdmi/video_processing/inst/cent/inst/m00_acc/U0/i_synth/i_baseip/i_xbip_accum/dsp48_implementation/use_usecase/i_xbip_dsp48_acc/i_synth_option/i_synth_model/opt_vx5/i_uniwrap/i_primitive/D1/prcs_opmode_drc  File: C:\Xilinx\Vivado\2017.4\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0U01100 with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 100010 ps  Iteration: 0  Process: /tb_hdmi/video_processing/inst/cent/inst/m00_acc/U0/i_synth/i_baseip/i_xbip_accum/dsp48_implementation/use_usecase/i_xbip_dsp48_acc/i_synth_option/i_synth_model/opt_vx5/i_uniwrap/i_primitive/D1/prcs_opmode_drc  File: C:\Xilinx\Vivado\2017.4\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+out  0.ppm saved
+out  1.ppm saved
+out  2.ppm saved
+out  3.ppm saved
+out  4.ppm saved
+out  5.ppm saved
+out  6.ppm saved

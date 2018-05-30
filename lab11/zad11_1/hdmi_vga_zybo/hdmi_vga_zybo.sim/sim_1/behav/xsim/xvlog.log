@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/src/rgb2ycbcr_0_1/src/delay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/src/rgb2ycbcr_0_1/src/delay_line.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_line
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/src/rgb2ycbcr_0_1/src/rgb2ycbcr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2ycbcr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/src/rgb2ycbcr_0_1/sim/rgb2ycbcr_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2ycbcr_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/src/centroid_0_1/src/divider_32_20.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider_32_20
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/src/centroid_0_1/sim/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/src/centroid_0_1/src/centroid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module centroid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/src/centroid_0_1/sim/centroid_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module centroid_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/src/vis_centroid_0_1/src/vis_centroid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vis_centroid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/src/vis_centroid_0_1/sim/vis_centroid_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vis_centroid_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/src/vp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab11/zad11_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/vp_0/sim/vp_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vp_0

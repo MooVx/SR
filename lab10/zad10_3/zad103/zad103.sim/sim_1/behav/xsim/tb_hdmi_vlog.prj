@@ -1,9 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  --include "../../../../zad85.srcs/sources_1/bd/hdmi_vga/ipshared/4868" \
-"../../../../zad85.srcs/sim_1/new/tb_hdmi.v" \
-
-# compile glbl module
-verilog xil_defaultlib "glbl.v"
-
-# Do not sort compile order
-nosort

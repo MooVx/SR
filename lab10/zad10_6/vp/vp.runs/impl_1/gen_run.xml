@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1526249121">
+  <File Type="PWROPT-DCP" Name="vp_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="vp_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="vp.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="vp_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="vp_reports.tcl"/>
+  <File Type="BG-DRC" Name="vp.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="vp_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="vp_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="vp.hwdef"/>
+  <File Type="OPT-DCP" Name="vp_opt.dcp"/>
+  <File Type="OPT-DRC" Name="vp_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="vp_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="vp_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="vp_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="vp_placed.dcp"/>
+  <File Type="PLACE-IO" Name="vp_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="vp_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="vp_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="vp_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="vp_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="vp_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="vp_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="vp_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="vp_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="vp_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="vp_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="vp_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="vp.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="vp_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="vp_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="vp_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="vp_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="vp_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="vp_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="vp.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="vp_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="vp.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="vp_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="vp.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="vp_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="vp.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="vp_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="vp_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="vp_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="vp_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="vp_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="vp_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="vp_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="vp_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="vp.vdi"/>
+  <File Type="ROUTE-CLK" Name="vp_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="vp_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="vp_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="vp_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="vp_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="vp_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="vp.nky"/>
+  <File Type="BITSTR-BMM" Name="vp_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="vp.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="vp.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="vp.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/vp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../zad84/zad84.srcs/sources_1/new/vp.v"/>
+        <Attr Name="ImportTime" Val="1524035065"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="vp"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

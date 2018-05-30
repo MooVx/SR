@@ -1,0 +1,155 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun May 13 11:11:36 2018
+# Process ID: 7080
+# Current directory: C:/git/SR/lab10/zad10_3/hdmi_vga_zybo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3800 C:\git\SR\lab10\zad10_3\hdmi_vga_zybo\hdmi_vga_zybo.xpr
+# Log file: C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/vivado.log
+# Journal file: C:/git/SR/lab10/zad10_3/hdmi_vga_zybo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab10/Resources'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'hdmi_vga_vp_0_0' generated file not found 'c:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_0_0/hdmi_vga_vp_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'hdmi_vga_vp_0_0' generated file not found 'c:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_0_0/hdmi_vga_vp_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'hdmi_vga_vp_0_0' generated file not found 'c:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_0_0/hdmi_vga_vp_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'hdmi_vga_vp_0_0' generated file not found 'c:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_0_0/hdmi_vga_vp_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'hdmi_vga_vp_0_0' generated file not found 'c:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_0_0/hdmi_vga_vp_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 795.492 ; gain = 105.531
+update_compile_order -fileset sources_1
+open_bd_design {C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd}
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - GND
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - VCC
+Adding cell -- digilentinc.com:ip:rgb2vga:1.0 - rgb2vga_1
+Adding cell -- digilentinc.com:ip:dvi2rgb:1.8 - dvi2rgb_1
+Adding cell -- xilinx.com:user:vp:1.0 - vp_0
+Successfully read diagram <hdmi_vga> from BD file <C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd>
+open_bd_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 892.578 ; gain = 94.648
+reset_run hdmi_vga_vp_0_0_synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+[Sun May 13 11:18:37 2018] Launched hdmi_vga_vp_0_0_synth_1, synth_1...
+Run output will be captured here:
+hdmi_vga_vp_0_0_synth_1: C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.runs/hdmi_vga_vp_0_0_synth_1/runme.log
+synth_1: C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.runs/synth_1/runme.log
+[Sun May 13 11:18:38 2018] Launched impl_1...
+Run output will be captured here: C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.runs/impl_1/runme.log
+ipx::edit_ip_in_project -upgrade true -name vp_v1_0_project -directory C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project c:/git/SR/lab10/Resources/vp/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab10/Resources'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 8
+[Sun May 13 11:22:01 2018] Launched synth_1...
+Run output will be captured here: c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.runs/synth_1/runme.log
+[Sun May 13 11:22:01 2018] Launched impl_1...
+Run output will be captured here: c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.runs/impl_1/runme.log
+create_ip -name rgb2ycbcr -vendor xilinx.com -library user -version 1.0 -module_name rgb2ycbcr_0 -dir c:/git/SR/lab10/Resources/vp/src
+generate_target {instantiation_template} [get_files c:/git/SR/lab10/Resources/vp/src/rgb2ycbcr_0_1/rgb2ycbcr_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rgb2ycbcr_0'...
+generate_target all [get_files  c:/git/SR/lab10/Resources/vp/src/rgb2ycbcr_0_1/rgb2ycbcr_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rgb2ycbcr_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rgb2ycbcr_0'...
+INFO: [IP_Flow 19-1686] Generating 'Test Bench' target for IP 'rgb2ycbcr_0'...
+catch { config_ip_cache -export [get_ips -all rgb2ycbcr_0] }
+export_ip_user_files -of_objects [get_files c:/git/SR/lab10/Resources/vp/src/rgb2ycbcr_0_1/rgb2ycbcr_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/git/SR/lab10/Resources/vp/src/rgb2ycbcr_0_1/rgb2ycbcr_0.xci]
+launch_runs -jobs 8 rgb2ycbcr_0_synth_1
+[Sun May 13 11:23:16 2018] Launched rgb2ycbcr_0_synth_1...
+Run output will be captured here: c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.runs/rgb2ycbcr_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/git/SR/lab10/Resources/vp/src/rgb2ycbcr_0_1/rgb2ycbcr_0.xci] -directory c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.ip_user_files/sim_scripts -ip_user_files_dir c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.ip_user_files -ipstatic_source_dir c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/modelsim} {questa=c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/questa} {riviera=c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/riviera} {activehdl=c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.runs/synth_1
+
+launch_runs impl_1 -jobs 8
+[Sun May 13 11:23:58 2018] Launched rgb2ycbcr_0_synth_1, synth_1...
+Run output will be captured here:
+rgb2ycbcr_0_synth_1: c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.runs/rgb2ycbcr_0_synth_1/runme.log
+synth_1: c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.runs/synth_1/runme.log
+[Sun May 13 11:23:58 2018] Launched impl_1...
+Run output will be captured here: c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+[Sun May 13 11:33:42 2018] Launched synth_1...
+Run output will be captured here: c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.runs/synth_1/runme.log
+[Sun May 13 11:33:42 2018] Launched impl_1...
+Run output will be captured here: c:/git/sr/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.runs/impl_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] rgb2ycbcr_0 has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab10/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab10/Resources'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:vp:1.0 [get_ips  hdmi_vga_vp_0_0] -log ip_upgrade.log
+Upgrading 'C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.runs/hdmi_vga_vp_0_0_synth_1
+
+INFO: [IP_Flow 19-3422] Upgraded hdmi_vga_vp_0_0 (vp_v1_0 1.0) from revision 3 to revision 4
+WARNING: [IP_Flow 19-4706] Upgraded port 'sw' width 3 differs from original width 4
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'hdmi_vga_vp_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'hdmi_vga_vp_0_0' has identified issues that may require user intervention. Please review the upgrade log 'c:/git/SR/lab10/zad10_3/hdmi_vga_zybo/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Wrote  : <C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips hdmi_vga_vp_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd]
+WARNING: [BD 41-927] Following properties on pin /rgb2vga_1/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=hdmi_vga_dvi2rgb_1_1_PixelClk 
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_1/RefClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_0_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_1/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=hdmi_vga_dvi2rgb_1_1_PixelClk 
+Wrote  : <C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd> 
+VHDL Output written to : C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/synth/hdmi_vga.v
+VHDL Output written to : C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/sim/hdmi_vga.v
+VHDL Output written to : C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdl/hdmi_vga_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block GND .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block VCC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2vga_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vp_0 .
+Exporting to file C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hw_handoff/hdmi_vga.hwh
+Generated Block Design Tcl file C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hw_handoff/hdmi_vga_bd.tcl
+Generated Hardware Definition File C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/synth/hdmi_vga.hwdef
+catch { config_ip_cache -export [get_ips -all hdmi_vga_vp_0_0] }
+export_ip_user_files -of_objects [get_files C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd]
+launch_runs -jobs 8 hdmi_vga_vp_0_0_synth_1
+[Sun May 13 11:36:34 2018] Launched hdmi_vga_vp_0_0_synth_1...
+Run output will be captured here: C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.runs/hdmi_vga_vp_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd] -directory C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/sim_scripts -ip_user_files_dir C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files -ipstatic_source_dir C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/modelsim} {questa=C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/questa} {riviera=C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/riviera} {activehdl=C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property location {-61 211} [get_bd_ports sw]
+save_bd_design
+Wrote  : <C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ui/bd_390e6c89.ui> 
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+[Sun May 13 11:37:44 2018] Launched hdmi_vga_vp_0_0_synth_1, synth_1...
+Run output will be captured here:
+hdmi_vga_vp_0_0_synth_1: C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.runs/hdmi_vga_vp_0_0_synth_1/runme.log
+synth_1: C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.runs/synth_1/runme.log
+[Sun May 13 11:37:44 2018] Launched impl_1...
+Run output will be captured here: C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun May 13 11:41:36 2018] Launched impl_1...
+Run output will be captured here: C:/git/SR/lab10/zad10_3/hdmi_vga_zybo/hdmi_vga_zybo.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 13 16:49:27 2018...

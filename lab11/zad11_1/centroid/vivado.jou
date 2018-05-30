@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed May 30 08:32:19 2018
+# Process ID: 9668
+# Current directory: C:/git/SR/lab11/zad11_1/centroid
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10232 C:\git\SR\lab11\zad11_1\centroid\centroid.xpr
+# Log file: C:/git/SR/lab11/zad11_1/centroid/vivado.log
+# Journal file: C:/git/SR/lab11/zad11_1/centroid\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/git/SR/lab11/zad11_1/centroid/centroid.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir C:/git/SR/lab11/Resources/centroid -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+ipx::unload_core c:/git/SR/lab11/Resources/centroid/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab11/Resources/centroid c:/git/SR/lab11/Resources/centroid/component.xml
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+set_property  ip_repo_paths  {c:/git/SR/lab11/Resources/centroid c:/git/SR/lab11/lab5_new/hdmi_vga_ip_repo} [current_project]
+update_ip_catalog

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed May 23 23:40:27 2018
+# Process ID: 5804
+# Current directory: C:/Users/Krasnal/Desktop/Wegrzyn/lab7/vis_circle/vis_circle.runs/mult_gen_xa_synth_1
+# Command line: vivado.exe -log mult_gen_xa.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_gen_xa.tcl
+# Log file: C:/Users/Krasnal/Desktop/Wegrzyn/lab7/vis_circle/vis_circle.runs/mult_gen_xa_synth_1/mult_gen_xa.vds
+# Journal file: C:/Users/Krasnal/Desktop/Wegrzyn/lab7/vis_circle/vis_circle.runs/mult_gen_xa_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult_gen_xa.tcl -notrace
