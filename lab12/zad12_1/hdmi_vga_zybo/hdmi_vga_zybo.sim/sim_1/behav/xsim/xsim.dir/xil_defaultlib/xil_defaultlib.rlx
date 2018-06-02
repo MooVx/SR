@@ -1,0 +1,14 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/sim/delayLineBRAM.v,1527943142,verilog,,C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delay.v,,delayLineBRAM,,,../../../../hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ipshared/4868,,,,,
+C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/sim/median5x5_0.v,1527942466,verilog,,C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/hdmi_in.v,,median5x5_0,,,../../../../hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ipshared/4868,,,,,
+C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delay.v,1527942466,verilog,,C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delayLinieBRAM_WP.v,,delay,,,../../../../hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ipshared/4868,,,,,
+C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delayLinieBRAM_WP.v,1527942466,verilog,,C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delay_block.v,,delayLinieBRAM_WP,,,../../../../hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ipshared/4868,,,,,
+C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delay_block.v,1527942466,verilog,,C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v,,delay_block,,,../../../../hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ipshared/4868,,,,,
+C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v,1527942466,verilog,,C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/sim/median5x5_0.v,,median5x5,,,../../../../hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ipshared/4868,,,,,
+C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/hdmi_in.v,1527924365,verilog,,C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/hdmi_out.v,,hdmi_in,,,../../../../hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ipshared/4868,,,,,
+C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/hdmi_out.v,1525814858,verilog,,C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v,,hdmi_out,,,../../../../hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ipshared/4868,,,,,
+C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v,1527924234,verilog,,,,tb_hdmi,,,../../../../hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ipshared/4868,,,,,

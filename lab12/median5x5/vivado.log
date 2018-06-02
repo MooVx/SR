@@ -1,0 +1,383 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jun  2 08:55:06 2018
+# Process ID: 5328
+# Current directory: C:/git/SR/lab12/median5x5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10180 C:\git\SR\lab12\median5x5\median5x5.xpr
+# Log file: C:/git/SR/lab12/median5x5/vivado.log
+# Journal file: C:/git/SR/lab12/median5x5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/git/SR/lab12/median5x5/median5x5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 789.313 ; gain = 67.242
+update_compile_order -fileset sources_1
+ereset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jun  2 09:41:42 2018] Launched synth_1...
+Run output will be captured here: C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/runme.log
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 861.719 ; gain = 17.043
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+update_compile_order -fileset sources_1
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
+ipx::package_project -root_dir C:/git/SR/lab12/median5x5 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/median5x5/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/median5x5 c:/git/SR/lab12/median5x5/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delayLineBRAM/simulation/blk_mem_gen_v8_4.v:]
+update_compile_order -fileset sources_1
+current_project median5x5
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+ERROR: [Ipptcl 7-561] A project named 'tmp_edit_project' is already opened.
+ERROR: [Common 17-39] 'ipx::edit_ip_in_project' failed due to earlier errors.
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project tmp_edit_project
+close_project -delete
+set_property  ip_repo_paths  {c:/git/SR/lab12/median5x5 c:/git/SR/lab12/Resources} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+update_compile_order -fileset sources_1
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+export_ip_user_files -of_objects  [get_files C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_3/delay_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset delay_0 C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_3/delay_0.xci
+INFO: [Project 1-386] Moving file 'C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_3/delay_0.xci' from fileset 'delay_0' to fileset 'sources_1'.
+create_ip -name delay -vendor xilinx.com -library user -version 1.0 -module_name delay_0 -dir c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip
+set_property -dict [list CONFIG.DELAY {83} CONFIG.N {4}] [get_ips delay_0]
+generate_target {instantiation_template} [get_files c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'delay_0'...
+generate_target all [get_files  c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'delay_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'delay_0'...
+catch { config_ip_cache -export [get_ips -all delay_0] }
+export_ip_user_files -of_objects [get_files c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci]
+launch_runs -jobs 8 delay_0_synth_1
+[Sat Jun  2 11:43:42 2018] Launched delay_0_synth_1...
+Run output will be captured here: C:/git/SR/lab12/median5x5/median5x5.runs/delay_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci] -directory C:/git/SR/lab12/median5x5/median5x5.ip_user_files/sim_scripts -ip_user_files_dir C:/git/SR/lab12/median5x5/median5x5.ip_user_files -ipstatic_source_dir C:/git/SR/lab12/median5x5/median5x5.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/modelsim} {questa=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/questa} {riviera=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/riviera} {activehdl=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/git/SR/lab12/median5x5/median5x5.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Sat Jun  2 11:44:38 2018] Launched synth_1...
+Run output will be captured here: C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/runme.log
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+set_property -dict [list CONFIG.DELAY {166}] [get_ips delay_0]
+generate_target all [get_files  c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'delay_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'delay_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'delay_0'...
+catch { config_ip_cache -export [get_ips -all delay_0] }
+export_ip_user_files -of_objects [get_files c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci] -no_script -sync -force -quiet
+reset_run delay_0_synth_1
+launch_runs -jobs 8 delay_0_synth_1
+[Sat Jun  2 12:30:53 2018] Launched delay_0_synth_1...
+Run output will be captured here: C:/git/SR/lab12/median5x5/median5x5.runs/delay_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci] -directory C:/git/SR/lab12/median5x5/median5x5.ip_user_files/sim_scripts -ip_user_files_dir C:/git/SR/lab12/median5x5/median5x5.ip_user_files -ipstatic_source_dir C:/git/SR/lab12/median5x5/median5x5.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/modelsim} {questa=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/questa} {riviera=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/riviera} {activehdl=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_compile_order -fileset sources_1
+close_project
+set_property -dict [list CONFIG.N {5}] [get_ips delay_0]
+generate_target all [get_files  c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'delay_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'delay_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'delay_0'...
+catch { config_ip_cache -export [get_ips -all delay_0] }
+export_ip_user_files -of_objects [get_files c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci] -no_script -sync -force -quiet
+reset_run delay_0_synth_1
+launch_runs -jobs 8 delay_0_synth_1
+[Sat Jun  2 12:58:08 2018] Launched delay_0_synth_1...
+Run output will be captured here: C:/git/SR/lab12/median5x5/median5x5.runs/delay_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci] -directory C:/git/SR/lab12/median5x5/median5x5.ip_user_files/sim_scripts -ip_user_files_dir C:/git/SR/lab12/median5x5/median5x5.ip_user_files -ipstatic_source_dir C:/git/SR/lab12/median5x5/median5x5.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/modelsim} {questa=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/questa} {riviera=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/riviera} {activehdl=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/git/SR/lab12/Resources/median55/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:median5x5:1.0'. The one found in IP location 'c:/git/SR/lab12/median5x5' will take precedence over the same IP in location c:/git/SR/lab12/Resources/median55
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()
+set_property -dict [list CONFIG.DELAY {168}] [get_ips delay_0]
+generate_target all [get_files  c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'delay_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'delay_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'delay_0'...
+catch { config_ip_cache -export [get_ips -all delay_0] }
+export_ip_user_files -of_objects [get_files c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci] -no_script -sync -force -quiet
+reset_run delay_0_synth_1
+launch_runs -jobs 8 delay_0_synth_1
+[Sat Jun  2 13:10:50 2018] Launched delay_0_synth_1...
+Run output will be captured here: C:/git/SR/lab12/median5x5/median5x5.runs/delay_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delay_0_4/delay_0.xci] -directory C:/git/SR/lab12/median5x5/median5x5.ip_user_files/sim_scripts -ip_user_files_dir C:/git/SR/lab12/median5x5/median5x5.ip_user_files -ipstatic_source_dir C:/git/SR/lab12/median5x5/median5x5.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/modelsim} {questa=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/questa} {riviera=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/riviera} {activehdl=C:/git/SR/lab12/median5x5/median5x5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet

@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May  8 23:29:56 2018
+# Process ID: 17708
+# Current directory: C:/git/SR/lab10/zad10_3/rgb2ycbcr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18848 C:\git\SR\lab10\zad10_3\rgb2ycbcr\rgb2ycbcr.xpr
+# Log file: C:/git/SR/lab10/zad10_3/rgb2ycbcr/vivado.log
+# Journal file: C:/git/SR/lab10/zad10_3/rgb2ycbcr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/git/SR/lab10/zad10_3/rgb2ycbcr/rgb2ycbcr.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+ipx::package_project -root_dir C:/git/SR/lab10/Resources/rgb2y -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core c:/git/SR/lab10/Resources/rgb2y/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab10/Resources/rgb2y c:/git/SR/lab10/Resources/rgb2y/component.xml
+update_compile_order -fileset sources_1
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+set_property  ip_repo_paths  {c:/git/SR/lab10/Resources/rgb2y c:/git/SR/My_IPs/rgb2ycbcr c:/git/SR/lab10/zad10_3/IPs} [current_project]
+update_ip_catalog

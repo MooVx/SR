@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/sim/delayLineBRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delayLineBRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delayLinieBRAM_WP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delayLinieBRAM_WP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delay_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module median5x5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/sim/median5x5_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module median5x5_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/hdmi_in.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_in
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/hdmi_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_out
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_hdmi

@@ -1,0 +1,417 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Mar 24 15:33:39 2018
+# Process ID: 368
+# Current directory: C:/git/SR/lab3/zad6_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3828 C:\git\SR\lab3\zad6_1\zad6_1.xpr
+# Log file: C:/git/SR/lab3/zad6_1/vivado.log
+# Journal file: C:/git/SR/lab3/zad6_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/git/SR/lab3/zad6_1/zad6_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+create_project zad6_3 C:/git/SR/lab3/zad6_3 -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
+current_project zad6_1
+file mkdir C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new
+current_project zad6_3
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/gen.v w ]
+add_files -fileset sim_1 C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/gen.v
+close [ open C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v w ]
+add_files -fileset sim_1 C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v
+close [ open C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/write.v w ]
+add_files -fileset sim_1 C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/write.v
+close [ open C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v w ]
+add_files -fileset sim_1 C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v
+update_compile_order -fileset sim_1
+file mkdir C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new
+close [ open C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_tx.v w ]
+add_files C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_tx.v
+close [ open C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_rx.v w ]
+add_files C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_rx.v
+update_compile_order -fileset sources_1
+current_project zad6_1
+current_project zad6_3
+current_project zad6_1
+current_project zad6_3
+update_compile_order -fileset sim_1
+current_project zad6_1
+current_project zad6_3
+current_project zad6_1
+current_project zad6_3
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/write.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module save_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 4a47acc519c5486fadd283bef15cf6de --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port rxd on this module [C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v:55]
+ERROR: [VRFC 10-426] cannot find port recieved on this module [C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v:53]
+ERROR: [VRFC 10-2063] Module <save_file> not found while processing module instance <write> [C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v:58]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 4a47acc519c5486fadd283bef15cf6de --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port rxd on this module [C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v:55]
+ERROR: [VRFC 10-426] cannot find port recieved on this module [C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v:53]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 4a47acc519c5486fadd283bef15cf6de --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen
+Compiling module xil_defaultlib.load_file
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Mar 24 17:04:54 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sat Mar 24 17:04:54 2018...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 897.203 ; gain = 2.430
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: file in.txt could not be opened
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 911.941 ; gain = 17.168
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 450 ns
+WARNING: file in.txt could not be opened
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+ERROR: File descriptor (0) passed to $fgetc in file C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v at line 38 is not valid.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 916.246 ; gain = 0.000
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/out.txt C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/in.txt}
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim/out.txt'
+INFO: [SIM-utils-43] Exported 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim/in.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/write.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module save_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 4a47acc519c5486fadd283bef15cf6de --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen
+Compiling module xil_defaultlib.load_file
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.save_file
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 917.320 ; gain = 1.074
+update_compile_order -fileset sim_1
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 450 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim/out.txt'
+INFO: [SIM-utils-43] Exported 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim/in.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/load_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/write.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module save_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab3/zad6_3/zad6_3.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 4a47acc519c5486fadd283bef15cf6de --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gen
+Compiling module xil_defaultlib.load_file
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.save_file
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/git/SR/lab3/zad6_3/zad6_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: uart_tx
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1013.523 ; gain = 94.578
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_tx.v:23]
+	Parameter S_WAIT bound to: 2'b00 
+	Parameter S_START bound to: 2'b01 
+	Parameter S_DATA bound to: 2'b10 
+	Parameter S_STOP bound to: 2'b11 
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (1#1) [C:/git/SR/lab3/zad6_3/zad6_3.srcs/sources_1/new/uart_tx.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1053.355 ; gain = 134.410
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1053.355 ; gain = 134.410
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:24 . Memory (MB): peak = 1380.281 ; gain = 461.336
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:24 . Memory (MB): peak = 1380.281 ; gain = 461.336
+close_design
