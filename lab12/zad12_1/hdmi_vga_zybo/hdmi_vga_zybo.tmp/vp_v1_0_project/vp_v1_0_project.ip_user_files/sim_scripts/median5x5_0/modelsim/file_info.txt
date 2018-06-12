@@ -1,0 +1,6 @@
+blk_mem_gen_v8_4.v,verilog,blk_mem_gen_v8_4_1,../../../ipstatic/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v,
+delayLineBRAM.v,verilog,xil_defaultlib,../../../../../../../../Resources/vp/src/median5x5_0/sim/delayLineBRAM.v,
+delayLinieBRAM_WP.v,verilog,xil_defaultlib,../../../../../../../../Resources/vp/src/median5x5_0/src/delayLinieBRAM_WP.v,
+median5x5.v,verilog,xil_defaultlib,../../../../../../../../Resources/vp/src/median5x5_0/src/median5x5.v,
+median5x5_0.v,verilog,xil_defaultlib,../../../../../../../../Resources/vp/src/median5x5_0/sim/median5x5_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

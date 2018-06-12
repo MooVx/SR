@@ -1,7 +1,7 @@
 //Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-//Date        : Wed May 30 09:01:31 2018
+//Date        : Wed Jun  6 09:40:49 2018
 //Host        : DESKTOP-JI7G1LN running 64-bit major release  (build 9200)
 //Command     : generate_target hdmi_vga.bd
 //Design      : hdmi_vga
@@ -75,10 +75,10 @@ module hdmi_vga
   wire rgb2vga_1_vga_pVSync;
   wire [2:0]sw_1;
   wire sys_clock_1;
-  wire vp_0_de_out;
-  wire vp_0_h_sync_out;
-  wire [23:0]vp_0_pixel_out;
-  wire vp_0_v_sync_out;
+  wire vp_1_de_out;
+  wire vp_1_h_sync_out;
+  wire [23:0]vp_1_pixel_out;
+  wire vp_1_v_sync_out;
 
   assign dvi2rgb_1_DDC_SCL_I = hdmi_in_ddc_scl_i;
   assign dvi2rgb_1_DDC_SDA_I = hdmi_in_ddc_sda_i;
@@ -128,24 +128,24 @@ module hdmi_vga
         .vid_pVSync(dvi2rgb_1_vid_pVSync));
   hdmi_vga_rgb2vga_1_0 rgb2vga_1
        (.PixelClk(dvi2rgb_0_PixelClk),
-        .rgb_pData(vp_0_pixel_out),
-        .rgb_pHSync(vp_0_h_sync_out),
-        .rgb_pVDE(vp_0_de_out),
-        .rgb_pVSync(vp_0_v_sync_out),
+        .rgb_pData(vp_1_pixel_out),
+        .rgb_pHSync(vp_1_h_sync_out),
+        .rgb_pVDE(vp_1_de_out),
+        .rgb_pVSync(vp_1_v_sync_out),
         .vga_pBlue(rgb2vga_1_vga_pBlue),
         .vga_pGreen(rgb2vga_1_vga_pGreen),
         .vga_pHSync(rgb2vga_1_vga_pHSync),
         .vga_pRed(rgb2vga_1_vga_pRed),
         .vga_pVSync(rgb2vga_1_vga_pVSync));
-  hdmi_vga_vp_0_0 vp_0
+  hdmi_vga_vp_1_0 vp_1
        (.clk(dvi2rgb_0_PixelClk),
         .de_in(dvi2rgb_1_vid_pVDE),
-        .de_out(vp_0_de_out),
+        .de_out(vp_1_de_out),
         .h_sync_in(dvi2rgb_1_vid_pHSync),
-        .h_sync_out(vp_0_h_sync_out),
+        .h_sync_out(vp_1_h_sync_out),
         .pixel_in(dvi2rgb_1_vid_pData),
-        .pixel_out(vp_0_pixel_out),
+        .pixel_out(vp_1_pixel_out),
         .sw(sw_1),
         .v_sync_in(dvi2rgb_1_vid_pVSync),
-        .v_sync_out(vp_0_v_sync_out));
+        .v_sync_out(vp_1_v_sync_out));
 endmodule

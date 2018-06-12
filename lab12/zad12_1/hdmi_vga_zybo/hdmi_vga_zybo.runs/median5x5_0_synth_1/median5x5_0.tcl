@@ -16,6 +16,7 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param general.maxThreads 8
 set_msg_config -id {HDL-1065} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 create_project -in_memory -part xc7z010clg400-1
@@ -30,14 +31,12 @@ set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
-set_property ip_repo_paths {
-  c:/git/SR/IP
-  c:/git/SR/lab12/Resources
-} [current_project]
+set_property ip_repo_paths c:/git/SR/lab12/Resources [current_project]
 set_property ip_output_repo c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_ip -quiet c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1/median5x5_0.xci
-set_property used_in_implementation false [get_files -all c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1/src/delayLineBRAM_ooc.xdc]
+read_ip -quiet C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci
+set_property used_in_implementation false [get_files -all c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/blk_mem_gen_0_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -118,15 +117,15 @@ if { [catch {
 
 }; # end if cached_ip 
 
-add_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0_stub.v -of_objects [get_files c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1/median5x5_0.xci]
+add_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0_stub.v -of_objects [get_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci]
 
-add_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0_stub.vhdl -of_objects [get_files c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1/median5x5_0.xci]
+add_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0_stub.vhdl -of_objects [get_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci]
 
-add_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0_sim_netlist.v -of_objects [get_files c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1/median5x5_0.xci]
+add_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0_sim_netlist.v -of_objects [get_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci]
 
-add_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0_sim_netlist.vhdl -of_objects [get_files c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1/median5x5_0.xci]
+add_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0_sim_netlist.vhdl -of_objects [get_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci]
 
-add_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0.dcp -of_objects [get_files c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1/median5x5_0.xci]
+add_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0.dcp -of_objects [get_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci]
 
 if {[file isdir C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0]} {
   catch { 

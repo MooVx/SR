@@ -16,7 +16,7 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_msg_config -id {HDL-1065} -limit 10000
+set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7z010clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -36,9 +36,7 @@ set_property ip_repo_paths {
 set_property ip_output_repo c:/git/SR/lab12/median5x5/median5x5.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
-  C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/new/delay.v
   C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v
-  C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/new/delay_block.v
   C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v
 }
 read_ip -quiet C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/ip/delayLineBRAM/delayLineBRAM.xci

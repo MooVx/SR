@@ -93,9 +93,13 @@ module median5x5  #(
   
 
   reg [4:0]rsc=0;
+  reg [4:0]rsc_d=0;
   wire[4:0]wsc;
   wire [4:0]wscd;
   reg context_valid;
+   reg context_valid_d;
+  wire w_context_valid_d;
+  wire w_context_valid;
    
    
  
@@ -138,26 +142,28 @@ module median5x5  #(
     rs4=r41[3]+r42[3]+r43[3]+r44[3]+r45[3];
     rs5=r51[3]+r52[3]+r53[3]+r54[3]+r55[3];
     
+    rsc_d=rsc;
     rsc=rs1+rs2+rs3+rs4+rs5;
      
 
-     
+
     context_valid=r11[2] & r12[2] & r13[2] & r14[2] & r15[2] & r21[2] & r22[2] & r23[2] & r24[2] & r25[2] & r31[2] & r32[2] & r33[2] & r34[2] & r35[2] & r41[2] & r42[2] & r43[2] & r44[2] & r45[2] & r51[2] & r52[2] & r53[2] & r54[2] & r55[2];
       
         
           
    end
-   assign wsc=rsc;
+   assign wsc=rsc_d;
    assign mask_new = wscd > 5'd12 ? 255 : 0;
-
-    delay #(
-        .DELAY(IMG_H*2+2),
-        .N(5)
-    ) delay_fin (
-        .clk(clk),
-        .idata(wsc),
-        .odata(wscd)
-    );
+    assign w_context_valid=context_valid;
+    
+     delayLinieBRAM_WP DB2 (
+       .clk(clk),
+       .rst(0),
+       .ce(1),
+       .din({wsc,w_context_valid}),
+       .dout({wscd,w_context_valid_d}),
+       .h_size(IMG_H*2+1)
+   ); 
 
 
    
@@ -171,40 +177,16 @@ module median5x5  #(
        .clk(clk),
        .rst(0),
        .ce(1),
-       .din(w15),
-       .dout(w20),
-       .h_size(IMG_H-6)
+       .din({w15,w25,w35,w45}),
+       .dout({w20,w30,w40,w50}),
+       .h_size(IMG_H-5)
    ); 
-     delayLinieBRAM_WP DB2 (
-       .clk(clk),
-       .rst(0),
-       .ce(1),
-       .din(w25),
-       .dout(w30),
-       .h_size(IMG_H-6)
-   ); 
-     delayLinieBRAM_WP DB3 (
-       .clk(clk),
-       .rst(0),
-       .ce(1),
-       .din(w35),
-       .dout(w40),
-       .h_size(IMG_H-6)
-   ); 
-   
-  delayLinieBRAM_WP DB4 (
-      .clk(clk),
-      .rst(0),
-      .ce(1),
-      .din(w45),
-      .dout(w50),
-      .h_size(IMG_H-6)
-  ); 
+
 
     assign de_out=w55[2];
     assign h_sync_out=w55[1];
     assign v_sync_out=w55[0] ;
-    assign pixel_out={mask_new,mask_new,mask_new};
+    assign pixel_out = w_context_valid_d == 1 ? {mask_new,mask_new,mask_new} : 0;
     
 endmodule
 

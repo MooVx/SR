@@ -14,39 +14,26 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 440 
+INFO: Helper process launched with PID 1468 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 359.063 ; gain = 101.816
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 358.031 ; gain = 100.852
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'median5x5' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:23]
 	Parameter IMG_H bound to: 83 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'delay' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/new/delay.v:23]
-	Parameter DELAY bound to: 168 - type: integer 
-	Parameter N bound to: 5 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'delay_block' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/new/delay_block.v:22]
-INFO: [Synth 8-256] done synthesizing module 'delay_block' (1#1) [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/new/delay_block.v:22]
-INFO: [Synth 8-256] done synthesizing module 'delay' (2#1) [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/new/delay.v:23]
 INFO: [Synth 8-638] synthesizing module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:21]
 	Parameter WIDTH bound to: 16 - type: integer 
 	Parameter BRAM_SIZE_W bound to: 11 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'delayLineBRAM' [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-4988-DESKTOP-JI7G1LN/realtime/delayLineBRAM_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'delayLineBRAM' (3#1) [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-4988-DESKTOP-JI7G1LN/realtime/delayLineBRAM_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'delayLinieBRAM_WP' (4#1) [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:21]
-WARNING: [Synth 8-689] width (4) of port connection 'din' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:174]
-WARNING: [Synth 8-689] width (4) of port connection 'dout' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:175]
-WARNING: [Synth 8-689] width (4) of port connection 'din' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:182]
-WARNING: [Synth 8-689] width (4) of port connection 'dout' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:183]
-WARNING: [Synth 8-689] width (4) of port connection 'din' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:190]
-WARNING: [Synth 8-689] width (4) of port connection 'dout' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:191]
-WARNING: [Synth 8-689] width (4) of port connection 'din' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:199]
-WARNING: [Synth 8-689] width (4) of port connection 'dout' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:200]
-WARNING: [Synth 8-6014] Unused sequential element rs1_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:135]
-WARNING: [Synth 8-6014] Unused sequential element rs2_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:136]
-WARNING: [Synth 8-6014] Unused sequential element rs3_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:137]
-WARNING: [Synth 8-6014] Unused sequential element rs4_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:138]
-WARNING: [Synth 8-6014] Unused sequential element rs5_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
-WARNING: [Synth 8-6014] Unused sequential element context_valid_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:145]
-INFO: [Synth 8-256] done synthesizing module 'median5x5' (5#1) [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:23]
+INFO: [Synth 8-638] synthesizing module 'delayLineBRAM' [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-7116-DESKTOP-JI7G1LN/realtime/delayLineBRAM_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'delayLineBRAM' (1#1) [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-7116-DESKTOP-JI7G1LN/realtime/delayLineBRAM_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'delayLinieBRAM_WP' (2#1) [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:21]
+WARNING: [Synth 8-689] width (6) of port connection 'din' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:163]
+WARNING: [Synth 8-689] width (6) of port connection 'dout' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:164]
+WARNING: [Synth 8-6014] Unused sequential element rs1_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
+WARNING: [Synth 8-6014] Unused sequential element rs2_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:140]
+WARNING: [Synth 8-6014] Unused sequential element rs3_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:141]
+WARNING: [Synth 8-6014] Unused sequential element rs4_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:142]
+WARNING: [Synth 8-6014] Unused sequential element rs5_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:143]
+INFO: [Synth 8-256] done synthesizing module 'median5x5' (3#1) [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:23]
 WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[23]
 WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[22]
 WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[21]
@@ -71,7 +58,7 @@ WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[3]
 WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[2]
 WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[1]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 411.906 ; gain = 154.660
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 410.516 ; gain = 153.336
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -81,74 +68,66 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 411.906 ; gain = 154.660
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 410.516 ; gain = 153.336
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-4988-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB1/BRAM'
-Finished Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-4988-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB1/BRAM'
-Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-4988-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB2/BRAM'
-Finished Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-4988-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB2/BRAM'
-Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-4988-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB3/BRAM'
-Finished Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-4988-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB3/BRAM'
-Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-4988-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB4/BRAM'
-Finished Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-4988-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB4/BRAM'
+Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-7116-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB2/BRAM'
+Finished Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-7116-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB2/BRAM'
+Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-7116-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB1/BRAM'
+Finished Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-7116-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB1/BRAM'
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 742.105 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 735.578 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 742.105 ; gain = 484.859
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 735.578 ; gain = 478.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 742.105 ; gain = 484.859
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 735.578 ; gain = 478.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for DB1/BRAM. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for DB2/BRAM. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for DB3/BRAM. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for DB4/BRAM. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 742.105 ; gain = 484.859
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 735.578 ; gain = 478.398
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-6014] Unused sequential element position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
 WARNING: [Synth 8-6014] Unused sequential element position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
-WARNING: [Synth 8-6014] Unused sequential element position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
-WARNING: [Synth 8-6014] Unused sequential element position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:138]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:137]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:136]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:135]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:138]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:137]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:136]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:135]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:138]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:138]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:143]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:142]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:140]
 INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:141]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:137]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:137]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:136]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:136]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:135]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:135]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:143]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:142]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:140]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:141]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:143]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:143]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:142]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:142]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:146]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:140]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:140]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:141]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:141]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 742.105 ; gain = 484.859
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 735.578 ; gain = 478.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -161,17 +140,18 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 4     
-	   2 Input     11 Bit       Adders := 4     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
 	   5 Input      5 Bit       Adders := 1     
 	   5 Input      3 Bit       Adders := 5     
 +---Registers : 
-	               11 Bit    Registers := 4     
-	                5 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
 	                4 Bit    Registers := 25    
-	                1 Bit    Registers := 840   
+	                1 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input      1 Bit        Muxes := 4     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -185,40 +165,21 @@ Detailed RTL Component Info :
 	   5 Input      5 Bit       Adders := 1     
 	   5 Input      3 Bit       Adders := 5     
 +---Registers : 
-	                5 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
 	                4 Bit    Registers := 25    
-Module delay_block 
-Detailed RTL Component Info : 
-+---Registers : 
 	                1 Bit    Registers := 1     
-Module delayLinieBRAM_WP__xdcDup__1 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-	   2 Input     11 Bit       Adders := 1     
-+---Registers : 
-	               11 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input      1 Bit        Muxes := 1     
-Module delayLinieBRAM_WP__xdcDup__2 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-	   2 Input     11 Bit       Adders := 1     
-+---Registers : 
-	               11 Bit    Registers := 1     
-+---Muxes : 
-	   2 Input      1 Bit        Muxes := 1     
-Module delayLinieBRAM_WP__xdcDup__3 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-	   2 Input     11 Bit       Adders := 1     
-+---Registers : 
-	               11 Bit    Registers := 1     
-+---Muxes : 
-	   2 Input      1 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
 Module delayLinieBRAM_WP 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module delayLinieBRAM_WP__xdcDup__1 
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input     32 Bit       Adders := 1     
@@ -242,10 +203,8 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-6014] Unused sequential element DB1/position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
 WARNING: [Synth 8-6014] Unused sequential element DB2/position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
-WARNING: [Synth 8-6014] Unused sequential element DB3/position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
-WARNING: [Synth 8-6014] Unused sequential element DB4/position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
+WARNING: [Synth 8-6014] Unused sequential element DB1/position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
 WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[23]
 WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[22]
 WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[21]
@@ -270,7 +229,7 @@ WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[3]
 WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[2]
 WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[1]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 742.105 ; gain = 484.859
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 735.578 ; gain = 478.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -282,13 +241,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 749.402 ; gain = 492.156
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 737.781 ; gain = 480.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 749.773 ; gain = 492.527
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 737.859 ; gain = 480.680
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -300,7 +259,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 776.359 ; gain = 519.113
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 763.543 ; gain = 506.363
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -323,12 +282,10 @@ Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \DB1/BRAM  has unconnected pin dina[16]
 CRITICAL WARNING: [Synth 8-4442] BlackBox module \DB2/BRAM  has unconnected pin dina[16]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \DB3/BRAM  has unconnected pin dina[16]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \DB4/BRAM  has unconnected pin dina[16]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \DB1/BRAM  has unconnected pin dina[16]
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 776.359 ; gain = 519.113
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 763.543 ; gain = 506.363
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -341,7 +298,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 776.359 ; gain = 519.113
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 763.543 ; gain = 506.363
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -353,41 +310,40 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 776.359 ; gain = 519.113
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 763.543 ; gain = 506.363
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 776.359 ; gain = 519.113
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 763.543 ; gain = 506.363
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 776.359 ; gain = 519.113
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 763.543 ; gain = 506.363
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 776.359 ; gain = 519.113
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 763.543 ; gain = 506.363
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 
 Static Shift Register Report:
-+------------+-------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|Module Name | RTL Name                                        | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
-+------------+-------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|median5x5   | r55_reg[2]                                      | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
-|median5x5   | r25_reg[2]                                      | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
-|median5x5   | r35_reg[2]                                      | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
-|median5x5   | r45_reg[2]                                      | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
-|median5x5   | r15_reg[2]                                      | 5      | 3     | NO           | YES                | YES               | 3      | 0       | 
-|median5x5   | delay_fin/(null)[167].(null)[0].reg_i_j/val_reg | 169    | 5     | NO           | NO                 | YES               | 0      | 30      | 
-+------------+-------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
++------------+------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|median5x5   | r55_reg[1] | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|median5x5   | r45_reg[1] | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|median5x5   | r35_reg[1] | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|median5x5   | r25_reg[1] | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|median5x5   | r15_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
++------------+------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
 
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP and Shift Register Reporting
@@ -400,7 +356,7 @@ Report BlackBoxes:
 +------+--------------+----------+
 |      |BlackBox name |Instances |
 +------+--------------+----------+
-|1     |delayLineBRAM |         4|
+|1     |delayLineBRAM |         2|
 +------+--------------+----------+
 
 Report Cell Usage: 
@@ -408,78 +364,37 @@ Report Cell Usage:
 |      |Cell             |Count |
 +------+-----------------+------+
 |1     |delayLineBRAM    |     1|
-|2     |delayLineBRAM__4 |     1|
-|3     |delayLineBRAM__5 |     1|
-|4     |delayLineBRAM__6 |     1|
-|5     |BUFG             |     1|
-|6     |CARRY4           |     4|
-|7     |LUT1             |     4|
-|8     |LUT2             |    12|
-|9     |LUT3             |    28|
-|10    |LUT4             |     8|
-|11    |LUT5             |    28|
-|12    |LUT6             |    18|
-|13    |SRL16E           |    15|
-|14    |SRLC32E          |    30|
-|15    |FDRE             |    92|
-|16    |IBUF             |     5|
-|17    |OBUF             |    27|
+|2     |delayLineBRAM__2 |     1|
+|3     |BUFG             |     1|
+|4     |CARRY4           |     2|
+|5     |LUT1             |     2|
+|6     |LUT2             |     6|
+|7     |LUT3             |    18|
+|8     |LUT4             |     4|
+|9     |LUT5             |    24|
+|10    |LUT6             |    17|
+|11    |SRL16E           |    10|
+|12    |FDRE             |    95|
+|13    |IBUF             |     5|
+|14    |OBUF             |    27|
 +------+-----------------+------+
 
 Report Instance Areas: 
-+------+------------------------------------+-----------------------------+------+
-|      |Instance                            |Module                       |Cells |
-+------+------------------------------------+-----------------------------+------+
-|1     |top                                 |                             |   340|
-|2     |  DB1                               |delayLinieBRAM_WP__xdcDup__1 |    45|
-|3     |  DB2                               |delayLinieBRAM_WP__xdcDup__2 |    45|
-|4     |  DB3                               |delayLinieBRAM_WP__xdcDup__3 |    45|
-|5     |  DB4                               |delayLinieBRAM_WP            |    45|
-|6     |  delay_fin                         |delay                        |    69|
-|7     |    \(null)[126].(null)[0].reg_i_j  |delay_block                  |     1|
-|8     |    \(null)[126].(null)[1].reg_i_j  |delay_block_0                |     1|
-|9     |    \(null)[126].(null)[2].reg_i_j  |delay_block_1                |     1|
-|10    |    \(null)[126].(null)[3].reg_i_j  |delay_block_2                |     1|
-|11    |    \(null)[126].(null)[4].reg_i_j  |delay_block_3                |     1|
-|12    |    \(null)[158].(null)[0].reg_i_j  |delay_block_4                |     1|
-|13    |    \(null)[158].(null)[1].reg_i_j  |delay_block_5                |     1|
-|14    |    \(null)[158].(null)[2].reg_i_j  |delay_block_6                |     1|
-|15    |    \(null)[158].(null)[3].reg_i_j  |delay_block_7                |     1|
-|16    |    \(null)[158].(null)[4].reg_i_j  |delay_block_8                |     1|
-|17    |    \(null)[166].(null)[0].reg_i_j  |delay_block_9                |     1|
-|18    |    \(null)[166].(null)[1].reg_i_j  |delay_block_10               |     1|
-|19    |    \(null)[166].(null)[2].reg_i_j  |delay_block_11               |     1|
-|20    |    \(null)[166].(null)[3].reg_i_j  |delay_block_12               |     1|
-|21    |    \(null)[166].(null)[4].reg_i_j  |delay_block_13               |     1|
-|22    |    \(null)[167].(null)[0].reg_i_j  |delay_block_14               |     2|
-|23    |    \(null)[167].(null)[1].reg_i_j  |delay_block_15               |     1|
-|24    |    \(null)[167].(null)[2].reg_i_j  |delay_block_16               |     1|
-|25    |    \(null)[167].(null)[3].reg_i_j  |delay_block_17               |     1|
-|26    |    \(null)[167].(null)[4].reg_i_j  |delay_block_18               |     1|
-|27    |    \(null)[30].(null)[0].reg_i_j   |delay_block_19               |     2|
-|28    |    \(null)[30].(null)[1].reg_i_j   |delay_block_20               |     2|
-|29    |    \(null)[30].(null)[2].reg_i_j   |delay_block_21               |     2|
-|30    |    \(null)[30].(null)[3].reg_i_j   |delay_block_22               |     4|
-|31    |    \(null)[30].(null)[4].reg_i_j   |delay_block_23               |    28|
-|32    |    \(null)[62].(null)[0].reg_i_j   |delay_block_24               |     1|
-|33    |    \(null)[62].(null)[1].reg_i_j   |delay_block_25               |     1|
-|34    |    \(null)[62].(null)[2].reg_i_j   |delay_block_26               |     1|
-|35    |    \(null)[62].(null)[3].reg_i_j   |delay_block_27               |     1|
-|36    |    \(null)[62].(null)[4].reg_i_j   |delay_block_28               |     1|
-|37    |    \(null)[94].(null)[0].reg_i_j   |delay_block_29               |     1|
-|38    |    \(null)[94].(null)[1].reg_i_j   |delay_block_30               |     1|
-|39    |    \(null)[94].(null)[2].reg_i_j   |delay_block_31               |     1|
-|40    |    \(null)[94].(null)[3].reg_i_j   |delay_block_32               |     1|
-|41    |    \(null)[94].(null)[4].reg_i_j   |delay_block_33               |     1|
-+------+------------------------------------+-----------------------------+------+
++------+---------+-----------------------------+------+
+|      |Instance |Module                       |Cells |
++------+---------+-----------------------------+------+
+|1     |top      |                             |   245|
+|2     |  DB1    |delayLinieBRAM_WP__xdcDup__1 |    45|
+|3     |  DB2    |delayLinieBRAM_WP            |    46|
++------+---------+-----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 776.359 ; gain = 519.113
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 763.543 ; gain = 506.363
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 4 critical warnings and 31 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 776.359 ; gain = 188.914
-Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 776.359 ; gain = 519.113
+Synthesis finished with 0 errors, 2 critical warnings and 27 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 763.543 ; gain = 181.301
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 763.543 ; gain = 506.363
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -487,10 +402,421 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-42 Infos, 68 Warnings, 4 Critical Warnings and 0 Errors encountered.
+38 Infos, 57 Warnings, 2 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 776.359 ; gain = 530.586
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 763.543 ; gain = 517.832
 INFO: [Common 17-1381] The checkpoint 'C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/median5x5.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file median5x5_utilization_synth.rpt -pb median5x5_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 776.359 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sat Jun  2 14:34:45 2018...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 763.543 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  6 08:39:26 2018...
+
+*** Running vivado
+    with args -log median5x5.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source median5x5.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source median5x5.tcl -notrace
+Command: synth_design -top median5x5 -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12268 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 357.961 ; gain = 101.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'median5x5' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:23]
+	Parameter IMG_H bound to: 83 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:21]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter BRAM_SIZE_W bound to: 11 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'delayLineBRAM' [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-11320-DESKTOP-JI7G1LN/realtime/delayLineBRAM_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'delayLineBRAM' (1#1) [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-11320-DESKTOP-JI7G1LN/realtime/delayLineBRAM_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'delayLinieBRAM_WP' (2#1) [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:21]
+WARNING: [Synth 8-689] width (6) of port connection 'din' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:163]
+WARNING: [Synth 8-689] width (6) of port connection 'dout' does not match port width (16) of module 'delayLinieBRAM_WP' [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:164]
+WARNING: [Synth 8-6014] Unused sequential element rs1_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
+WARNING: [Synth 8-6014] Unused sequential element rs2_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:140]
+WARNING: [Synth 8-6014] Unused sequential element rs3_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:141]
+WARNING: [Synth 8-6014] Unused sequential element rs4_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:142]
+WARNING: [Synth 8-6014] Unused sequential element rs5_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:143]
+INFO: [Synth 8-256] done synthesizing module 'median5x5' (3#1) [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:23]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[23]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[22]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[21]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[20]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[19]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[18]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[17]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[16]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[15]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[14]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[13]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[12]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[11]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[10]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[9]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[8]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[7]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[6]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[5]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[4]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[3]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[2]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 410.320 ; gain = 153.465
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 410.320 ; gain = 153.465
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-11320-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB2/BRAM'
+Finished Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-11320-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB2/BRAM'
+Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-11320-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB1/BRAM'
+Finished Parsing XDC File [C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/.Xil/Vivado-11320-DESKTOP-JI7G1LN/dcp1/delayLineBRAM_in_context.xdc] for cell 'DB1/BRAM'
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 736.211 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 736.211 ; gain = 479.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 736.211 ; gain = 479.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for DB1/BRAM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DB2/BRAM. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 736.211 ; gain = 479.355
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
+WARNING: [Synth 8-6014] Unused sequential element position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:143]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:142]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:140]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:141]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:143]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:142]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:140]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:141]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:143]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:143]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:142]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:142]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:146]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:140]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:140]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:141]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:141]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/new/median5x5.v:139]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 736.211 ; gain = 479.355
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
+	   5 Input      5 Bit       Adders := 1     
+	   5 Input      3 Bit       Adders := 5     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 25    
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module median5x5 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input      5 Bit       Adders := 1     
+	   5 Input      3 Bit       Adders := 5     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 25    
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+Module delayLinieBRAM_WP 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module delayLinieBRAM_WP__xdcDup__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element DB2/position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
+WARNING: [Synth 8-6014] Unused sequential element DB1/position_reg was removed.  [C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/median5x5/delayLinieBRAM_WP.v:50]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[23]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[22]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[21]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[20]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[19]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[18]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[17]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[16]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[15]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[14]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[13]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[12]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[11]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[10]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[9]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[8]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[7]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[6]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[5]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[4]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[3]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[2]
+WARNING: [Synth 8-3331] design median5x5 has unconnected port pixel_in[1]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 736.211 ; gain = 479.355
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 742.477 ; gain = 485.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 742.691 ; gain = 485.836
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 768.652 ; gain = 511.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \DB2/BRAM  has unconnected pin dina[16]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \DB1/BRAM  has unconnected pin dina[16]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 768.652 ; gain = 511.797
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 768.652 ; gain = 511.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 768.652 ; gain = 511.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 768.652 ; gain = 511.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 768.652 ; gain = 511.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 768.652 ; gain = 511.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|median5x5   | r55_reg[1] | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|median5x5   | r45_reg[1] | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|median5x5   | r35_reg[1] | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|median5x5   | r25_reg[1] | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|median5x5   | r15_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
++------------+------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |delayLineBRAM |         2|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |delayLineBRAM    |     1|
+|2     |delayLineBRAM__2 |     1|
+|3     |BUFG             |     1|
+|4     |CARRY4           |     2|
+|5     |LUT1             |     2|
+|6     |LUT2             |     6|
+|7     |LUT3             |    18|
+|8     |LUT4             |     4|
+|9     |LUT5             |    24|
+|10    |LUT6             |    17|
+|11    |SRL16E           |    10|
+|12    |FDRE             |    95|
+|13    |IBUF             |     5|
+|14    |OBUF             |    27|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+---------+-----------------------------+------+
+|      |Instance |Module                       |Cells |
++------+---------+-----------------------------+------+
+|1     |top      |                             |   245|
+|2     |  DB1    |delayLinieBRAM_WP__xdcDup__1 |    45|
+|3     |  DB2    |delayLinieBRAM_WP            |    46|
++------+---------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 768.652 ; gain = 511.797
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 2 critical warnings and 27 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 768.652 ; gain = 185.906
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 768.652 ; gain = 511.797
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 57 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 768.652 ; gain = 523.270
+INFO: [Common 17-1381] The checkpoint 'C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/median5x5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file median5x5_utilization_synth.rpt -pb median5x5_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 768.652 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  6 09:15:02 2018...

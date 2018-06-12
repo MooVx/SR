@@ -1,28 +1,18 @@
 Vivado Simulator 2017.4
 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 0640050eddcc43a1a79886f597c9e583 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 0640050eddcc43a1a79886f597c9e583 --incr --debug typical --relax --mt 8 -L blk_mem_gen_v8_4_1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:172]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ce [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:173]
-WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 16 for port din [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:174]
-WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 16 for port dout [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:175]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port h_size [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:176]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:180]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ce [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:181]
-WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 16 for port din [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:182]
-WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 16 for port dout [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:183]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port h_size [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:184]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:188]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ce [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:189]
-WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 16 for port din [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:190]
-WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 16 for port dout [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:191]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port h_size [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:192]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:197]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ce [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:198]
-WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 16 for port din [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:199]
-WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 16 for port dout [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:200]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port h_size [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v:201]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:162]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ce [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:163]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 13 for port h_size [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:166]
+WARNING: [VRFC 10-278] actual bit length 13 differs from formal bit length 12 for port addra [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayy.v:69]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:178]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ce [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:179]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 13 for port h_size [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:182]
+WARNING: [VRFC 10-278] actual bit length 13 differs from formal bit length 11 for port addra [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:69]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 17 for port dina [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:70]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 17 for port douta [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:71]
 WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2419]
 WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2420]
 Completed static elaboration
@@ -30,8 +20,13 @@ Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.hdmi_in
-Compiling module xil_defaultlib.delay_block
-Compiling module xil_defaultlib.delay(DELAY=168,N=5)
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module xil_defaultlib.delayLinieBRAM
 Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
 Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
 Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
@@ -39,7 +34,7 @@ Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
 Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
 Compiling module xil_defaultlib.delayLineBRAM
 Compiling module xil_defaultlib.delayLinieBRAM_WP
-Compiling module xil_defaultlib.median5x5
+Compiling module xil_defaultlib.median5x5(IMG_H=1650)
 Compiling module xil_defaultlib.median5x5_0
 Compiling module xil_defaultlib.hdmi_out
 Compiling module xil_defaultlib.tb_hdmi

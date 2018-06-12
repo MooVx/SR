@@ -1,11 +1,11 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  --include "../../../../hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ipshared/4868" \
-"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/sim/delayLineBRAM.v" \
-"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delay.v" \
-"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delayLinieBRAM_WP.v" \
-"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/delay_block.v" \
-"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/src/median5x5.v" \
-"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_1/sim/median5x5_0.v" \
+"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/sim/delayLineBRAM.v" \
+"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/sim/blk_mem_gen_0.v" \
+"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLinieBRAM_WP.v" \
+"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayy.v" \
+"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v" \
+"../../../../hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/sim/median5x5_0.v" \
 "../../../../hdmi_vga_zybo.srcs/sim_1/imports/tb_src/hdmi_in.v" \
 "../../../../hdmi_vga_zybo.srcs/sim_1/imports/tb_src/hdmi_out.v" \
 "../../../../hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v" \

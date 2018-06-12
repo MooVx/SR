@@ -51,7 +51,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>dbc0dac3</spirit:value>
+            <spirit:value>618df096</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -82,7 +82,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>dbc0dac3</spirit:value>
+            <spirit:value>618df096</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -475,8 +475,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>vp_v1_0</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
-      <xilinx:coreRevision>18</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2018-06-02T13:08:35Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>25</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2018-06-06T07:40:38Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="xilinx.com:user:vp:1.0_ARCHIVE_LOCATION">c:/git/SR/lab12/Resources/vp</xilinx:tag>
       </xilinx:tags>
@@ -484,7 +484,7 @@
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2017.4</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="a88d4390"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="7e5943c3"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="9277515d"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="b9fe57ee"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="2d01aa17"/>
     </xilinx:packagingInfo>
