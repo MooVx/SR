@@ -1,1 +1,1 @@
--wto "0640050eddcc43a1a79886f597c9e583" --incr --debug "typical" --relax --mt "8" -L "blk_mem_gen_v8_4_1" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "tb_hdmi_behav" "xil_defaultlib.tb_hdmi" "xil_defaultlib.glbl" -log "elaborate.log" 
+-wto "0640050eddcc43a1a79886f597c9e583" --incr --debug "typical" --relax --mt "2" -L "blk_mem_gen_v8_4_1" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "tb_hdmi_behav" "xil_defaultlib.tb_hdmi" "xil_defaultlib.glbl" -log "elaborate.log" 

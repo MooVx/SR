@@ -2,10 +2,10 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Wed Jun  6 08:32:52 2018
-# Process ID: 5436
+# Start of session at: Wed Jun 13 08:27:22 2018
+# Process ID: 10816
 # Current directory: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10188 C:\git\SR\lab12\zad12_1\hdmi_vga_zybo\hdmi_vga_zybo.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2236 C:\git\SR\lab12\zad12_1\hdmi_vga_zybo\hdmi_vga_zybo.xpr
 # Log file: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/vivado.log
 # Journal file: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo\vivado.jou
 #-----------------------------------------------------------
@@ -14,626 +14,15 @@ open_project C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.xpr
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/IP'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
-WARNING: [IP_Flow 19-3664] IP 'hdmi_vga_vp_0_1' generated file not found 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_0_1/hdmi_vga_vp_0_1.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'hdmi_vga_vp_0_1' generated file not found 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_0_1/hdmi_vga_vp_0_1_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'hdmi_vga_vp_0_1' generated file not found 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_0_1/hdmi_vga_vp_0_1_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'hdmi_vga_vp_0_1' generated file not found 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_0_1/hdmi_vga_vp_0_1_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'hdmi_vga_vp_0_1' generated file not found 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_0_1/hdmi_vga_vp_0_1_sim_netlist.vhdl'. Please regenerate to continue.
-open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 800.949 ; gain = 66.379
-update_compile_order -fileset sources_1
-launch_simulation
-INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim'
-INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [USF-XSim-7] Finding pre-compiled libraries...
-INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-54] Inspecting design source files for 'tb_hdmi' in fileset 'sim_1'...
-INFO: [SIM-utils-43] Exported 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/dgl_1080p_cea.data'
-INFO: [SIM-utils-43] Exported 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/dgl_1280_1024_cea.data'
-INFO: [SIM-utils-43] Exported 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/dgl_720p_cea.data'
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj tb_hdmi_vlog.prj"
-ERROR: [XSIM 43-4316] Can not find file: c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1/sim/delayLineBRAM.v
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-99] Step results log file:'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/xvlog.log'
-ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/xvlog.log' file for more information.
-ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
-ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
-report_ip_status -name ip_status 
-export_ip_user_files -of_objects  [get_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1/median5x5_0.xci] -no_script -reset -force -quiet
-remove_files  -fileset median5x5_0 C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1/median5x5_0.xci
-INFO: [Project 1-386] Moving file 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1.xcix' from fileset 'median5x5_0' to fileset 'sources_1'.
-INFO: [Project 1-386] Moving file 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_1/median5x5_0.xci' from fileset 'median5x5_0' to fileset 'sources_1'.
-create_ip -name median5x5 -vendor xilinx.com -library user -version 1.0 -module_name median5x5_0 -dir c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip
-INFO: [filemgmt 56-101] Creating core container 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2.xcix' for IP 'median5x5_0'
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'hdmi_vga.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+hdmi_vga_vp_1_0
+
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 805.074 ; gain = 104.777
 update_compile_order -fileset sources_1
 report_ip_status -name ip_status 
-generate_target all [get_files c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci]
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'median5x5_0'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'median5x5_0'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'median5x5_0'...
-export_ip_user_files -of_objects [get_files c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci] -no_script -sync -force -quiet
-export_simulation -of_objects [get_files c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci] -directory C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/sim_scripts -ip_user_files_dir C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files -ipstatic_source_dir C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/modelsim} {questa=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/questa} {riviera=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/riviera} {activehdl=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
-create_fileset -blockset median5x5_0
-set_property top median5x5_0 [get_fileset median5x5_0]
-move_files -fileset [get_fileset median5x5_0] [get_files -of_objects [get_fileset sources_1] c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci]
-launch_run median5x5_0_synth_1
-[Wed Jun  6 08:35:00 2018] Launched median5x5_0_synth_1...
-Run output will be captured here: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/runme.log
-wait_on_run median5x5_0_synth_1
-
-[Wed Jun  6 08:35:00 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:35:05 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:35:10 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:35:15 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:35:25 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:35:35 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:35:45 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:35:55 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:36:15 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:36:35 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:36:55 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:37:15 2018] Waiting for median5x5_0_synth_1 to finish...
-
-*** Running vivado
-    with args -log median5x5_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source median5x5_0.tcl
-
-
-****** Vivado v2017.4 (64-bit)
-  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
-  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
-
-source median5x5_0.tcl -notrace
-Command: synth_design -top median5x5_0 -part xc7z010clg400-1 -mode out_of_context
-Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
-INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 2740 
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 357.738 ; gain = 100.797
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'median5x5_0' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/synth/median5x5_0.v:57]
-INFO: [Synth 8-638] synthesizing module 'median5x5' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:23]
-	Parameter IMG_H bound to: 83 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'delayLinieBRAM_WP' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:21]
-	Parameter WIDTH bound to: 16 - type: integer 
-	Parameter BRAM_SIZE_W bound to: 11 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'delayLineBRAM' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM.vhd:69]
-	Parameter C_FAMILY bound to: zynq - type: string 
-	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
-	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
-	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
-	Parameter C_AXI_TYPE bound to: 1 - type: integer 
-	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
-	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
-	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
-	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
-	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
-	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
-	Parameter C_MEM_TYPE bound to: 0 - type: integer 
-	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
-	Parameter C_ALGORITHM bound to: 1 - type: integer 
-	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
-	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
-	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
-	Parameter C_INIT_FILE bound to: delayLineBRAM.mem - type: string 
-	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
-	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
-	Parameter C_HAS_RSTA bound to: 0 - type: integer 
-	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
-	Parameter C_RSTRAM_A bound to: 0 - type: integer 
-	Parameter C_INITA_VAL bound to: 0 - type: string 
-	Parameter C_HAS_ENA bound to: 0 - type: integer 
-	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
-	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
-	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
-	Parameter C_WRITE_MODE_A bound to: READ_FIRST - type: string 
-	Parameter C_WRITE_WIDTH_A bound to: 17 - type: integer 
-	Parameter C_READ_WIDTH_A bound to: 17 - type: integer 
-	Parameter C_WRITE_DEPTH_A bound to: 2048 - type: integer 
-	Parameter C_READ_DEPTH_A bound to: 2048 - type: integer 
-	Parameter C_ADDRA_WIDTH bound to: 11 - type: integer 
-	Parameter C_HAS_RSTB bound to: 0 - type: integer 
-	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
-	Parameter C_RSTRAM_B bound to: 0 - type: integer 
-	Parameter C_INITB_VAL bound to: 0 - type: string 
-	Parameter C_HAS_ENB bound to: 0 - type: integer 
-	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
-	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
-	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
-	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
-	Parameter C_WRITE_WIDTH_B bound to: 17 - type: integer 
-	Parameter C_READ_WIDTH_B bound to: 17 - type: integer 
-	Parameter C_WRITE_DEPTH_B bound to: 2048 - type: integer 
-	Parameter C_READ_DEPTH_B bound to: 2048 - type: integer 
-	Parameter C_ADDRB_WIDTH bound to: 11 - type: integer 
-	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
-	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
-	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
-	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
-	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
-	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
-	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
-	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
-	Parameter C_USE_ECC bound to: 0 - type: integer 
-	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
-	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
-	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter C_COMMON_CLK bound to: 0 - type: integer 
-	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
-	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
-	Parameter C_USE_URAM bound to: 0 - type: integer 
-	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
-	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
-	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
-	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
-	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
-	Parameter C_COUNT_36K_BRAM bound to: 1 - type: string 
-	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
-	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.862 mW - type: string 
-INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_1' declared at 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195313' bound to instance 'U0' of component 'blk_mem_gen_v8_4_1' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM.vhd:232]
-INFO: [Synth 8-256] done synthesizing module 'delayLineBRAM' (9#1) [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM.vhd:69]
-INFO: [Synth 8-256] done synthesizing module 'delayLinieBRAM_WP' (10#1) [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:21]
-WARNING: [Synth 8-689] width (6) of port connection 'din' does not match port width (16) of module 'delayLinieBRAM_WP' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:163]
-WARNING: [Synth 8-689] width (6) of port connection 'dout' does not match port width (16) of module 'delayLinieBRAM_WP' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:164]
-WARNING: [Synth 8-6014] Unused sequential element rs1_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:139]
-WARNING: [Synth 8-6014] Unused sequential element rs2_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:140]
-WARNING: [Synth 8-6014] Unused sequential element rs3_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:141]
-WARNING: [Synth 8-6014] Unused sequential element rs4_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:142]
-WARNING: [Synth 8-6014] Unused sequential element rs5_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:143]
-INFO: [Synth 8-256] done synthesizing module 'median5x5' (11#1) [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:23]
-INFO: [Synth 8-256] done synthesizing module 'median5x5_0' (12#1) [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/synth/median5x5_0.v:57]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SSRA
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port CLKB
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SSRB
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ENB
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port REGCEB
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port WEB[0]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[10]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[9]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[8]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[7]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[6]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[5]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[4]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[3]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[2]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[1]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[0]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[17]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[16]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[15]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[14]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[13]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[12]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[11]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[10]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[9]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[8]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[7]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[6]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[5]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[4]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[3]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[2]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[1]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[0]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SLEEP
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port INJECTSBITERR
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port INJECTDBITERR
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ECCPIPECE
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ram_rstram_b
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ram_rstreg_b
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port RSTA[0]
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEA[1]
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port REGCEB[0]
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEB[1]
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port INJECTSBITERR
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port INJECTDBITERR
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port CLKB
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[16]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[15]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[14]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[13]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[12]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[11]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[10]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[9]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[8]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[7]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[6]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[5]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[4]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[3]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[2]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[1]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[0]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port SBITERR_I
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DBITERR_I
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[10]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[9]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[8]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[7]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[6]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[5]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[4]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[3]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[2]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[1]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[0]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port RSTA
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ENA
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port REGCEA
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port CLKB
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port RSTB
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ENB
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port REGCEB
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port WEB[0]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[10]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[9]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[8]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[7]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[6]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[5]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[4]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[3]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[2]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[1]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[0]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port DINB[16]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port DINB[15]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port DINB[14]
-INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:42 ; elapsed = 00:01:44 . Memory (MB): peak = 614.918 ; gain = 357.977
----------------------------------------------------------------------------------
-
-Report Check Netlist: 
-+------+------------------+-------+---------+-------+------------------+
-|      |Item              |Errors |Warnings |Status |Description       |
-+------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
-+------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin BRAM:dina[16] to constant 0 [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:65]
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:42 ; elapsed = 00:01:44 . Memory (MB): peak = 614.918 ; gain = 357.977
----------------------------------------------------------------------------------
-INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Device 21-403] Loading part xc7z010clg400-1
-INFO: [Project 1-570] Preparing netlist for logic optimization
-
-Processing XDC Constraints
-Initializing timing engine
-Parsing XDC File [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM_ooc.xdc] for cell 'inst'
-WARNING: [Vivado 12-584] No ports matched 'clka'. [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM_ooc.xdc:53]
-CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clka]'. [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM_ooc.xdc:53]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-584] No ports matched 'clka'. [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM_ooc.xdc:54]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM_ooc.xdc:54]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM_ooc.xdc] for cell 'inst'
-Parsing XDC File [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/dont_touch.xdc]
-Completed Processing XDC Constraints
-
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.018 . Memory (MB): peak = 679.816 ; gain = 0.000
----------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:58 ; elapsed = 00:02:00 . Memory (MB): peak = 679.816 ; gain = 422.875
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Loading Part and Timing Information
----------------------------------------------------------------------------------
-Loading part: xc7z010clg400-1
----------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:58 ; elapsed = 00:02:00 . Memory (MB): peak = 679.816 ; gain = 422.875
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Applying 'set_property' XDC Constraints
----------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for inst. (constraint file  C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/dont_touch.xdc, line 9).
----------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:58 ; elapsed = 00:02:00 . Memory (MB): peak = 679.816 ; gain = 422.875
----------------------------------------------------------------------------------
-WARNING: [Synth 8-6014] Unused sequential element position_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:50]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:143]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:142]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:140]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:141]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:139]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:143]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:142]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:140]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:141]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:139]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:143]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:143]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:142]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:142]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:146]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:140]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:140]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:141]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:141]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:139]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:139]
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:58 ; elapsed = 00:02:00 . Memory (MB): peak = 679.816 ; gain = 422.875
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start RTL Component Statistics 
----------------------------------------------------------------------------------
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 2     
-	   2 Input     11 Bit       Adders := 2     
-	   5 Input      5 Bit       Adders := 1     
-	   5 Input      3 Bit       Adders := 5     
-+---Registers : 
-	               11 Bit    Registers := 2     
-	                5 Bit    Registers := 2     
-	                4 Bit    Registers := 25    
-	                1 Bit    Registers := 1     
-+---Muxes : 
-	   2 Input     24 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 2     
----------------------------------------------------------------------------------
-Finished RTL Component Statistics 
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start RTL Hierarchical Component Statistics 
----------------------------------------------------------------------------------
-Hierarchical RTL Component report 
-Module delayLinieBRAM_WP 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-	   2 Input     11 Bit       Adders := 1     
-+---Registers : 
-	               11 Bit    Registers := 1     
-+---Muxes : 
-	   2 Input      1 Bit        Muxes := 1     
-Module median5x5 
-Detailed RTL Component Info : 
-+---Adders : 
-	   5 Input      5 Bit       Adders := 1     
-	   5 Input      3 Bit       Adders := 5     
-+---Registers : 
-	                5 Bit    Registers := 2     
-	                4 Bit    Registers := 25    
-	                1 Bit    Registers := 1     
-+---Muxes : 
-	   2 Input     24 Bit        Muxes := 1     
----------------------------------------------------------------------------------
-Finished RTL Hierarchical Component Statistics
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Part Resource Summary
----------------------------------------------------------------------------------
-Part Resources:
-DSPs: 80 (col length:40)
-BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
----------------------------------------------------------------------------------
-Finished Part Resource Summary
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Cross Boundary and Area Optimization
----------------------------------------------------------------------------------
-WARNING: [Synth 8-6014] Unused sequential element DB2/position_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:50]
-WARNING: [Synth 8-6014] Unused sequential element DB1/position_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:50]
----------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:00 ; elapsed = 00:02:02 . Memory (MB): peak = 679.816 ; gain = 422.875
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start Applying XDC Timing Constraints
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:12 ; elapsed = 00:02:14 . Memory (MB): peak = 747.504 ; gain = 490.563
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Timing Optimization
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:12 ; elapsed = 00:02:14 . Memory (MB): peak = 747.793 ; gain = 490.852
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start Technology Mapping
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:12 ; elapsed = 00:02:14 . Memory (MB): peak = 773.832 ; gain = 516.891
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Flattening Before IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Flattening Before IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Final Netlist Cleanup
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Final Netlist Cleanup
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:13 ; elapsed = 00:02:16 . Memory (MB): peak = 773.832 ; gain = 516.891
----------------------------------------------------------------------------------
-
-Report Check Netlist: 
-+------+------------------+-------+---------+-------+------------------+
-|      |Item              |Errors |Warnings |Status |Description       |
-+------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
-+------+------------------+-------+---------+-------+------------------+
----------------------------------------------------------------------------------
-Start Renaming Generated Instances
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:13 ; elapsed = 00:02:16 . Memory (MB): peak = 773.832 ; gain = 516.891
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start Rebuilding User Hierarchy
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:13 ; elapsed = 00:02:16 . Memory (MB): peak = 773.832 ; gain = 516.891
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Ports
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:13 ; elapsed = 00:02:16 . Memory (MB): peak = 773.832 ; gain = 516.891
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Handling Custom Attributes
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:13 ; elapsed = 00:02:16 . Memory (MB): peak = 773.832 ; gain = 516.891
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Nets
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:13 ; elapsed = 00:02:16 . Memory (MB): peak = 773.832 ; gain = 516.891
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start ROM, RAM, DSP and Shift Register Reporting
----------------------------------------------------------------------------------
-
-Static Shift Register Report:
-+------------+------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|Module Name | RTL Name   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
-+------------+------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|median5x5   | r55_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
-|median5x5   | r45_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
-|median5x5   | r35_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
-|median5x5   | r25_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
-|median5x5   | r15_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
-+------------+------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-
----------------------------------------------------------------------------------
-Finished ROM, RAM, DSP and Shift Register Reporting
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Writing Synthesis Report
----------------------------------------------------------------------------------
-
-Report BlackBoxes: 
-+-+--------------+----------+
-| |BlackBox name |Instances |
-+-+--------------+----------+
-+-+--------------+----------+
-
-Report Cell Usage: 
-+------+---------+------+
-|      |Cell     |Count |
-+------+---------+------+
-|1     |CARRY4   |     2|
-|2     |LUT1     |     2|
-|3     |LUT2     |     6|
-|4     |LUT3     |    18|
-|5     |LUT4     |     4|
-|6     |LUT5     |    24|
-|7     |LUT6     |    17|
-|8     |RAMB36E1 |     2|
-|9     |SRL16E   |    10|
-|10    |FDRE     |   103|
-+------+---------+------+
-
-Report Instance Areas: 
-+------+---------------------------------------------------+---------------------------+------+
-|      |Instance                                           |Module                     |Cells |
-+------+---------------------------------------------------+---------------------------+------+
-|1     |top                                                |                           |   188|
-|2     |  inst                                             |median5x5                  |   188|
-|3     |    DB1                                            |delayLinieBRAM_WP          |    29|
-|4     |      BRAM                                         |delayLineBRAM_1            |     1|
-|5     |        U0                                         |blk_mem_gen_v8_4_1         |     1|
-|6     |          inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth_2 |     1|
-|7     |            \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top_3          |     1|
-|8     |              \valid.cstr                          |blk_mem_gen_generic_cstr_4 |     1|
-|9     |                \ramloop[0].ram.r                  |blk_mem_gen_prim_width_5   |     1|
-|10    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper_6 |     1|
-|11    |    DB2                                            |delayLinieBRAM_WP_0        |    30|
-|12    |      BRAM                                         |delayLineBRAM              |     2|
-|13    |        U0                                         |blk_mem_gen_v8_4_1__1      |     1|
-|14    |          inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth   |     1|
-|15    |            \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top            |     1|
-|16    |              \valid.cstr                          |blk_mem_gen_generic_cstr   |     1|
-|17    |                \ramloop[0].ram.r                  |blk_mem_gen_prim_width     |     1|
-|18    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper   |     1|
-+------+---------------------------------------------------+---------------------------+------+
----------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:13 ; elapsed = 00:02:16 . Memory (MB): peak = 773.832 ; gain = 516.891
----------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 362 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:02:07 . Memory (MB): peak = 773.832 ; gain = 451.992
-Synthesis Optimization Complete : Time (s): cpu = 00:02:14 ; elapsed = 00:02:16 . Memory (MB): peak = 773.832 ; gain = 516.891
-INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-INFO: [Common 17-83] Releasing license: Synthesis
-44 Infos, 113 Warnings, 2 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:16 ; elapsed = 00:02:18 . Memory (MB): peak = 773.832 ; gain = 528.359
-INFO: [Common 17-1381] The checkpoint 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0.dcp' has been generated.
-INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci
-INFO: [Coretcl 2-1174] Renamed 17 cell refs.
-INFO: [Common 17-1381] The checkpoint 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file median5x5_0_utilization_synth.rpt -pb median5x5_0_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 773.832 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Wed Jun  6 08:37:26 2018...
-[Wed Jun  6 08:37:30 2018] median5x5_0_synth_1 finished
-wait_on_run: Time (s): cpu = 00:00:06 ; elapsed = 00:02:30 . Memory (MB): peak = 856.266 ; gain = 2.031
 launch_simulation
 INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
 INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim'
@@ -651,658 +40,12 @@ INFO: [USF-XSim-2] XSim::Compile design
 INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim'
 "xvlog --incr --relax -prj tb_hdmi_vlog.prj"
 ERROR: [XSIM 43-4316] Can not find file: c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/sim/delayLineBRAM.v
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
 INFO: [USF-XSim-99] Step results log file:'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/xvlog.log'
 ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/xvlog.log' file for more information.
 ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 811.867 ; gain = 0.000
 ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
-open_project C:/git/SR/lab12/median5x5/median5x5.xpr
-Scanning sources...
-Finished scanning sources
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
-reset_run synth_1
-launch_runs synth_1 -jobs 8
-[Wed Jun  6 08:38:36 2018] Launched synth_1...
-Run output will be captured here: C:/git/SR/lab12/median5x5/median5x5.runs/synth_1/runme.log
-update_compile_order -fileset sources_1
-ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
-WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/new/delay.v'.
-WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/git/SR/lab12/median5x5/median5x5.srcs/sources_1/imports/new/delay_block.v'.
-WARNING: [IP_Flow 19-4963] delayLineBRAM has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo:part0:1.0'
-INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
-ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
-ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
-INFO: [IP_Flow 19-795] Syncing license key meta-data
-INFO: [Device 21-403] Loading part xc7z010clg400-1
-ipx::edit_ip_in_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 1119.441 ; gain = 240.438
-update_compile_order -fileset sources_1
-set_property core_revision 2 [ipx::current_core]
-ipx::create_xgui_files [ipx::current_core]
-ipx::update_checksums [ipx::current_core]
-ipx::save_core [ipx::current_core]
-close_project -delete
-update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
-INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
-current_project hdmi_vga_zybo
-update_ip_catalog -rebuild -scan_changes
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/IP'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
-report_ip_status -name ip_status
-current_project median5x5
-current_project hdmi_vga_zybo
-upgrade_ip -srcset median5x5_0 [get_ips  {median5x5_0 hdmi_vga_vp_0_1}] -log ip_upgrade.log
-Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
-Adding cell -- xilinx.com:ip:xlconstant:1.1 - GND
-Adding cell -- xilinx.com:ip:xlconstant:1.1 - VCC
-Adding cell -- digilentinc.com:ip:rgb2vga:1.0 - rgb2vga_1
-Adding cell -- digilentinc.com:ip:dvi2rgb:1.8 - dvi2rgb_1
-Adding cell -- xilinx.com:user:vp:1.0 - vp_0
-Successfully read diagram <hdmi_vga> from BD file <C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd>
-Upgrading 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd'
-INFO: [IP_Flow 19-1972] Upgraded hdmi_vga_vp_0_1 from vp_v1_0 1.0 to vp_v1_0 1.0
-Wrote  : <C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd> 
-Upgrading 'median5x5_0'
-INFO: [Project 1-386] Moving file 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci' from fileset 'median5x5_0' to fileset 'sources_1'.
-INFO: [Project 1-386] Moving file 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2.xcix' from fileset 'median5x5_0' to fileset 'sources_1'.
-INFO: [IP_Flow 19-1972] Upgraded median5x5_0 from median5x5_v1_0 1.0 to median5x5_v1_0 1.0
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'median5x5_0'...
-INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/ip_upgrade.log'.
-upgrade_ip: Time (s): cpu = 00:00:32 ; elapsed = 00:00:25 . Memory (MB): peak = 1161.926 ; gain = 42.484
-export_ip_user_files -of_objects [get_ips {median5x5_0 hdmi_vga_vp_0_1}] -no_script -sync -force -quiet
-generate_target all [get_files c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci]
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'median5x5_0'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'median5x5_0'...
-generate_target: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1193.410 ; gain = 31.484
-export_ip_user_files -of_objects [get_files c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci] -no_script -sync -force -quiet
-export_simulation -of_objects [get_files c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci] -directory C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/sim_scripts -ip_user_files_dir C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files -ipstatic_source_dir C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/modelsim} {questa=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/questa} {riviera=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/riviera} {activehdl=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
-create_fileset -blockset median5x5_0
-set_property top median5x5_0 [get_fileset median5x5_0]
-move_files -fileset [get_fileset median5x5_0] [get_files -of_objects [get_fileset sources_1] c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci]
-launch_run median5x5_0_synth_1
-[Wed Jun  6 08:41:05 2018] Launched median5x5_0_synth_1...
-Run output will be captured here: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/runme.log
-wait_on_run median5x5_0_synth_1
-
-[Wed Jun  6 08:41:06 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:41:11 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:41:16 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:41:21 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:41:31 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:41:41 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:41:51 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:42:01 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:42:21 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:42:41 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:43:01 2018] Waiting for median5x5_0_synth_1 to finish...
-[Wed Jun  6 08:43:21 2018] Waiting for median5x5_0_synth_1 to finish...
-
-*** Running vivado
-    with args -log median5x5_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source median5x5_0.tcl
-
-
-****** Vivado v2017.4 (64-bit)
-  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
-  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
-
-source median5x5_0.tcl -notrace
-Command: synth_design -top median5x5_0 -part xc7z010clg400-1 -mode out_of_context
-Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
-INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 11620 
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 358.840 ; gain = 102.426
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'median5x5_0' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/synth/median5x5_0.v:57]
-INFO: [Synth 8-638] synthesizing module 'median5x5' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:23]
-	Parameter IMG_H bound to: 83 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'delayLinieBRAM_WP' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:21]
-	Parameter WIDTH bound to: 16 - type: integer 
-	Parameter BRAM_SIZE_W bound to: 11 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'delayLineBRAM' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM/synth/delayLineBRAM.vhd:69]
-	Parameter C_FAMILY bound to: zynq - type: string 
-	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
-	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
-	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
-	Parameter C_AXI_TYPE bound to: 1 - type: integer 
-	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
-	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
-	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
-	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
-	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
-	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
-	Parameter C_MEM_TYPE bound to: 0 - type: integer 
-	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
-	Parameter C_ALGORITHM bound to: 1 - type: integer 
-	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
-	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
-	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
-	Parameter C_INIT_FILE bound to: delayLineBRAM.mem - type: string 
-	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
-	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
-	Parameter C_HAS_RSTA bound to: 0 - type: integer 
-	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
-	Parameter C_RSTRAM_A bound to: 0 - type: integer 
-	Parameter C_INITA_VAL bound to: 0 - type: string 
-	Parameter C_HAS_ENA bound to: 0 - type: integer 
-	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
-	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
-	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
-	Parameter C_WRITE_MODE_A bound to: READ_FIRST - type: string 
-	Parameter C_WRITE_WIDTH_A bound to: 17 - type: integer 
-	Parameter C_READ_WIDTH_A bound to: 17 - type: integer 
-	Parameter C_WRITE_DEPTH_A bound to: 2048 - type: integer 
-	Parameter C_READ_DEPTH_A bound to: 2048 - type: integer 
-	Parameter C_ADDRA_WIDTH bound to: 11 - type: integer 
-	Parameter C_HAS_RSTB bound to: 0 - type: integer 
-	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
-	Parameter C_RSTRAM_B bound to: 0 - type: integer 
-	Parameter C_INITB_VAL bound to: 0 - type: string 
-	Parameter C_HAS_ENB bound to: 0 - type: integer 
-	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
-	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
-	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
-	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
-	Parameter C_WRITE_WIDTH_B bound to: 17 - type: integer 
-	Parameter C_READ_WIDTH_B bound to: 17 - type: integer 
-	Parameter C_WRITE_DEPTH_B bound to: 2048 - type: integer 
-	Parameter C_READ_DEPTH_B bound to: 2048 - type: integer 
-	Parameter C_ADDRB_WIDTH bound to: 11 - type: integer 
-	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
-	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
-	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
-	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
-	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
-	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
-	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
-	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
-	Parameter C_USE_ECC bound to: 0 - type: integer 
-	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
-	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
-	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter C_COMMON_CLK bound to: 0 - type: integer 
-	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
-	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
-	Parameter C_USE_URAM bound to: 0 - type: integer 
-	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
-	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
-	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
-	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
-	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
-	Parameter C_COUNT_36K_BRAM bound to: 1 - type: string 
-	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
-	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.862 mW - type: string 
-INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_1' declared at 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195313' bound to instance 'U0' of component 'blk_mem_gen_v8_4_1' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM/synth/delayLineBRAM.vhd:232]
-INFO: [Synth 8-256] done synthesizing module 'delayLineBRAM' (9#1) [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLineBRAM/synth/delayLineBRAM.vhd:69]
-INFO: [Synth 8-256] done synthesizing module 'delayLinieBRAM_WP' (10#1) [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:21]
-WARNING: [Synth 8-689] width (6) of port connection 'din' does not match port width (16) of module 'delayLinieBRAM_WP' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:163]
-WARNING: [Synth 8-689] width (6) of port connection 'dout' does not match port width (16) of module 'delayLinieBRAM_WP' [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:164]
-WARNING: [Synth 8-6014] Unused sequential element rs1_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:139]
-WARNING: [Synth 8-6014] Unused sequential element rs2_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:140]
-WARNING: [Synth 8-6014] Unused sequential element rs3_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:141]
-WARNING: [Synth 8-6014] Unused sequential element rs4_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:142]
-WARNING: [Synth 8-6014] Unused sequential element rs5_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:143]
-INFO: [Synth 8-256] done synthesizing module 'median5x5' (11#1) [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:23]
-INFO: [Synth 8-256] done synthesizing module 'median5x5_0' (12#1) [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/synth/median5x5_0.v:57]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SSRA
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port CLKB
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SSRB
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ENB
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port REGCEB
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port WEB[0]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[10]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[9]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[8]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[7]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[6]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[5]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[4]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[3]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[2]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[1]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ADDRB[0]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[17]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[16]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[15]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[14]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[13]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[12]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[11]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[10]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[9]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[8]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[7]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[6]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[5]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[4]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[3]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[2]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[1]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[0]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SLEEP
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port INJECTSBITERR
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port INJECTDBITERR
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ECCPIPECE
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ram_rstram_b
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ram_rstreg_b
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port RSTA[0]
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEA[1]
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port REGCEB[0]
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEB[1]
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port INJECTSBITERR
-WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port INJECTDBITERR
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port CLKB
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[16]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[15]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[14]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[13]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[12]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[11]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[10]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[9]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[8]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[7]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[6]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[5]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[4]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[3]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[2]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[1]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTB_I[0]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port SBITERR_I
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DBITERR_I
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[10]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[9]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[8]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[7]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[6]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[5]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[4]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[3]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[2]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[1]
-WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[0]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port RSTA
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ENA
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port REGCEA
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port CLKB
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port RSTB
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ENB
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port REGCEB
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port WEB[0]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[10]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[9]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[8]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[7]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[6]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[5]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[4]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[3]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[2]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[1]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ADDRB[0]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port DINB[16]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port DINB[15]
-WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port DINB[14]
-INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:48 ; elapsed = 00:01:49 . Memory (MB): peak = 615.398 ; gain = 358.984
----------------------------------------------------------------------------------
-
-Report Check Netlist: 
-+------+------------------+-------+---------+-------+------------------+
-|      |Item              |Errors |Warnings |Status |Description       |
-+------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
-+------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin BRAM:dina[16] to constant 0 [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:65]
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:48 ; elapsed = 00:01:49 . Memory (MB): peak = 615.398 ; gain = 358.984
----------------------------------------------------------------------------------
-INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Device 21-403] Loading part xc7z010clg400-1
-INFO: [Project 1-570] Preparing netlist for logic optimization
-
-Processing XDC Constraints
-Initializing timing engine
-Parsing XDC File [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/dont_touch.xdc]
-Completed Processing XDC Constraints
-
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 676.488 ; gain = 0.000
----------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:02:05 ; elapsed = 00:02:07 . Memory (MB): peak = 676.488 ; gain = 420.074
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Loading Part and Timing Information
----------------------------------------------------------------------------------
-Loading part: xc7z010clg400-1
----------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:02:05 ; elapsed = 00:02:07 . Memory (MB): peak = 676.488 ; gain = 420.074
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Applying 'set_property' XDC Constraints
----------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for inst/DB1/BRAM. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for inst/DB2/BRAM. (constraint file  auto generated constraint, line ).
----------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:05 ; elapsed = 00:02:07 . Memory (MB): peak = 676.488 ; gain = 420.074
----------------------------------------------------------------------------------
-WARNING: [Synth 8-6014] Unused sequential element position_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:50]
-WARNING: [Synth 8-6014] Unused sequential element position_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:50]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:143]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:142]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:140]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:141]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:139]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:143]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:142]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:140]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:141]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:139]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:143]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:143]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:142]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:142]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:146]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:140]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:140]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:141]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:141]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:139]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/median5x5.v:139]
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:05 ; elapsed = 00:02:07 . Memory (MB): peak = 676.488 ; gain = 420.074
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start RTL Component Statistics 
----------------------------------------------------------------------------------
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 2     
-	   2 Input     11 Bit       Adders := 2     
-	   5 Input      5 Bit       Adders := 1     
-	   5 Input      3 Bit       Adders := 5     
-+---Registers : 
-	               11 Bit    Registers := 2     
-	                5 Bit    Registers := 2     
-	                4 Bit    Registers := 25    
-	                1 Bit    Registers := 1     
-+---Muxes : 
-	   2 Input     24 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 2     
----------------------------------------------------------------------------------
-Finished RTL Component Statistics 
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start RTL Hierarchical Component Statistics 
----------------------------------------------------------------------------------
-Hierarchical RTL Component report 
-Module delayLinieBRAM_WP 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-	   2 Input     11 Bit       Adders := 1     
-+---Registers : 
-	               11 Bit    Registers := 1     
-+---Muxes : 
-	   2 Input      1 Bit        Muxes := 1     
-Module delayLinieBRAM_WP__xdcDup__1 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-	   2 Input     11 Bit       Adders := 1     
-+---Registers : 
-	               11 Bit    Registers := 1     
-+---Muxes : 
-	   2 Input      1 Bit        Muxes := 1     
-Module median5x5 
-Detailed RTL Component Info : 
-+---Adders : 
-	   5 Input      5 Bit       Adders := 1     
-	   5 Input      3 Bit       Adders := 5     
-+---Registers : 
-	                5 Bit    Registers := 2     
-	                4 Bit    Registers := 25    
-	                1 Bit    Registers := 1     
-+---Muxes : 
-	   2 Input     24 Bit        Muxes := 1     
----------------------------------------------------------------------------------
-Finished RTL Hierarchical Component Statistics
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Part Resource Summary
----------------------------------------------------------------------------------
-Part Resources:
-DSPs: 80 (col length:40)
-BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
----------------------------------------------------------------------------------
-Finished Part Resource Summary
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Cross Boundary and Area Optimization
----------------------------------------------------------------------------------
-WARNING: [Synth 8-6014] Unused sequential element inst/DB2/position_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:50]
-WARNING: [Synth 8-6014] Unused sequential element inst/DB1/position_reg was removed.  [c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:50]
----------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:07 ; elapsed = 00:02:09 . Memory (MB): peak = 676.488 ; gain = 420.074
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start Applying XDC Timing Constraints
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:21 ; elapsed = 00:02:24 . Memory (MB): peak = 746.125 ; gain = 489.711
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Timing Optimization
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:21 ; elapsed = 00:02:24 . Memory (MB): peak = 746.340 ; gain = 489.926
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start Technology Mapping
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:21 ; elapsed = 00:02:24 . Memory (MB): peak = 772.301 ; gain = 515.887
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Flattening Before IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Flattening Before IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Final Netlist Cleanup
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Final Netlist Cleanup
----------------------------------------------------------------------------------
-INFO: [Synth 8-3295] tying undriven pin inst/DB2/BRAM:dina[16] to constant 0
-INFO: [Synth 8-3295] tying undriven pin inst/DB1/BRAM:dina[16] to constant 0
----------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:23 ; elapsed = 00:02:25 . Memory (MB): peak = 772.301 ; gain = 515.887
----------------------------------------------------------------------------------
-
-Report Check Netlist: 
-+------+------------------+-------+---------+-------+------------------+
-|      |Item              |Errors |Warnings |Status |Description       |
-+------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
-+------+------------------+-------+---------+-------+------------------+
----------------------------------------------------------------------------------
-Start Renaming Generated Instances
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:23 ; elapsed = 00:02:25 . Memory (MB): peak = 772.301 ; gain = 515.887
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start Rebuilding User Hierarchy
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:23 ; elapsed = 00:02:26 . Memory (MB): peak = 772.301 ; gain = 515.887
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Ports
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:23 ; elapsed = 00:02:26 . Memory (MB): peak = 772.301 ; gain = 515.887
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Handling Custom Attributes
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:23 ; elapsed = 00:02:26 . Memory (MB): peak = 772.301 ; gain = 515.887
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Nets
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:23 ; elapsed = 00:02:26 . Memory (MB): peak = 772.301 ; gain = 515.887
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start ROM, RAM, DSP and Shift Register Reporting
----------------------------------------------------------------------------------
-
-Static Shift Register Report:
-+------------+-----------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|Module Name | RTL Name        | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
-+------------+-----------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|median5x5_0 | inst/r55_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
-|median5x5_0 | inst/r45_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
-|median5x5_0 | inst/r35_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
-|median5x5_0 | inst/r25_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
-|median5x5_0 | inst/r15_reg[1] | 5      | 2     | NO           | YES                | YES               | 2      | 0       | 
-+------------+-----------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-
----------------------------------------------------------------------------------
-Finished ROM, RAM, DSP and Shift Register Reporting
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Writing Synthesis Report
----------------------------------------------------------------------------------
-
-Report BlackBoxes: 
-+-+--------------+----------+
-| |BlackBox name |Instances |
-+-+--------------+----------+
-+-+--------------+----------+
-
-Report Cell Usage: 
-+------+---------+------+
-|      |Cell     |Count |
-+------+---------+------+
-|1     |CARRY4   |     2|
-|2     |LUT1     |     2|
-|3     |LUT2     |     6|
-|4     |LUT3     |    18|
-|5     |LUT4     |     4|
-|6     |LUT5     |    24|
-|7     |LUT6     |    17|
-|8     |RAMB36E1 |     2|
-|9     |SRL16E   |    10|
-|10    |FDRE     |   103|
-+------+---------+------+
-
-Report Instance Areas: 
-+------+---------------------------------------------------+-----------------------------+------+
-|      |Instance                                           |Module                       |Cells |
-+------+---------------------------------------------------+-----------------------------+------+
-|1     |top                                                |                             |   188|
-|2     |  inst                                             |median5x5                    |   188|
-|3     |    DB1                                            |delayLinieBRAM_WP__xdcDup__1 |    29|
-|4     |      BRAM                                         |delayLineBRAM                |     1|
-|5     |        U0                                         |blk_mem_gen_v8_4_1           |     1|
-|6     |          inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth_0   |     1|
-|7     |            \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top_1            |     1|
-|8     |              \valid.cstr                          |blk_mem_gen_generic_cstr_2   |     1|
-|9     |                \ramloop[0].ram.r                  |blk_mem_gen_prim_width_3     |     1|
-|10    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper_4   |     1|
-|11    |    DB2                                            |delayLinieBRAM_WP            |    30|
-|12    |      BRAM                                         |delayLineBRAM__2             |     1|
-|13    |        U0                                         |blk_mem_gen_v8_4_1__2        |     1|
-|14    |          inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth     |     1|
-|15    |            \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top              |     1|
-|16    |              \valid.cstr                          |blk_mem_gen_generic_cstr     |     1|
-|17    |                \ramloop[0].ram.r                  |blk_mem_gen_prim_width       |     1|
-|18    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper     |     1|
-+------+---------------------------------------------------+-----------------------------+------+
----------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:23 ; elapsed = 00:02:26 . Memory (MB): peak = 772.301 ; gain = 515.887
----------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 195 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:02:16 . Memory (MB): peak = 772.301 ; gain = 454.797
-Synthesis Optimization Complete : Time (s): cpu = 00:02:23 ; elapsed = 00:02:26 . Memory (MB): peak = 772.301 ; gain = 515.887
-INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-INFO: [Common 17-83] Releasing license: Synthesis
-46 Infos, 112 Warnings, 0 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:26 ; elapsed = 00:02:29 . Memory (MB): peak = 772.301 ; gain = 527.355
-INFO: [Common 17-1381] The checkpoint 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0.dcp' has been generated.
-INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/median5x5_0_2/median5x5_0.xci
-INFO: [Coretcl 2-1174] Renamed 17 cell refs.
-INFO: [Common 17-1381] The checkpoint 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/median5x5_0_synth_1/median5x5_0.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file median5x5_0_utilization_synth.rpt -pb median5x5_0_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 772.301 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Wed Jun  6 08:43:42 2018...
-[Wed Jun  6 08:43:46 2018] median5x5_0_synth_1 finished
-wait_on_run: Time (s): cpu = 00:00:03 ; elapsed = 00:02:41 . Memory (MB): peak = 1193.410 ; gain = 0.000
 launch_simulation
 INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
 INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim'
@@ -1314,15 +57,35 @@ INFO: [SIM-utils-54] Inspecting design source files for 'tb_hdmi' in fileset 'si
 INFO: [SIM-utils-43] Exported 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/dgl_1080p_cea.data'
 INFO: [SIM-utils-43] Exported 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/dgl_1280_1024_cea.data'
 INFO: [SIM-utils-43] Exported 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/dgl_720p_cea.data'
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/_tmp_ip_comp_/median5x5_0_2/median5x5_0.xml'
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
 INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim'
 "xvlog --incr --relax -prj tb_hdmi_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLineBRAM/sim/delayLineBRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ipstatic/median5x5_0_2/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v" into library blk_mem_gen_v8_4_1
+INFO: [VRFC 10-311] analyzing module STATE_LOGIC_v8_4
+INFO: [VRFC 10-311] analyzing module beh_vlog_muxf7_v8_4
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_clr_v8_4
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_pre_v8_4
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_ce_clr_v8_4
+INFO: [VRFC 10-311] analyzing module write_netlist_v8_4
+INFO: [VRFC 10-311] analyzing module read_netlist_v8_4
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_write_wrapper_beh_v8_4
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_read_wrapper_beh_v8_4
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_regs_fwd_v8_4
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_4_1_output_stage
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_4_1_softecc_output_reg_stage
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_4_1_mem_module
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_4_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/sim/delayLineBRAM.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module delayLineBRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLinieBRAM_WP.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module delayLinieBRAM_WP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delayLinieBRAM
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module median5x5
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/sim/median5x5_0.v" into library xil_defaultlib
@@ -1343,16 +106,18 @@ Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
 Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 0640050eddcc43a1a79886f597c9e583 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:161]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ce [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:162]
-WARNING: [VRFC 10-278] actual bit length 6 differs from formal bit length 16 for port din [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:163]
-WARNING: [VRFC 10-278] actual bit length 6 differs from formal bit length 16 for port dout [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:164]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port h_size [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:165]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:162]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ce [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:163]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 13 for port h_size [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:166]
+WARNING: [VRFC 10-278] actual bit length 13 differs from formal bit length 12 for port addra [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayy.v:69]
 WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:178]
 WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ce [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:179]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port h_size [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:182]
-WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2419]
-WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2420]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 13 for port h_size [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:182]
+WARNING: [VRFC 10-278] actual bit length 13 differs from formal bit length 11 for port addra [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:69]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 17 for port dina [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:70]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 17 for port douta [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:71]
+WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ipstatic/median5x5_0_2/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:2419]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ipstatic/median5x5_0_2/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:2420]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -1363,9 +128,16 @@ Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
 Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
 Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
 Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module xil_defaultlib.delayLinieBRAM
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
 Compiling module xil_defaultlib.delayLineBRAM
 Compiling module xil_defaultlib.delayLinieBRAM_WP
-Compiling module xil_defaultlib.median5x5
+Compiling module xil_defaultlib.median5x5(IMG_H=1650)
 Compiling module xil_defaultlib.median5x5_0
 Compiling module xil_defaultlib.hdmi_out
 Compiling module xil_defaultlib.tb_hdmi
@@ -1378,10 +150,10 @@ Built simulation snapshot tb_hdmi_behav
     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 
 source C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/xsim.dir/tb_hdmi_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/xsim.dir/tb_hdmi_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Jun  6 08:44:00 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.4/doc/webtalk_introduction.html.
-INFO: [Common 17-206] Exiting Webtalk at Wed Jun  6 08:44:00 2018...
-run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1193.410 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [Common 17-186] 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim/xsim.dir/tb_hdmi_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Jun 13 08:29:43 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 13 08:29:43 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 888.531 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
@@ -1390,9 +162,6 @@ INFO: [USF-XSim-8] Loading simulator feature
 Vivado Simulator 2017.4
 Time resolution is 1 ps
 open_wave_config C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/tb_hdmi_behav.wcfg
-WARNING: Simulation object /tb_hdmi/med/inst/rs1_c was not found in the design.
-WARNING: Simulation object /tb_hdmi/med/inst/rs2_c was not found in the design.
-WARNING: Simulation object /tb_hdmi/med/inst/rs_c was not found in the design.
 source tb_hdmi.tcl
 # set curr_wave [current_wave_config]
 # if { [string length $curr_wave] == 0 } {
@@ -1404,52 +173,45 @@ source tb_hdmi.tcl
 #   }
 # }
 # run 1000ns
-Block Memory Generator module tb_hdmi.med.inst.DB2.BRAM.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_hdmi.med.inst.DB2.BRAM2.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
 Block Memory Generator module tb_hdmi.med.inst.DB1.BRAM.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_hdmi_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1193.410 ; gain = 0.000
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 888.531 ; gain = 0.000
 restart
 INFO: [Simtcl 6-17] Simulation restarted
-run 50 us
-Block Memory Generator module tb_hdmi.med.inst.DB2.BRAM.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+run 7000 us
+Block Memory Generator module tb_hdmi.med.inst.DB2.BRAM2.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
 Block Memory Generator module tb_hdmi.med.inst.DB1.BRAM.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
 out  0.ppm saved
 out  1.ppm saved
 out  2.ppm saved
-out  3.ppm saved
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 50 us
-Block Memory Generator module tb_hdmi.med.inst.DB2.BRAM.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-Block Memory Generator module tb_hdmi.med.inst.DB1.BRAM.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-out  0.ppm saved
-out  1.ppm saved
-out  2.ppm saved
-out  3.ppm saved
+run: Time (s): cpu = 00:00:25 ; elapsed = 00:00:51 . Memory (MB): peak = 888.531 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
 open_bd_design {C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd}
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - GND
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - VCC
+Adding cell -- digilentinc.com:ip:rgb2vga:1.0 - rgb2vga_1
+Adding cell -- digilentinc.com:ip:dvi2rgb:1.8 - dvi2rgb_1
+Adding cell -- xilinx.com:user:vp:1.0 - vp_1
+Successfully read diagram <hdmi_vga> from BD file <C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 932.820 ; gain = 44.289
 ipx::edit_ip_in_project -upgrade true -name vp_v1_0_project -directory C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project c:/git/SR/lab12/Resources/vp/component.xml
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
-create_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 1216.090 ; gain = 0.000
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/IP'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
 INFO: [IP_Flow 19-795] Syncing license key meta-data
-WARNING: [IP_Flow 19-3664] IP 'median5x5_0' generated file not found 'c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'median5x5_0' generated file not found 'c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'median5x5_0' generated file not found 'c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'median5x5_0' generated file not found 'c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'median5x5_0' generated file not found 'c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0_sim_netlist.vhdl'. Please regenerate to continue.
-ipx::edit_ip_in_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:17 . Memory (MB): peak = 1216.090 ; gain = 0.000
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 949.152 ; gain = 10.289
 update_compile_order -fileset sources_1
-current_project median5x5
-set_property core_revision 20 [ipx::current_core]
-ipx::create_xgui_files [ipx::current_core]
-ipx::update_checksums [ipx::current_core]
-ipx::save_core [ipx::current_core]
-current_project vp_v1_0_project
+convert_ips [get_files  c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0.xci]
+ERROR: [Vivado 12-4810] IP 'median5x5_0' is locked and cannot be converted:
+
+* The IP Data in the repository is incompatible with the current instance (despite having identical Version and Revision). You will need to upgrade the IP before viewing the customization and generating outputs.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
 report_ip_status -name ip_status 
 upgrade_ip -vlnv xilinx.com:user:median5x5:1.0 [get_ips  median5x5_0] -log ip_upgrade.log
 Upgrading 'median5x5_0'
@@ -1460,34 +222,34 @@ export_ip_user_files -of_objects [get_ips median5x5_0] -no_script -sync -force -
 generate_target all [get_files  c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0.xci]
 INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'median5x5_0'...
 INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'median5x5_0'...
-generate_target: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 1245.398 ; gain = 25.820
-catch { config_ip_cache -export [get_ips -all median5x5_0] }
 export_ip_user_files -of_objects [get_files c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0.xci] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0.xci]
-launch_runs -jobs 8 median5x5_0_synth_1
-[Wed Jun  6 08:49:00 2018] Launched median5x5_0_synth_1...
-Run output will be captured here: c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.runs/median5x5_0_synth_1/runme.log
 export_simulation -of_objects [get_files c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0.xci] -directory c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.ip_user_files/sim_scripts -ip_user_files_dir c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.ip_user_files -ipstatic_source_dir c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/modelsim} {questa=c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/questa} {riviera=c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/riviera} {activehdl=c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.IMG_H {1650}] [get_ips median5x5_0]
+generate_target all [get_files  c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'median5x5_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'median5x5_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'median5x5_0'...
+export_ip_user_files -of_objects [get_files c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files c:/git/SR/lab12/Resources/vp/src/median5x5_0/median5x5_0.xci] -directory c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.ip_user_files/sim_scripts -ip_user_files_dir c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.ip_user_files -ipstatic_source_dir c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/modelsim} {questa=c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/questa} {riviera=c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/riviera} {activehdl=c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project/vp_v1_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property core_revision 27 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
 report_ip_status -name ip_status 
-set_property core_revision 21 [ipx::current_core]
+set_property core_revision 28 [ipx::current_core]
 ipx::create_xgui_files [ipx::current_core]
 ipx::update_checksums [ipx::current_core]
 ipx::save_core [ipx::current_core]
 close_project -delete
 update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
 INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/git/SR/lab12/Resources'
-current_project hdmi_vga_zybo
-upgrade_ip -vlnv xilinx.com:user:rgb2hsv:1.0 [get_ips  hdmi_vga_vp_0_1] -log ip_upgrade.log
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:vp:1.0 [get_ips  hdmi_vga_vp_1_0] -log ip_upgrade.log
 Upgrading 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd'
-INFO: [IP_Flow 19-1972] Upgraded hdmi_vga_vp_0_1 from vp_v1_0 1.0 to rgb2hsv 1.0
-WARNING: [IP_Flow 19-4700] Upgrade has removed port 'sw'
-WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'hdmi_vga_vp_0_1'. These changes may impact your design.
-CRITICAL WARNING: [BD 41-1167] The pin 'sw' is not found on the upgraded version of the cell '/vp_0'. Its connection to the net 'sw_1' has been removed.
-CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'hdmi_vga_vp_0_1' has identified issues that may require user intervention. Please review the upgrade log 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+INFO: [IP_Flow 19-3422] Upgraded hdmi_vga_vp_1_0 (vp_v1_0 1.0) from revision 25 to revision 28
 Wrote  : <C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd> 
-Wrote  : <C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ui/bd_390e6c89.ui> 
 INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/ip_upgrade.log'.
-export_ip_user_files -of_objects [get_ips hdmi_vga_vp_0_1] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_ips hdmi_vga_vp_1_0] -no_script -sync -force -quiet
 generate_target all [get_files  C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd]
 WARNING: [BD 41-927] Following properties on pin /rgb2vga_1/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
 	CLK_DOMAIN=hdmi_vga_dvi2rgb_1_1_PixelClk 
@@ -1504,94 +266,71 @@ INFO: [BD 41-1029] Generation completed for the IP Integrator block GND .
 INFO: [BD 41-1029] Generation completed for the IP Integrator block VCC .
 INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2vga_1 .
 INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_1 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block vp_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vp_1 .
 Exporting to file C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hw_handoff/hdmi_vga.hwh
 Generated Block Design Tcl file C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hw_handoff/hdmi_vga_bd.tcl
 Generated Hardware Definition File C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/synth/hdmi_vga.hwdef
-catch { config_ip_cache -export [get_ips -all hdmi_vga_vp_0_1] }
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/IP'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+catch { config_ip_cache -export [get_ips -all hdmi_vga_vp_1_0] }
 export_ip_user_files -of_objects [get_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd] -no_script -sync -force -quiet
 create_ip_run [get_files -of_objects [get_fileset sources_1] C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd]
-launch_runs -jobs 8 hdmi_vga_vp_0_1_synth_1
-[Wed Jun  6 08:53:04 2018] Launched hdmi_vga_vp_0_1_synth_1...
-Run output will be captured here: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/hdmi_vga_vp_0_1_synth_1/runme.log
+launch_runs -jobs 8 hdmi_vga_vp_1_0_synth_1
+[Wed Jun 13 08:37:09 2018] Launched hdmi_vga_vp_1_0_synth_1...
+Run output will be captured here: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/hdmi_vga_vp_1_0_synth_1/runme.log
 export_simulation -of_objects [get_files C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd] -directory C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/sim_scripts -ip_user_files_dir C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files -ipstatic_source_dir C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/modelsim} {questa=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/questa} {riviera=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/riviera} {activehdl=C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
 report_ip_status -name ip_status 
-ipx::edit_ip_in_project -upgrade true -name rgb2hsv_v1_0_project -directory C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/rgb2hsv_v1_0_project c:/git/SR/lab12/Resources/rgb2hsv/component.xml
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
-create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1275.418 ; gain = 0.586
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/IP'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
-INFO: [IP_Flow 19-795] Syncing license key meta-data
-ipx::edit_ip_in_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 1276.059 ; gain = 1.227
-update_compile_order -fileset sources_1
-launch_runs synth_1 -jobs 8
-[Wed Jun  6 08:57:27 2018] Launched synth_1...
-Run output will be captured here: c:/git/sr/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/rgb2hsv_v1_0_project/rgb2hsv_v1_0_project.runs/synth_1/runme.log
-close_project
-startgroup
-current_project hdmi_vga_zybo
-create_bd_cell -type ip -vlnv xilinx.com:user:vp:1.0 vp_1
-endgroup
-delete_bd_objs [get_bd_nets dvi2rgb_1_vid_pHSync] [get_bd_nets dvi2rgb_1_vid_pData] [get_bd_nets vp_0_de_out] [get_bd_nets dvi2rgb_1_vid_pVDE] [get_bd_nets dvi2rgb_1_vid_pVSync] [get_bd_nets vp_0_h_sync_out] [get_bd_nets vp_0_v_sync_out] [get_bd_nets vp_0_pixel_out] [get_bd_cells vp_0]
-report_ip_status -name ip_status 
-ipx::edit_ip_in_project -upgrade true -name vp_v1_0_project -directory C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.tmp/vp_v1_0_project c:/git/SR/lab12/Resources/vp/component.xml
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/IP'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
-INFO: [IP_Flow 19-795] Syncing license key meta-data
-ipx::edit_ip_in_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1284.516 ; gain = 0.000
-update_compile_order -fileset sources_1
-close_project
-current_project hdmi_vga_zybo
-set_property location {3.5 766 289} [get_bd_cells vp_1]
-connect_bd_net [get_bd_pins dvi2rgb_1/vid_pData] [get_bd_pins vp_1/pixel_in]
-WARNING: [BD 41-1306] The connection to interface pin /dvi2rgb_1/vid_pData is being overridden by the user. This pin will not be connected as a part of interface connection RGB
-connect_bd_net [get_bd_pins dvi2rgb_1/vid_pHSync] [get_bd_pins vp_1/h_sync_in]
-WARNING: [BD 41-1306] The connection to interface pin /dvi2rgb_1/vid_pHSync is being overridden by the user. This pin will not be connected as a part of interface connection RGB
-connect_bd_net [get_bd_pins dvi2rgb_1/vid_pVSync] [get_bd_pins vp_1/v_sync_in]
-WARNING: [BD 41-1306] The connection to interface pin /dvi2rgb_1/vid_pVSync is being overridden by the user. This pin will not be connected as a part of interface connection RGB
-connect_bd_net [get_bd_pins dvi2rgb_1/vid_pVDE] [get_bd_pins vp_1/de_in]
-WARNING: [BD 41-1306] The connection to interface pin /dvi2rgb_1/vid_pVDE is being overridden by the user. This pin will not be connected as a part of interface connection RGB
-connect_bd_net [get_bd_pins vp_1/clk] [get_bd_pins dvi2rgb_1/PixelClk]
-connect_bd_net [get_bd_ports sw] [get_bd_pins vp_1/sw]
-connect_bd_net [get_bd_pins vp_1/de_out] [get_bd_pins rgb2vga_1/rgb_pVDE]
-WARNING: [BD 41-1306] The connection to interface pin /rgb2vga_1/rgb_pVDE is being overridden by the user. This pin will not be connected as a part of interface connection vid_in
-connect_bd_net [get_bd_pins vp_1/h_sync_out] [get_bd_pins rgb2vga_1/rgb_pHSync]
-WARNING: [BD 41-1306] The connection to interface pin /rgb2vga_1/rgb_pHSync is being overridden by the user. This pin will not be connected as a part of interface connection vid_in
-connect_bd_net [get_bd_pins vp_1/v_sync_out] [get_bd_pins rgb2vga_1/rgb_pVSync]
-WARNING: [BD 41-1306] The connection to interface pin /rgb2vga_1/rgb_pVSync is being overridden by the user. This pin will not be connected as a part of interface connection vid_in
-connect_bd_net [get_bd_pins vp_1/pixel_out] [get_bd_pins rgb2vga_1/rgb_pData]
-WARNING: [BD 41-1306] The connection to interface pin /rgb2vga_1/rgb_pData is being overridden by the user. This pin will not be connected as a part of interface connection vid_in
-update_ip_catalog -rebuild -scan_changes
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/IP'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
-report_ip_status -name ip_status
-set_property  ip_repo_paths  c:/git/SR/lab12/Resources [current_project]
-update_ip_catalog
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
-save_bd_design
-Wrote  : <C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd> 
-Wrote  : <C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ui/bd_390e6c89.ui> 
 reset_run synth_1
 WARNING: [Vivado 12-1017] Problems encountered:
 1. Failed to delete one or more files in run directory C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/synth_1
 
-launch_runs synth_1 -jobs 8
-ERROR: [BD 41-1179] The following IPs in this design are locked. This command cannot be run until these IPs are unlocked. Please run report_ip_status for more details and a recommendation on how to fix this issue. 
-/vp_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Jun 13 08:37:50 2018] Launched hdmi_vga_vp_1_0_synth_1, synth_1...
+Run output will be captured here:
+hdmi_vga_vp_1_0_synth_1: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/hdmi_vga_vp_1_0_synth_1/runme.log
+synth_1: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/synth_1/runme.log
+[Wed Jun 13 08:37:50 2018] Launched impl_1...
+Run output will be captured here: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
 
-ERROR: [BD 41-1031] Hdl Generation failed for the IP Integrator design C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/hdmi_vga.bd 
-WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'c:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga/ip/hdmi_vga_vp_1_0/hdmi_vga_vp_1_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
-Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
-ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279785760A
+open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1676.910 ; gain = 591.387
+set_property PROGRAM.FILE {C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/impl_1/hdmi_vga_wrapper.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.runs/impl_1/hdmi_vga_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+open_project C:/git/SR/lab12/median5x5/median5x5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/median5x5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/git/SR/lab12/Resources'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+current_project hdmi_vga_zybo
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279785760A

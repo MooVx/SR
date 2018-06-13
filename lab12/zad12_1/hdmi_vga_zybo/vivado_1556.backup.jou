@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Jun 13 08:23:27 2018
+# Process ID: 1556
+# Current directory: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11964 C:\git\SR\lab12\zad12_1\hdmi_vga_zybo\hdmi_vga_zybo.xpr
+# Log file: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/vivado.log
+# Journal file: C:/git/SR/lab12/zad12_1/hdmi_vga_zybo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.xpr
+launch_simulation
+update_compile_order -fileset sources_1
+open_project C:/git/SR/lab12/median5x5/median5x5.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+current_project hdmi_vga_zybo
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project median5x5
+current_project hdmi_vga_zybo
+upgrade_ip -srcset median5x5_0 -vlnv xilinx.com:user:median5x5:1.0 [get_ips  median5x5_0] -log ip_upgrade.log
+upgrade_ip -srcset median5x5_0 -vlnv xilinx.com:user:median5x5:1.0 [get_ips  median5x5_0] -log ip_upgrade.log
+upgrade_ip -srcset median5x5_0 -vlnv xilinx.com:user:median5x5:1.0 [get_ips  median5x5_0] -log ip_upgrade.log
+current_project median5x5
+ipx::package_project -root_dir C:/git/SR/lab12/Resources/median55 -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+ipx::unload_core c:/git/SR/lab12/Resources/median55/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/git/SR/lab12/Resources/median55 c:/git/SR/lab12/Resources/median55/component.xml
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/git/SR/lab12/Resources
+current_project hdmi_vga_zybo
+close_project

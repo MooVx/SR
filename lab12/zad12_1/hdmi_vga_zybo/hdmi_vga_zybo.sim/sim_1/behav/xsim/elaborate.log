@@ -1,7 +1,7 @@
 Vivado Simulator 2017.4
 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 0640050eddcc43a1a79886f597c9e583 --incr --debug typical --relax --mt 8 -L blk_mem_gen_v8_4_1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log 
-Using 8 slave threads.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 0640050eddcc43a1a79886f597c9e583 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
 Starting static elaboration
 WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:162]
 WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ce [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/median5x5.v:163]
@@ -13,8 +13,8 @@ WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 13 fo
 WARNING: [VRFC 10-278] actual bit length 13 differs from formal bit length 11 for port addra [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:69]
 WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 17 for port dina [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:70]
 WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 17 for port douta [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ip/median5x5_0_2/src/delayLinieBRAM_WP.v:71]
-WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2419]
-WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2420]
+WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ipstatic/median5x5_0_2/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:2419]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [C:/git/SR/lab12/zad12_1/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ipstatic/median5x5_0_2/sim/blk_mem_gen_v8_4_1/blk_mem_gen_v8_4.v:2420]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis

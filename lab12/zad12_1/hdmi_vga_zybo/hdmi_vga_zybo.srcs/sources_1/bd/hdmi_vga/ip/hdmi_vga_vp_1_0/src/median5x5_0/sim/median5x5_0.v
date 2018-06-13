@@ -78,7 +78,7 @@ output wire v_sync_out;
 output wire [23 : 0] pixel_out;
 
   median5x5 #(
-    .IMG_H(1664)
+    .IMG_H(1650)
   ) inst (
     .clk(clk),
     .de_in(de_in),
